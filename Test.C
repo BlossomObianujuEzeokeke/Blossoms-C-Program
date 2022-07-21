@@ -1,3 +1,3 @@
 #include <stdio.h>
-int main()
+void main()
 {printf ("I am beautiful"); return 0;}
