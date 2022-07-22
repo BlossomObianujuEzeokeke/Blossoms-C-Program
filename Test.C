@@ -7,7 +7,7 @@ int main()
 
    printf ("I am beautiful"); 
 
-   printf ("I would love to see the world"); 
+   printf ("I would love to see you and the world"); 
    return 0;
 }
 
