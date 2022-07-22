@@ -3,7 +3,8 @@ int main()
 { 
    int harry = 7;
    int Harry = 17;
-   printf("Hello world");
+   printf("Hello Harry");
+   printf("Hello Harry");
    
    return 0;
 
