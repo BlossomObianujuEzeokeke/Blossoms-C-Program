@@ -2,8 +2,9 @@
 int main()
 {
    int a_7_harry_kicked_the_bucket; 
-   int did_harry_jump_over_the_fence;
-   
+   int _D_a_7_harry_kicked_the_bucket; 
+   char harry2 has; become good = 'x';
+
    printf ("I am beautiful"); 
 
    printf ("I would love to see the world"); 
