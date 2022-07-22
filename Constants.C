@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main()
 { 
-printf("Hello world");
-return 0;
+   int harry = 7;
+   int Harry = 17;
+   printf("Hello world");
+   
+   return 0;
 
 }
