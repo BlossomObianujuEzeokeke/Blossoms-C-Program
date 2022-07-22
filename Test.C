@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main()
 {
-printf("Hello Blossom");
+int a_7_harry_kicked_the_bucket; 
+
+printf ("I am beautiful"); 
+printf ("I would love to see you and the world"); 
 return 0;
-
 }
-
 
