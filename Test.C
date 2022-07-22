@@ -1,3 +1,8 @@
 #include <stdio.h>
 void main()
-{printf ("I am beautiful"); return 0;}
+{
+   int _a = 7
+   printf ("I am beautiful"); return 0;
+}
+
+
