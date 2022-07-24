@@ -9,6 +9,8 @@ int main()
    printf("Hello Harry ");
    printf("Hello Harry");
    printf("This is % d");
+   printf("This is % f");
+   printf("This is % c");
    
    return 0;
 
