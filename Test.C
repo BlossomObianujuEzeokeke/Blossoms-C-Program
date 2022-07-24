@@ -11,18 +11,5 @@ printf ("I would love to see you and the world someday");
 return 0;
 }
 
-#include <stdio.h>
-int main()
-{ 
-   int harry = 7;
-   char harry2 = 'c';
-   float harry3 = 5;
 
-   int Harry = 17;
-   printf("Hello Harry ");
-   printf("Hello Harry");
-   
-   return 0;
-
-}
 
