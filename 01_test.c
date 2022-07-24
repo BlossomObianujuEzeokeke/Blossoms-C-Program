@@ -8,7 +8,6 @@ int main()
    float harry3 = 5;
 
    int Harry = 17;
-   printf("Hello Harry ");
    printf("Hello Harry");
    printf("This is % d", b );
    // printf("This is % f");
