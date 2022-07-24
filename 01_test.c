@@ -8,7 +8,7 @@ int main()
    int Harry = 17;
    printf("Hello Harry ");
    printf("Hello Harry");
-   printf("This is % d", i)
+   printf("This is % d");
    
    return 0;
 
