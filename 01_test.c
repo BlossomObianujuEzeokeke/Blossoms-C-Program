@@ -10,9 +10,9 @@ int main()
    double d = 325.05768482943892;
 
 // THIS IS THE LIBRARY\PRINT SECTION \\
-   printf("Hello Harry");
-   printf("This is %d", a);
-   printf("This is a float %f", b);
+   printf("Hello Harry\n");
+   printf("This is %d\n", a);
+   printf("This is a float %f\n", b);
    printf("This is a character %c", c);
    printf("This is a double %f", d);
 
