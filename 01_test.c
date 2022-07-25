@@ -13,8 +13,8 @@ int main()
    printf("Hello Harry\n");
    printf("This is %d\n", a);
    printf("This is a float %f\n", b);
-   printf("This is a character %c", c);
-   printf("This is a double %f", d);
+   printf("This is a character %c\n", c);
+   printf("This is a double %f\n", d);
 
 
   
