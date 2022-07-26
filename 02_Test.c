@@ -1,7 +1,11 @@
 #include <stdio.h>
 int main()
 {
-   printf("A whole new narrative 58888");
+   printf("");
+Scanf()
+
+
+
    return 0;
 
 }
