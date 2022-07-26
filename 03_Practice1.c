@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-int main(){
-   int a = 4
-   int b = 7
+int main(){ 
+   int a = 4;
+   int b = 7;
 
-   
-   {   return 0;
+   {   
+      return 0;
 }
