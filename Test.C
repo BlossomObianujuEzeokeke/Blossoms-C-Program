@@ -1,15 +1,11 @@
 #include <stdio.h>
 int main()
 {
-int a_7_harry_kicked_the_bucket; 
-
-// MY JOURNEY SO FAR //
-/* MY JOURNEY SO FAR */
-printf ("I am beautiful.\n"); 
-printf ("I would love to see you and the world someday"); 
+int age = 40;
+double gpa = 3.6;
+char grade = 'A'
 
 return 0;
 }
-
 
 
