@@ -16,8 +16,12 @@ int main(){
 // scanf("%d", &b);
 // printf("The area of a rectangle is %d", a*b);
 
+// VOLUME OF CYLINDER 
 int r = 4;
-printf("The area of a circle is %f", 3.14*r*r);
+printf("The area of a circle is %f\n", 3.14*r*r);
+
+int h = 5;
+printf("The volume of a cylinder is %f", 3.14*r*r*h);
 
 
 
