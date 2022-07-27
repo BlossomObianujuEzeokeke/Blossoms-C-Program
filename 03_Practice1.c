@@ -11,6 +11,7 @@ scanf("%d", &a);
 
 printf("Enter the value of breadth\n");
 scanf("%d", &b);
+printf("The area of a rectangle is %d", a*b);
 
 
 
