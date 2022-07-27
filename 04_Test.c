@@ -2,11 +2,10 @@
 
 
 int main(){
-      printf("     /|\n");
-      printf("    / |\n");
-      printf("   /  |\n");
-      printf("  /___|\n");
-
+   printf("");
+   printf("");
+   printf("");
+   printf("");
+   
    return 0;
 }
-
