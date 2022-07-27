@@ -5,11 +5,11 @@ int main()
 {
 
    char characterName[] = "John";
-   int characterAge = ""
-   printf("There once was a man named George\n");
-   printf("he was 70 years old.\n");
+   int characterAge = "35";
+   printf("There once was a man named %s\n", characterName);
+   printf("he was %d years old.\n", characterAge);
    printf("He really liked the name George\n");
-   printf("but did not like being 70.\n");
+   printf("but did not like being 35\n");
 
    return 0;
 }
