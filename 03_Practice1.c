@@ -2,8 +2,8 @@
 
 int main(){ 
    int a = 4;
-   int b = 7;
-   printf("The area of a rectangle is %d", a*b);
+   float b = 7.5;
+   printf("The area of a rectangle is %d, %f", a*b);
    return 0;
 
 }
