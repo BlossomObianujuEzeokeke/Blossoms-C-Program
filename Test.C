@@ -2,7 +2,7 @@
 int main()
 
 { 
-printf("%d", 500);
+printf("My favorite number is %d", 500);
 
 
 return 0;
