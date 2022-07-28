@@ -15,8 +15,8 @@ int main()
 // printf("My favorite number is %f\n", 8.9);
 // printf("%f", 5 / 4.0);
 // -----------------ADDING A VARIABLE-------------------------------------->
-INT NUM = 6;
-PRINTF("%D", NUM);
+int num = 6;
+printf("%d", num);
 
 
 
