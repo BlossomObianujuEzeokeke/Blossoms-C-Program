@@ -8,7 +8,8 @@ int main()
 // printf("My %s number is %d %s, I also like the %c", "favorite", 500, "and", favChar);
 
 /*   WORKING WITH NUMBERS */
-printf("My favorite number is %f", 8.9);
+printf("My favorite number is %f\n", 8.9);
+printf("My favorite number is %f", 8.9 + 10.9);
 
 
 
