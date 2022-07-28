@@ -27,11 +27,11 @@ printf("The number of church members is %d and %d", church, school);
 // int h = 5;
 // printf("The volume of a cylinder is %f", 3.14*r*r*h);
 
-printf(" |----------------------\n")
+printf(" |----------------------|\n")
 printf(" |                      |\n")
-printf(" |----------------------\n")
-printf(" |----------------------\n")
-printf(" |----------------------\n")
+printf(" |                      |\n")
+printf(" |                      |\n")
+printf(" |----------------------|\n")
 
 
 
