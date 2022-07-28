@@ -9,7 +9,7 @@ int main()
 
 /*   WORKING WITH NUMBERS */
 printf("My favorite number is %f\n", 8.9);
-printf("My favorite number is %f", 8.9 * 10.9);
+printf("My favorite number is %d", 1000 / 50);
 
 
 
