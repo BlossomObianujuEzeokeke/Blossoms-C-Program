@@ -2,7 +2,7 @@
 int main()
 
 { 
-printf("My %s number is %d", "number", 500);
+printf("My %s number is %d and, \nI also like the %c", "favorite", 500, '$');
 
 
 return 0;
