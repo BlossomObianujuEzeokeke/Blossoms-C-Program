@@ -23,9 +23,10 @@ int main()
 
 // ------------------FUNCTIONS--------------------------------------------->
 
-printf("%f", sqrt (43) );
-printf("%f", sqrt (43), pow (4, 10) );
-printf("%f", ceil(36.635));
+printf("%f \n", sqrt (43) );
+printf("%f \n", sqrt (43), pow (4, 10) );
+printf("%f", ceil(36.335));
+printf("%f", floor(36.335));
 
 
  
