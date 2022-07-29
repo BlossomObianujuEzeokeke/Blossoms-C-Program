@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <cmath>
+
 int main()
 
 {
@@ -15,12 +17,13 @@ int main()
 // printf("My favorite number is %f\n", 8.9);
 // printf("%f", 5 / 4.0);
 // -----------------ADDING A VARIABLE-------------------------------------->
-int num = 6;
-char charSam [] = "Johnson"
-printf("This is the number %d his name is %s", num, charSam);
+// int num = 6;
+// char charSam [] = "Johnson";
+// printf("This is the number %d his name is %s", num, charSam);
 
 // ------------------FUNCTIONS--------------------------------------------->
-// printf("%f", pow(2, 3) );
+
+printf("%f", pow (2, 3) );
 
 
 
