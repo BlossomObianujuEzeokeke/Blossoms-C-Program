@@ -14,9 +14,10 @@ int main()
    // printf("but did not like being %d\n", characterAge);
    // printf("he did like being %d\n", characterAge);
 
-char character name[] = "Samson";
+char charactername[] = "Samson";
 int favNumber = 50;
-printf("A man named %s just turned %d", character name, favNumber);
+float decimal = 2.56
+printf("A man named %s just turned %d, he has %f as his count", charactername, favNumber, decimal);
 
 
 
