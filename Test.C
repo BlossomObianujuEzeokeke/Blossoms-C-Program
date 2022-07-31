@@ -23,13 +23,14 @@ int main()
 
 // ------------------FUNCTIONS--------------------------------------------->
 
+printf("%f \n", pow (4, 10) );
 printf("%f \n", sqrt (43) );
-printf("%f \n", sqrt (43), pow (4, 10) );
-printf("%f", ceil(36.335));
-printf("%f", floor(36.335));
+printf("%f \n", ceil(36.335) );
+printf("%f \n", floor(36.335) ); 
 
 
- 
+char favNum[] = Johnson;
+ printf("%c\n", )
 
 
 
