@@ -57,9 +57,15 @@ int sum = x + y;
 int sub = x - y;
 printf("Add these two %i: Subtract these two %d\n", sum, sub);
 printf("Get the power of this %f\n", pow(10, 2) );
-printf("Get the ceiling for this\n", ceil(59) );
-printf("Get the floor for this\n", floor(59) );
-printf("Get the square root for this", sqrt(59) );
+printf("Get the ceiling for this %f\n", ceil(59.52) );
+printf("Get the floor for this %f\n", floor(59.52) );
+printf("Get the square root for this %f", sqrt(59) );
+
+//------------DECLARING MULTIPLE VARIABLES------------------------------------>
+int sum x = 10, y = 15, z = 20;
+printf("Print this integer %d", sum);
+
+
 
 
 
