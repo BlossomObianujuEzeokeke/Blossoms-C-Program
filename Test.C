@@ -51,19 +51,23 @@ int main()
 // printf("Print this file with the name Titi ");
 
 //------------ADDING, SUBTRACTING AND MULTIPLYING VARIABLES------------------>
-int x = 20;
-int y = 50;
-int sum = x + y;
-int sub = x - y;
-printf("Add these two %i: Subtract these two %d\n", sum, sub);
-printf("Get the power of this %f\n", pow(10, 2) );
-printf("Get the ceiling for this %f\n", ceil(59.52) );
-printf("Get the floor for this %f\n", floor(59.52) );
-printf("Get the square root for this %f", sqrt(59) );
+// int x = 20;
+// int y = 50;
+// int sum = x + y;
+// int sub = x - y;
+// printf("Add these two %i: Subtract these two %d\n", sum, sub);
+// printf("Get the power of this %f\n", pow(10, 2) );
+// printf("Get the ceiling for this %f\n", ceil(59.52) );
+// printf("Get the floor for this %f\n", floor(59.52) );
+// printf("Get the square root for this %f", sqrt(59) );
 
 //------------DECLARING MULTIPLE VARIABLES------------------------------------>
-int sum x = 10, y = 15, z = 20;
-printf("Print this integer %d", sum);
+// int x = 10, y = 15, z = 20;
+// printf("Print this %d", x + y + z);
+
+int x, y, z;
+x = y = z = 50;
+printf("Print this %d", x + y + z);
 
 
 
