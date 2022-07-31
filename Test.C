@@ -16,13 +16,13 @@ int main()
 //------------------WORKING WITH NUMBERS----------------------------------->
 // printf("My favorite number is %f\n", 8.9);
 // printf("%f", 5 / 4.0);
+
 // -----------------ADDING A VARIABLE-------------------------------------->
 // int num = 6;
 // char charSam [] = "Johnson";
 // printf("This is the number %d his name is %s", num, charSam);
 
 // ------------------FUNCTIONS--------------------------------------------->
-
 // printf("%f \n", pow (4, 10) );
 // printf("%f \n", sqrt (43) );
 // printf("%f \n", ceil(36.335) );
@@ -55,8 +55,8 @@ int x = 15;
 int y = 10;
 int sum = x + y;
 int sub = x - y;
-printf("Add these two %i: subtract these two %d\n", sum, sub,);
-printf("Get the power of this" pow(4,3));
+printf("Add these two %i: subtract these two %d\n", sum, sub);
+printf("Get the power of this %f", pow(4,3) );
 
 
 
