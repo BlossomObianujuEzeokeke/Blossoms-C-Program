@@ -29,8 +29,9 @@ int main()
 // printf("%f \n", floor(36.335) ); 
 
 
-char favNum[] = "Johnson";
- printf("%s\n", favNum);
+char favName[] = "Johnson";
+int favSum = 500
+ printf("%s %d\n", favNum);
 
 
 
@@ -39,3 +40,4 @@ return 0;
 }
 
  
+e
