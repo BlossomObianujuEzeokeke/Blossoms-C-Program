@@ -28,12 +28,16 @@ int main()
 // printf("%f \n", ceil(36.335) );
 // printf("%f \n", floor(36.335) ); 
 
-
 // char favName[] = "Johnson";
 // int favSum = 500;
 // printf("%s %d\n", favName, favSum);
 
- printf("Hello world\n I live far away\n and I love programming")                                                                 
+// ------------CREATING AN EXTRA LINE IN C-------------------------------->
+printf("Print this file and leave a space\n\n");
+printf("Print this file and leave a space\n\n");
+
+
+
 
 
 
