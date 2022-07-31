@@ -39,14 +39,16 @@ int main()
 // printf("Print this file and leave four spaces\n\n\n\n");
 
 // ------------Sequence \t adds spaces between word on a line--------------->
-printf("Add a space\t between these words\n");
-printf("Add two spaces\t\t between these words");
+// printf("Add a space\t between these words\n");
+// printf("Add two spaces\t\t between these words");
 
 // -----------Sequence \" adds double quotes to a word----------------------->
-printf("Print this \"file with the name\" Titi\n");
-printf("Print this \"file\" with the name \"Titi\");
+// printf("Print this \"file with the name\" Titi\n");
+// printf("Print this \"file\" with the name \"Titi\". ");
 
-
+// -----------Sequence \\" adds a slash between two lines-------------------->
+printf("Print this file with the name Sam Titi\\");
+printf("Print this file with the name Titi ");
 
 
 return 0;
