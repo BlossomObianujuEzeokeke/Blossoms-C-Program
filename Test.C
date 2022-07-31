@@ -43,12 +43,17 @@ int main()
 // printf("Add two spaces\t\t between these words");
 
 // -----------Sequence \" adds double quotes to a word----------------------->
-// printf("Print this \"file with the name\" Titi\n");
+// printf("Print this \"file with the name\" Titi\n"); //This is a comment
 // printf("Print this \"file\" with the name \"Titi\". ");
 
 // -----------Sequence \\" adds a slash between two lines-------------------->
-printf("Print this file with the name Sam Titi\\");
-printf("Print this file with the name Titi ");
+// printf("Print this file with the name Sam Titi\\");
+// printf("Print this file with the name Titi ");
+
+/* thidkjvkjglkltjlnknkb
+jjkklykmmkjjlj
+jfjgjgkjgkkkg
+fkfkfkffk */
 
 
 return 0;
