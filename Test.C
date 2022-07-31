@@ -31,12 +31,10 @@ int main()
 
 char favName[] = "Johnson";
 int favSum = 500;
- printf("%s %d\n", favName, favSum);
-
+printf("%s %d\n", favName, favSum);
 
 
 
 return 0;
 }
 
- 
