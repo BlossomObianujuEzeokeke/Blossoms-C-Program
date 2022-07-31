@@ -65,9 +65,9 @@ int main()
 // int x = 10, y = 15, z = 20;
 // printf("Print this %d", x + y + z);
 
-int x, y, z;
-x = y = z = 50;
-printf("Print this %d", x + y + z);
+// int x, y, z;
+// x = y = z = 50;
+// printf("Print this %d", x + y + z);
 
 
 
