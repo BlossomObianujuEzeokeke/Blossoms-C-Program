@@ -53,7 +53,8 @@ int main()
 //------------ADDING, SUBTRACTING AND MULTIPLYING VARIABLES------------------>
 int x = 5;
 int y = 5;
-
+int sum = x + y;
+printf("add this two %i", sum);
 
 
 
