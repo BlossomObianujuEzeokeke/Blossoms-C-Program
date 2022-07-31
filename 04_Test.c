@@ -16,8 +16,8 @@ int main()
 
 char charactername[] = "Samson";
 int favNumber = 50;
-float decimal = 2.56
-printf("A man named %s just turned %d, he has %f as his count", charactername, favNumber, decimal);
+float decimal = 10.5;
+printf("A man named %s just turned: %i, he has %f as his count", charactername, favNumber, decimal);
 
 
 

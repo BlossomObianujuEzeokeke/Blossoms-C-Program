@@ -50,6 +50,10 @@ int main()
 // printf("Print this file with the name Sam Titi\\");
 // printf("Print this file with the name Titi ");
 
+//------------ADDING, SUBTRACTING AND MULTIPLYING VARIABLES------------------>
+int x = 5;
+int y = 5;
+
 
 
 
