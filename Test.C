@@ -51,10 +51,11 @@ int main()
 // printf("Print this file with the name Titi ");
 
 //------------ADDING, SUBTRACTING AND MULTIPLYING VARIABLES------------------>
-int x = 5;
-int y = 5;
+int x = 15;
+int y = 10;
 int sum = x + y;
-printf("add this two %i", sum);
+int sub = x - y;
+printf("Add these two %i: subtract these two %d", pow(4,3), sum, sub);
 
 
 
