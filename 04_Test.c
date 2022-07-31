@@ -4,7 +4,7 @@
 int main()
 {
 
-   char characterName[] = "Tom";
+   char characterName[] = "Stan";
    int characterAge = 67;
    printf("There once was a man named %s\n", characterName);
    printf("he was %d years old.\n", characterAge);

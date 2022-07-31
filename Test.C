@@ -50,10 +50,7 @@ int main()
 // printf("Print this file with the name Sam Titi\\");
 // printf("Print this file with the name Titi ");
 
-/* thidkjvkjglkltjlnknkb
-jjkklykmmkjjlj
-jfjgjgkjgkkkg
-fkfkfkffk */
+
 
 
 return 0;
