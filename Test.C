@@ -55,7 +55,11 @@ int x = 20;
 int y = 50;
 int sum = x + y;
 int sub = x - y;
-printf("Add these two %i: Subtract these two %d", sum, sub);
+printf("Add these two %i: Subtract these two %d\n", sum, sub);
+printf("Get the power of this %f\n", pow(10, 2) );
+printf("Get the ceiling for this\n", ceil(59) );
+printf("Get the floor for this\n", floor(59) );
+printf("Get the square root for this", sqrt(59) );
 
 
 
