@@ -34,13 +34,14 @@ int main()
 
 // ------------CREATING AN EXTRA LINE IN C-------------------------------->
 // ------------Sequence \n adds a new line---------------------->
-printf("Print this file and leave a space\n\n");
-printf("Print this file and leave three spaces\n\n\n");
-printf("Print this file and leave four spaces\n\n\n\n");
+// printf("Print this file and leave a space\n\n");
+// printf("Print this file and leave three spaces\n\n\n");
+// printf("Print this file and leave four spaces\n\n\n\n");
 
 // ------------Sequence \t adds spaces between word on a line--------------->
-printf("Add a space\t between these words");
-printf("Add a space\t between these words");
+printf("Add a space\t between these words\n");
+printf("Add two spaces\t\t between these words");
+
 
 
 
