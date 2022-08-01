@@ -1,13 +1,6 @@
-#include <stdio.h>
-int main()
+#include<stdio.h>
 
-{
-printf("Enter your number\n");
-int a;
-scanf("%d", &a);
-printf("your number is %d", a);
-
-
+int main(){
+   
    return 0;
-
 }
