@@ -1,13 +1,13 @@
 #include<stdio.h>
 
 
-int main()
-{
+// int main()
+// {
 
-   char characterName[] = "Stan";
-   double characterAge = 67.989;
-   printf("There once was a man named %s\n", characterName);
-   printf("he was %lf years old.\n", characterAge);
+   // char characterName[] = "Stan";
+   // double characterAge = 67.989;
+   // printf("There once was a man named %s\n", characterName);
+   // printf("he was %lf years old.\n", characterAge);
 
    // characterAge = 30;
    // printf("He really liked the name %s\n", characterName);
@@ -18,6 +18,16 @@ int main()
 // int favNumber = 50;
 // float decimal = 10.5;
 // printf("A man named %s just turned: %i, he has %f as his count", charactername, favNumber, decimal);
+
+void myFunction() {
+printf("I just got engaged!");
+}
+
+int main() {
+myFunction();
+myFunction();
+myFunction();
+
 
 
 
