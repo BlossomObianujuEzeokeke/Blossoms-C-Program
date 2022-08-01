@@ -1,4 +1,4 @@
-#include<stdio.h>
+// #include<stdio.h>
 
 
 // int main()
@@ -30,6 +30,21 @@
 
 
 
+#include <stdio.h>
+void myFunction()
+{
+   printf("This is Sparta\n");
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -43,5 +58,5 @@
 
    
 
-   return 0;
-}
+//    return 0;
+// }
