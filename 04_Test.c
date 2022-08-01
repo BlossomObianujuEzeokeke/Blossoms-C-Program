@@ -30,28 +30,22 @@
 // myFunction();
 
 // ----------- CALLING A FUNCTION --------------------------->
-void myFunction()
-{ 
-   int sum = 20;
-   printf("This is %d\n", sum );
-}
+// void myFunction()
+// { 
+//    int sum = 20;
+//    printf("This is %d\n", sum );
+// }
 
-   int main()
-   { 
-   myFunction();
-   myFunction();
+//    int main()
+//    { 
+//    myFunction();
+//    myFunction();
 
-//---------------------------------------------------------->
-
-void myFunction(char name[]) {
-  printf("Hello %s\n", name);
-}
-
-int main() {
-  myFunction("Liam");
-  myFunction("Jenny");
-  myFunction("Anja");
-
+//------------------ CONSTANTS IN C ---------------------------->
+const int favNum = 50;
+printf("This %d dollars is mine", favNum);
+int favSound = 60;
+printf("I have over %d cars", favSound);
 
 
 
