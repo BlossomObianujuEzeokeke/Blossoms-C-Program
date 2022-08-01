@@ -42,11 +42,14 @@ int main()
 //    myFunction();
 
 //------------------ CONSTANTS IN C ---------------------------->
-const int favNum = 50;
-printf("This %d dollars is mine\n", favNum);
-printf("I have over %d cars", favNum);
+// const int favNum = 50;
+// printf("This %d dollars is mine\n", favNum);
+// printf("I have over %d cars", favNum);
 
-
+const int num = 60;
+const float Person = 3.58;
+printf("This is a const integer %d", num);
+printf("This is ")
 
 
 
