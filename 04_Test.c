@@ -48,10 +48,13 @@ int main()
 
 const int NUM = 60;
 const float PERSON = 3.58;
-printf("This is a const integer %d\n", num);
-printf("This is a const floating value %f", Person);
+const char CHARACTERS[] = "Johnsons";
+const char FAVOUR = 'p';
 
-
+printf("This is a const integer %d\n", NUM);
+printf("This is a const floating value %f\n", PERSON);
+printf("This is a const character value %s\n", CHARACTERS);
+printf("This is a char %c", FAVOUR);
 
 
 
