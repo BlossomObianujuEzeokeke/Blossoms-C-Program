@@ -20,7 +20,7 @@
 // printf("A man named %s just turned: %i, he has %f as his count", charactername, favNumber, decimal);
 
 void myFunction() {
-printf("I just got engaged!");
+printf("I just \"got\" engaged!\n");
 }
 
 int main() {
