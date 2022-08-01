@@ -19,14 +19,14 @@
 // float decimal = 10.5;
 // printf("A man named %s just turned: %i, he has %f as his count", charactername, favNumber, decimal);
 
-void myFunction() {
-printf("I just \"got\" engaged!\n");
-}
+// void myFunction() {
+// printf("I just \"got\" engaged!\n");
+// }
 
-int main() {
-myFunction();
-myFunction();
-myFunction();
+// int main() {
+// myFunction();
+// myFunction();
+// myFunction();
 
 
 
