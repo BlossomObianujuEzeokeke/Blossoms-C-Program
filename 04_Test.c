@@ -19,6 +19,7 @@
 // float decimal = 10.5;
 // printf("A man named %s just turned: %i, he has %f as his count", charactername, favNumber, decimal);
 
+// ----------- CALLING A FUNCTION -------------->
 // void myFunction() {
 // printf("I just \"got\" engaged!\n");
 // }
@@ -30,16 +31,20 @@
 
 
 
-#include <stdio.h>
+#include <stdio>
+
 void myFunction()
 {
-   printf("This is Sparta\n");
+   printf("This is a beautiful day");
 }
 
-
-
-
-
+int main()
+{ 
+myFunction();
+myFunction();
+myFunction();
+return 0;
+}
 
 
 
