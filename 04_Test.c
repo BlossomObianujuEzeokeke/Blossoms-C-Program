@@ -1,8 +1,8 @@
 #include <stdio.h>
 // #include <cmath>
 
-// int main()
-// {
+int main()
+{
 
    // char characterName[] = "Stan";
    // double characterAge = 67.989;
@@ -43,9 +43,8 @@
 
 //------------------ CONSTANTS IN C ---------------------------->
 const int favNum = 50;
-printf("This %d dollars is mine", favNum);
-int favSound = 60;
-printf("I have over %d cars", favSound);
+printf("This %d dollars is mine\n", favNum);
+printf("I have over %d cars", favNum);
 
 
 
