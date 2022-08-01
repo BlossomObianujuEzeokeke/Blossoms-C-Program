@@ -19,7 +19,7 @@
 // float decimal = 10.5;
 // printf("A man named %s just turned: %i, he has %f as his count", charactername, favNumber, decimal);
 
-// ----------- CALLING A FUNCTION -------------->
+// ----------- CALLING A FUNCTION INSIDE MAIN()-------------->
 // void myFunction() {
 // printf("I just \"got\" engaged!\n");
 // }
@@ -29,29 +29,28 @@
 // myFunction();
 // myFunction();
 
-
-
-
+// ----------- CALLING A FUNCTION --------------------------->
 void myFunction()
-{
-   printf("This is a beautiful day\n");
-}
-
-int main()
 { 
-myFunction();
-myFunction();
-myFunction();
-return 0;
+   int sum = 20;
+   printf("This is %d\n", sum );
 }
 
+   int main()
+   { 
+   myFunction();
+   myFunction();
 
+//---------------------------------------------------------->
 
+void myFunction(char name[]) {
+  printf("Hello %s\n", name);
+}
 
-
-
-
-
+int main() {
+  myFunction("Liam");
+  myFunction("Jenny");
+  myFunction("Anja");
 
 
 
@@ -62,5 +61,5 @@ return 0;
 
    
 
-//    return 0;
-// }
+   return 0;
+}
