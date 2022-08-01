@@ -1,5 +1,5 @@
-// #include<stdio.h>
-
+#include <stdio.h>
+// #include <cmath>
 
 // int main()
 // {
@@ -31,11 +31,10 @@
 
 
 
-#include <stdio>
 
 void myFunction()
 {
-   printf("This is a beautiful day");
+   printf("This is a beautiful day\n");
 }
 
 int main()
