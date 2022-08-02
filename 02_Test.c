@@ -1,6 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <cmath>
+int main()
+{
+printf("Hello World");
+return 0;
 
-int main(){
-   
-   return 0;
+
 }

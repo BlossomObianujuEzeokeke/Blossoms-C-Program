@@ -81,9 +81,12 @@ int main()
 // int maleStudents = 5;
 // printf("This is the number of female students %d ", femaleStudents % maleStudents);
 
-int x = 5;
-int y = 2;
-printf("%d", x % y);
+// int x = 5;
+// int y = 2;
+// printf("%d", x % y);
+
+// --------- INCREMENT ------------>
+
 
 
 
