@@ -86,9 +86,13 @@ int main()
 // printf("%d", x % y);
 
 // --------- INCREMENT(you add ++ to the value)------------>
-int x = 5;
-int y = 10;
-printf("This increases the value of a variable by 1 %d", ++x, ++y );
+// int x = 5;
+// int y = 10;
+// printf("This increases the value of a variable by 1 %d", ++x, ++y );
+
+char favHome[] = "Banana island";
+char sumSport[] = "Lawn tennis";
+printf("This the house %s, this is the sport %s", ++favHome, ++sumSport );
 
 
 
