@@ -94,8 +94,14 @@ int main()
 // int sumSport = 50;
 // printf("This the house %lf, \nthis is the sport %i", ++favHome, ++sumSport );
 
+// --------- INCREMENT(you add - - to the value)------------>
+// int x = 10;
+// int y = 20;
+// printf("%d %d", --x, --y);
 
-
+double myHome = 15.555;
+int church = 100;
+printf("This is %f and this is %d", --myHome, --church);
 
 
 
