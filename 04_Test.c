@@ -1,8 +1,8 @@
 #include <stdio.h>
 // #include <cmath>
 
-int main()
-{
+// int main()
+// {
 
    // char characterName[] = "Stan";
    // double characterAge = 67.989;
@@ -41,15 +41,18 @@ int main()
 //    myFunction();
 //    myFunction();
 
+
+
 void myFunction()
 {
-   int sum = 20;
-   printf("%d \n", sum)
+   float sum = 25.5;
+   printf("Thi is a float sum %f", sum);
 }
-int main()
-{ 
-   myFunction();
-   myFunction();
+
+
+
+
+
 
 
 
@@ -63,15 +66,15 @@ int main()
 // printf("This %d dollars is mine\n", favNum);
 // printf("I have over %d cars", favNum);
 
-const int NUM = 60;
-const float PERSON = 3.58;
-const char CHARACTERS[] = "Johnsons";
-const char FAVOUR = 'p';
+// const int NUM = 60;
+// const float PERSON = 3.58;
+// const char CHARACTERS[] = "Johnsons";
+// const char FAVOUR = 'p';
 
-printf("This is a const integer %d\n", NUM);
-printf("This is a const floating value %f\n", PERSON);
-printf("This is a const character value %s\n", CHARACTERS);
-printf("This is a char %c", FAVOUR);
+// printf("This is a const integer %d\n", NUM);
+// printf("This is a const floating value %f\n", PERSON);
+// printf("This is a const character value %s\n", CHARACTERS);
+// printf("This is a char %c", FAVOUR);
 
 
 
