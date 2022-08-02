@@ -88,11 +88,11 @@ int main()
 // --------- INCREMENT(you add ++ to the value)------------>
 // int x = 5;
 // int y = 10;
-// printf("This increases the value of a variable by 1 %d", ++x, ++y );
+// printf("This increases the value of a variable by one %d %d", ++x, ++y);
 
-float favHome = 20.0115;
-int sumSport = 50;
-printf("This the house %lf, \nthis is the sport %i", ++favHome, ++sumSport );
+// float favHome = 20.0115;
+// int sumSport = 50;
+// printf("This the house %lf, \nthis is the sport %i", ++favHome, ++sumSport );
 
 
 
