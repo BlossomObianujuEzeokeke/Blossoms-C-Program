@@ -99,12 +99,30 @@ int main()
 // int y = 20;
 // printf("%d %d", --x, --y);
 
-double myHome = 15.555;
-int church = 100;
-printf("This is %f and this is %d", --myHome, --church);
+// double myHome = 15.555;
+// int church = 100;
+// printf("This is %f and this is %d", --myHome, --church);
+
+//----------COMPARISON OPERATORS(used to compare two values, True(1) and false(0) ) ----------------->
+  int x = 5;
+  int y = 3;
+  printf("%d", x > y); // returns 1 (true) because 5 is greater than 3
+
+
+
+
+
+
+
 
 
 
 return 0;
 }
+
+
+
+
+
+
 
