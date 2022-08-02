@@ -112,9 +112,13 @@ int main()
 //   int y = 3;
 //   printf("%d", x == y); // returns 1 (true) because 3 is equal to 3
 
-int x = 10;
-int y = 20;
-printf("%d", x != y);
+// int x = 10;
+// int y = 20;
+//  printf("%d", x != y);  //returns 1 (true) because 10 is not equal to 20
+
+//  int x = 50;
+//  int y = 51;
+//  printf("%d", x >= y); //returns false (0) because 50 isn't greater than or equal to 51
 
 
 

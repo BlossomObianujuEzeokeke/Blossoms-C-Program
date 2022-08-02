@@ -41,6 +41,23 @@ int main()
 //    myFunction();
 //    myFunction();
 
+void myFunction()
+{
+   int sum = 20;
+   printf("%d \n", sum)
+}
+int main()
+{ 
+   myFunction();
+   myFunction();
+
+
+
+
+
+
+
+
 //------------------ CONSTANTS IN C ---------------------------->
 // const int FAVNUM= 50;
 // printf("This %d dollars is mine\n", favNum);
