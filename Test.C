@@ -91,8 +91,8 @@ int main()
 // printf("This increases the value of a variable by 1 %d", ++x, ++y );
 
 float favHome = 20.05;
-char sumSport[] = "Lawn tennis";
-printf("This the house %s, this is the sport %s", ++favHome, ++sumSport );
+int sumSport = 50;
+printf("This the house %lf, this is the sport %i", ++favHome, ++sumSport );
 
 
 
