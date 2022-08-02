@@ -85,10 +85,10 @@ int main()
 // int y = 2;
 // printf("%d", x % y);
 
-// --------- INCREMENT ------------>
+// --------- INCREMENT(you add ++ to the value)------------>
 int x = 5;
 int y = 10;
-printf("This increases the value of a variable by 1 %d", ++x);
+printf("This increases the value of a variable by 1 %d", ++x, ++y );
 
 
 
