@@ -61,12 +61,12 @@ int main()
 // printf("Get the floor for this %f\n", floor(59.52) );
 // printf("Get the square root for this %f", sqrt(59) );
 
-  int sum1 = 100 + 50;        
-  int sum2 = sum1 + 250;      
-  int sum3 = sum2 + sum2;     
-  printf("%d\n", sum1);
-  printf("%d\n", sum2);
-  printf("%d\n", sum3);
+//   int sum1 = 100 + 50;        
+//   int sum2 = sum1 + 250;      
+//   int sum3 = sum2 + sum2;     
+//   printf("%d\n", sum1);
+//   printf("%d\n", sum2);
+//   printf("%d\n", sum3);
 
 //------------DECLARING MULTIPLE VARIABLES------------------------------------>
 // int x = 10, y = 15, z = 20;
@@ -75,6 +75,11 @@ int main()
 // int x, y, z;
 // x = y = z = 50;
 // printf("Print this %d", x + y + z);
+
+// --------- C OPERATORS ----------------------------------------------------->
+int x = 5;
+int y = 2;
+printf("%d", x % y);
 
 
 
