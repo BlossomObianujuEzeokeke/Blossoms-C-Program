@@ -90,9 +90,9 @@ int main()
 // int y = 10;
 // printf("This increases the value of a variable by 1 %d", ++x, ++y );
 
-float favHome = 20.05;
+float favHome = 20.0115;
 int sumSport = 50;
-printf("This the house %lf, this is the sport %i", ++favHome, ++sumSport );
+printf("This the house %lf, \nthis is the sport %i", ++favHome, ++sumSport );
 
 
 
