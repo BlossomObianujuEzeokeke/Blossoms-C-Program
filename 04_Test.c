@@ -54,30 +54,16 @@
 //    myFunction();
 
 //---------CALLING FUNCTION FOR CHAR -------------------------->
-void myFunction()
-{
-char sum[] = "Johnson";
-char summer = "S";
-printf("His name is %s and %c.\n", sum, summer);
-}
+// void myFunction()
+// {
+// char sum[] = "Johnson";
+// printf("His name is %s.\n", sum);
+// }
 
-int main()
-{ 
-   myFunction();
-   myFunction();
-
-
-
-
-
-
-
-
-
-
-
-
-
+// int main()
+// { 
+//    myFunction();
+//    myFunction();
 
 //------------------ CONSTANTS IN C ---------------------------->
 // const int FAVNUM= 50;
