@@ -46,9 +46,13 @@
 void myFunction()
 {
    float sum = 25.5;
-   printf("Thi is a float sum %f", sum);
+   printf("This is a float sum %f", sum);
 }
-
+int main()
+{
+   myFunction();
+   myFunction();
+}
 
 
 
