@@ -104,9 +104,13 @@ int main()
 // printf("This is %f and this is %d", --myHome, --church);
 
 //----------COMPARISON OPERATORS(used to compare two values, True(1) and false(0) ) ----------------->
-  int x = 5;
-  int y = 3;
-  printf("%d", x > y); // returns 1 (true) because 5 is greater than 3
+//   int x = 5;
+//   int y = 3;
+//   printf("%d", x > y); // returns 1 (true) because 5 is greater than 3
+
+float x = 5.5;
+int y = 4;
+printf("%f %d", x > y);
 
 
 
