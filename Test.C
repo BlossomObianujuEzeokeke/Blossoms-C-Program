@@ -77,9 +77,13 @@ int main()
 // printf("Print this %d", x + y + z);
 
 // --------- C OPERATORS ----------------------------------------------------->
-int femaleStudents = 25;
-int maleStudents = 2;
-printf("This is the number of female students %d ", x % y);
+// int femaleStudents = 23;
+// int maleStudents = 5;
+// printf("This is the number of female students %d ", femaleStudents % maleStudents);
+
+int x = 5;
+int y = 2;
+printf("%d", x % y);
 
 
 
