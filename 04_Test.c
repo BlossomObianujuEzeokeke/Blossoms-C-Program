@@ -42,16 +42,26 @@
 //    myFunction();
 
 //---------CALLING FUNCTION FOR FLOAT-------------------------->
+// void myFunction()
+// {
+//  float sum = 25.5;
+//    printf("This is a float sum %f\n", sum);
+// }
+
+// int main()
+// {
+//    myFunction();
+//    myFunction();
+
+//---------CALLING FUNCTION FOR CHAR -------------------------->
 void myFunction()
 {
- float sum = 25.5;
-   printf("This is a float sum %f\n", sum);
+char sum[] = "Johnson";
+
 }
 
-int main()
-{
-   myFunction();
-   myFunction();
+
+
 
 
 
