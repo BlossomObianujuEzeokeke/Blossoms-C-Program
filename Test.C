@@ -108,13 +108,9 @@ int main()
 //   int y = 3;
 //   printf("%d", x > y); // returns 1 (true) because 5 is greater than 3
 
- int x = 3;
-  int y = 3;
-  printf("%d", x == y); // returns 0 (false) because 5 is not equal to 3
-
 int x = 3;
   int y = 3;
-  printf("%d", x == y); // returns 0 (false) because 5 is not equal to 3
+  printf("%d", x == y); // returns 1 (true) because 3 is equal to 3
 
 
 
