@@ -57,10 +57,14 @@
 void myFunction()
 {
 char sum[] = "Johnson";
-
+char summer = "S";
+printf("His name is %s and %c.\n", sum, summer);
 }
 
-
+int main()
+{ 
+   myFunction();
+   myFunction();
 
 
 
