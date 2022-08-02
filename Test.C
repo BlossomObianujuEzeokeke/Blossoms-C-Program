@@ -86,7 +86,9 @@ int main()
 // printf("%d", x % y);
 
 // --------- INCREMENT ------------>
-
+int x = 5;
+int y = 10;
+printf("This increases the value of a variable by 1 %d", ++x);
 
 
 
