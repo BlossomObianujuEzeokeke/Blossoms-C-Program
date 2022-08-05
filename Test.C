@@ -131,10 +131,15 @@ int main()
 // scanf("%d", &age);
 // printf("Your age is %d", age);
 
-char $;
-printf("Enter the cost in dollars:");
-scanf("%c", &$);
-printf("Your final pay is %c", $);
+// char $;
+// printf("Enter the cost in dollars:");
+// scanf("%c", &$);
+// printf("Your final pay is %c", $);
+
+float favNum;
+printf("Enter your decimal:\n");
+scanf("%f", &favNum);
+printf("Your decimal number is: %f", favNum);
 
 
 
