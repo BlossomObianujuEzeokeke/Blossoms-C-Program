@@ -147,9 +147,7 @@ scanf("%c", &favCity);
 printf("Your favorite city is: %c", favCity);
 
 
-int phone number;
-printf("Please enter your phone number");
-scanf("%d", &)
+
 
 
 
