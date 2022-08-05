@@ -157,7 +157,7 @@ int main()
 //-------------ENTERING TWO NAMES BLOSSOM EZE WITH FGETS--------//
 char name[30];
 printf("Enter your name:");
-fgets
+fgets(name, 30, stdin);
 
 
 
