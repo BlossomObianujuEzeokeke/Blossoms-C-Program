@@ -149,16 +149,16 @@ int main()
 // printf("Your favorite city is: %s", favCity);
 
 //-------------ENTERING ONE NAME BLOSSOM---------------//
-  char firstName[35];
-  printf("Enter your name: ");
-  scanf("%s", firstName); //you dont need to add & for string
-  printf("Your name is %s.", firstName);
+//   char firstName[35];
+//   printf("Enter your name: ");
+//   scanf("%s", firstName); //you dont need to add & for string
+//   printf("Your name is %s.", firstName);
 
-//-------------ENTERING TWO NAMES BLOSSOM---------------//
-char firstName[35];
+//-------------ENTERING TWO NAMES BLOSSOM EZE WITH FGETS--------//
+char name[35];
   printf("Enter your name: ");
-  scanf("%s", firstName); //you dont need to add & for string
-  printf("Your name is %s.", firstName);
+  fgets(name, 35, stdin); 
+  printf("Your name is %s", name);
 
 
 
