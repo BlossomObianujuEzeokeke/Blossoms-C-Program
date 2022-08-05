@@ -146,18 +146,10 @@ int main()
 // scanf("%c", &favCity);
 // printf("Your favorite city is: %c", favCity);
 
-int main() {
-  // Create a string
-  char firstName[30];
-
-  // Ask the user to input some text
-  printf("Enter your first name: \n");
-
-  // Get and save the text
-  scanf("%s", firstName);
-
-  // Output the text
-  printf("Hello %s.", firstName);
+//   char firstName[30];
+//   printf("Enter your first name: \n");
+//   scanf("%s", firstName);
+//   printf("Hello %s.", firstName);
   
 
 
