@@ -132,10 +132,10 @@ int main()
 // scanf("%d", &age);
 // printf("Your age is %d", age);
 
-char grade;
-printf("Enter your grade:");
-scanf("%c", &grade);
-printf("Your grade is %c", grade);
+// char grade;
+// printf("Enter your grade:");
+// scanf("%c", &grade);
+// printf("Your grade is %c", grade);
 
 // float favNum;
 // printf("Enter your decimal:\n");
@@ -148,10 +148,10 @@ printf("Your grade is %c", grade);
 // scanf("%s", &favCity);
 // printf("Your favorite city is: %s", favCity);
 
-//   char firstName[35];
-//   printf("Enter your first name: \n");
-//   scanf("%s", firstName); //you dont need to add & for string
-//   printf("Hello %s.", firstName);
+  char firstName[35];
+  printf("Enter your name: ");
+  scanf("%s", firstName); //you dont need to add & for string
+  printf("Your name is %s.", firstName);
 
 // -----------HOW TO OUTPUT DOUBLES IN C--------------//
 // double gpa;
