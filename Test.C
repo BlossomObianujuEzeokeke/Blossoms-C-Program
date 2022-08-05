@@ -125,6 +125,7 @@ int main()
 //  int y = 51;
 //  printf("%d", x >= y); //returns false (0) because 50 isn't greater than or equal to 51
 
+
 // -----------GETTING USER INPUT WITH SCANF ------------------->
 // int age;
 // printf("Please enter your age:");
@@ -151,8 +152,11 @@ int main()
 //   printf("Enter your first name: \n");
 //   scanf("%s", firstName); //you dont need to add & for string
 //   printf("Hello %s.", firstName);
-  
 
+double gpa;
+printf("Enter your gpa:");
+scanf("%lf", &gpa);
+printf("Your gpa is %lf", gpa);
 
 
 
