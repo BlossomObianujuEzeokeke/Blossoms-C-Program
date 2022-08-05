@@ -55,7 +55,7 @@ int main()
 int x = 20;
 int y = 50;
 int sum = x + y;
-int sub = x - y;
+int sub = y - x;
 printf("Add these two %i: Subtract these two %d\n", sum, sub);
 // printf("Get the power of this %f\n", pow(10, 2) );
 // printf("Get the ceiling for this %f\n", ceil(59.52) );
