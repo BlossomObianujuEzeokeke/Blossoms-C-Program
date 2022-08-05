@@ -14,8 +14,8 @@ int main()
 // printf("My %s number is %d %s, I also like the %c", "favorite", 500, "and", favChar);
 
 //------------------WORKING WITH NUMBERS----------------------------------->
-// printf("My favorite number is %f\n", 8.9);
-// printf("%f", 5 / 4.0);
+printf("My favorite number is %f\n", 8.9);
+printf("%f", 5 / 4.0);
 
 // -----------------ADDING A VARIABLE-------------------------------------->
 // int num = 6;
@@ -121,10 +121,10 @@ int main()
 //  printf("%d", x >= y); //returns false (0) because 50 isn't greater than or equal to 51
 
 // -----------GETTING USER INPUT------------------->
-int age;
-printf("Please enter your age:");
-scanf("%d", &age);
-printf("You are %d years old", age);
+// int age;
+// printf("Please enter your age:");
+// scanf("%d", &age);
+// printf("You are %d years old", age);
 
 
 
