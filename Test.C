@@ -48,19 +48,20 @@ int main()
 // printf("Print this \"file\" with the name \"Titi\". ");
 
 // -----------Sequence \\" adds a slash between two lines-------------------->
-printf("Print this file with the name Sam Titi\\ \n");
-printf("Print this file with the name Titi ");
+// printf("Print this file with the name Sam Titi\\ \n");
+// printf("Print this file with the name Titi ");
 
 //------------C OPERATORS. ADDING, SUBTRACTING AND MULTIPLYING VARIABLES------------------>
-// int x = 20;
-// int y = 50;
-// int sum = x + y;
-// int sub = x - y;
-// printf("Add these two %i: Subtract these two %d\n", sum, sub);
+int x = 20;
+int y = 50;
+int sum = x + y;
+int sub = x - y;
+printf("Add these two %i: Subtract these two %d\n", sum, sub);
 // printf("Get the power of this %f\n", pow(10, 2) );
 // printf("Get the ceiling for this %f\n", ceil(59.52) );
 // printf("Get the floor for this %f\n", floor(59.52) );
-// printf("Get the square root for this %f", sqrt(59) );
+// printf("Get the square root for this %f\n", sqrt(59) );
+// printf("Multiply %i and %d", sum, sub);
 
 //   int sum1 = 100 + 50;        
 //   int sum2 = sum1 + 250;      
