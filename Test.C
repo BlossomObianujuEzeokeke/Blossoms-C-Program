@@ -48,8 +48,8 @@ int main()
 // printf("Print this \"file\" with the name \"Titi\". ");
 
 // -----------Sequence \\" adds a slash between two lines-------------------->
-// printf("Print this file with the name Sam Titi\\");
-// printf("Print this file with the name Titi ");
+printf("Print this file with the name Sam Titi\\ \n");
+printf("Print this file with the name Titi ");
 
 //------------C OPERATORS. ADDING, SUBTRACTING AND MULTIPLYING VARIABLES------------------>
 // int x = 20;
