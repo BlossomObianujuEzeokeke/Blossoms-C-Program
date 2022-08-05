@@ -141,14 +141,15 @@ int main()
 // scanf("%f", &favNum);
 // printf("Your decimal number is: %f", favNum);
 
-// char favCity[London];
+// -----------HOW TO INPUT STRINGS IN C--------------//
+// char favCity[10];       //[10] is the size of the string
 // printf("What is your favorite city?");
-// scanf("%c", &favCity);
-// printf("Your favorite city is: %c", favCity);
+// scanf("%s", &favCity);
+// printf("Your favorite city is: %s", favCity);
 
-//   char firstName[30];
+//   char firstName[35];
 //   printf("Enter your first name: \n");
-//   scanf("%s", firstName);
+//   scanf("%s", firstName); //you dont need to add & for string
 //   printf("Hello %s.", firstName);
   
 
