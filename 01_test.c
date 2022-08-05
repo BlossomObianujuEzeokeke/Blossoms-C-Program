@@ -22,7 +22,8 @@ int main()
 //--------------BUILDING A BASIC CALCULATOR--------------//
 int num 1;
 int num 2;
-
+printf("Enter first number:");
+scanf("%d", &num1);
 
 
 
