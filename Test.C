@@ -126,10 +126,15 @@ int main()
 //  printf("%d", x >= y); //returns false (0) because 50 isn't greater than or equal to 51
 
 // -----------GETTING USER INPUT WITH SCANF ------------------->
-int age;
-printf("Please enter your age:");
-scanf("%d", &age);
-printf("Your age is %d", age);
+// int age;
+// printf("Please enter your age:");
+// scanf("%d", &age);
+// printf("Your age is %d", age);
+
+char $;
+printf("Enter the cost in dollars:");
+scanf("%c", &$);
+printf("Your final pay is %c", $);
 
 
 
