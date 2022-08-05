@@ -154,7 +154,11 @@ int main()
   scanf("%s", firstName); //you dont need to add & for string
   printf("Your name is %s.", firstName);
 
-//-------------ENTERING ONE NAME BLOSSOM---------------//
+//-------------ENTERING TWO NAMES BLOSSOM---------------//
+char firstName[35];
+  printf("Enter your name: ");
+  scanf("%s", firstName); //you dont need to add & for string
+  printf("Your name is %s.", firstName);
 
 
 
