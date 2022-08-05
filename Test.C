@@ -14,8 +14,8 @@ int main()
 // printf("My %s number is %d %s, I also like the %c", "favorite", 500, "and", favChar);
 
 //------------------WORKING WITH NUMBERS----------------------------------->
-printf("My favorite number is %f\n", 8.9);
-printf("%f", 5 / 4.0);
+// printf("My favorite number is %f\n", 8.9);
+// printf("%f", 5 / 4.0);
 
 // -----------------ADDING A VARIABLE-------------------------------------->
 // int num = 6;
@@ -27,6 +27,7 @@ printf("%f", 5 / 4.0);
 // printf("%f \n", sqrt (43) );
 // printf("%f \n", ceil(36.335) );
 // printf("%f \n", floor(36.335) ); 
+// printf("%f", sqrt(24) );
 
 // char favName[] = "Johnson";
 // int favSum = 500;
