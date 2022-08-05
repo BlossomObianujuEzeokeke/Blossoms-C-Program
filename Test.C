@@ -141,12 +141,15 @@ int main()
 // scanf("%f", &favNum);
 // printf("Your decimal number is: %f", favNum);
 
-char favCity[London];
-printf("What is your favorite city?");
-scanf("%c", &favCity);
-printf("Your favorite city is: %c", favCity);
+// char favCity[London];
+// printf("What is your favorite city?");
+// scanf("%c", &favCity);
+// printf("Your favorite city is: %c", favCity);
 
-
+int phonenumber;
+printf("Please type in your phone number");
+scanf("%d", &phonenumber);
+printf("Your phone number is %d", phonenumber);
 
 
 
