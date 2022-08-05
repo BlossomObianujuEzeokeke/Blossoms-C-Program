@@ -52,19 +52,19 @@ int main()
 // printf("Print this file with the name Titi ");
 
 //------------C OPERATORS. ADDING, SUBTRACTING AND MULTIPLYING VARIABLES------------------>
-int x = 20;
-int y = 50;
-int sum = x + y;
-int sub = y - x;
-int multi = x * y;
-int division = y / x;
+// int x = 20;
+// int y = 50;
+// int sum = x + y;
+// int sub = y - x;
+// int multi = x * y;
+// int division = y / x;
 // printf("Add these two x + y = %i: Subtract these two %d\n", sum, sub);
 // printf("Get the power of this %f\n", pow(10, 2) );
-printf("Get the ceiling for this %f\n", ceil(59.52) );
-printf("Get the floor for this %f\n", floor(59.52) );
+// printf("Get the ceiling for this %f\n", ceil(59.52) );
+// printf("Get the floor for this %f\n", floor(59.52) );
 // printf("Get the square root for this %f\n", sqrt(59) );
 // printf("Multiply %d\n", multi);
-printf("divide these two %d", division);
+// printf("divide these two %d", division);
 
 //   int sum1 = 100 + 50;        
 //   int sum2 = sum1 + 250;      
@@ -126,10 +126,11 @@ printf("divide these two %d", division);
 //  printf("%d", x >= y); //returns false (0) because 50 isn't greater than or equal to 51
 
 // -----------GETTING USER INPUT------------------->
-// int age;
-// printf("Please enter your age:");
-// scanf("%d", &age);
-// printf("You are %d years old", age);
+int age;
+printf("Please enter your age:");
+scanf("%d", &age);
+printf("You are %d years old", age);
+printf("You are %d years old");
 
 
 
