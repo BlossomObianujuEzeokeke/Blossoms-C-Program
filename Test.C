@@ -132,17 +132,17 @@ int main()
 // scanf("%d", &age);
 // printf("Your age is %d", age);
 
-// char $;
-// printf("Enter the cost in dollars:");
-// scanf("%c", &$);
-// printf("Your final pay is %c", $);
+char grade;
+printf("Enter your grade:");
+scanf("%c", &grade);
+printf("Your grade is %c", grade);
 
 // float favNum;
 // printf("Enter your decimal:\n");
 // scanf("%f", &favNum);
 // printf("Your decimal number is: %f", favNum);
 
-// -----------HOW TO INPUT STRINGS IN C--------------//
+// -----------HOW TO OUTPUT STRINGS IN C--------------//
 // char favCity[10];       //[10] is the size of the string
 // printf("What is your favorite city?");
 // scanf("%s", &favCity);
@@ -153,10 +153,11 @@ int main()
 //   scanf("%s", firstName); //you dont need to add & for string
 //   printf("Hello %s.", firstName);
 
-double gpa;
-printf("Enter your gpa:");
-scanf("%lf", &gpa);
-printf("Your gpa is %lf", gpa);nhhnn
+// -----------HOW TO OUTPUT DOUBLES IN C--------------//
+// double gpa;
+// printf("Enter your gpa:");
+// scanf("%lf", &gpa);
+// printf("Your gpa is %lf", gpa);
 
 
 
