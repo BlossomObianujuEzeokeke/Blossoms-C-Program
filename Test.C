@@ -39,7 +39,7 @@ int main()
 // printf("Print this file and leave three spaces\n\n\n");
 // printf("Print this file and leave four spaces\n\n\n\n");
 
-// ------------Sequence \t adds spaces between word on a line--------------->
+// ------------Sequence \t adds spaces between words on a line--------------->
 // printf("Add a space\t between these words\n");
 // printf("Add two spaces\t\t between these words");
 
