@@ -136,10 +136,36 @@ int main()
 // scanf("%c", &$);
 // printf("Your final pay is %c", $);
 
-float favNum;
-printf("Enter your decimal:\n");
-scanf("%f", &favNum);
-printf("Your decimal number is: %f", favNum);
+// float favNum;
+// printf("Enter your decimal:\n");
+// scanf("%f", &favNum);
+// printf("Your decimal number is: %f", favNum);
+
+char favCity[London];
+printf("What is your favorite city?");
+scanf("%c", &favCity);
+printf("Your favorite city is: %c", favCity);
+
+
+int phone number;
+printf("Please enter your phone number");
+scanf("%d", &)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
