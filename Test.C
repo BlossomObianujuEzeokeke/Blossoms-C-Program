@@ -161,6 +161,19 @@ fgets(name, 30, stdin);
 printf("Your name is: %s", name);
 printf("Your name is: %s", name);
 
+int phonenumber;
+printf("Enter your phone number");
+fgets(phonenumber, stdin);
+
+
+
+
+
+
+
+
+
+
 
 
 
