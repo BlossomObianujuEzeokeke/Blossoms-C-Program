@@ -148,10 +148,18 @@ int main()
 // scanf("%s", &favCity);
 // printf("Your favorite city is: %s", favCity);
 
+//-------------ENTERING ONE NAME BLOSSOM---------------//
   char firstName[35];
   printf("Enter your name: ");
   scanf("%s", firstName); //you dont need to add & for string
   printf("Your name is %s.", firstName);
+
+//-------------ENTERING ONE NAME BLOSSOM---------------//
+
+
+
+
+
 
 // -----------HOW TO OUTPUT DOUBLES IN C--------------//
 // double gpa;
