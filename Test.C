@@ -155,10 +155,10 @@ int main()
 //   printf("Your name is %s.", firstName);
 
 //-------------ENTERING TWO NAMES BLOSSOM EZE WITH FGETS--------//
-char name[30];
-printf("Enter your name:");
-fgets(name, 30, stdin);
-printf("Your name is: %s", name);
+// char name[30];
+// printf("Enter your name:");
+// fgets(name, 30, stdin);
+// printf("Your name is: %s", name);
 
 
 

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <cmath>
 
 int main()
 
@@ -20,21 +19,21 @@ int main()
    // printf("This is a string %s",)
 
 //--------------BUILDING A BASIC CALCULATOR--------------//
-int num 1;
-int num 2;
+int num1;
+int num2;
 printf("Enter first number: ");
 scanf("%d", &num1);
 printf("Enter second number: ");
 scanf("%d", &num2);
 
-printf("Answer: %d", num 1 + num 2);
+printf("Answer: %d", num1 + num2);
 
 
 
 
 
 
-
+ 
 
 
 
