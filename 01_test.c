@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <cmath>
+#include <math.h>
 
 int main()
 
@@ -39,8 +39,8 @@ int main()
 
 // printf("Answer: %lf", num1 + num2);
 
-//------------------------------------------------------//
-printf("%d", sqrt(36) );
+//------------------------------------------------------// 
+printf("%f", ceil(56) );
 
 
 

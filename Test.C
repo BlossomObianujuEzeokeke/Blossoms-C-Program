@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 #include <cmath>
 
 int main()
@@ -27,7 +27,7 @@ int main()
 // printf("%f \n", sqrt (43) );
 // printf("%f \n", ceil(36.335) );
 // printf("%f \n", floor(36.335) ); 
-// printf("%f", sqrt(24) );
+printf("%f", sqrt(24) );
 
 // char favName[] = "Johnson";
 // int favSum = 500;
@@ -159,18 +159,6 @@ int main()
 // printf("Enter your name:");
 // fgets(name, 30, stdin);
 // printf("Your name is: %s", name);
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
