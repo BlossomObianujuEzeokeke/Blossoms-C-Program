@@ -40,6 +40,9 @@ int main()
 // printf("Answer: %lf", num1 + num2);
 
 //------------------------------------------------------// 
+printf("Enter power of 2:");
+scanf("%d", pow(2, 3) );
+printf("Your answer is: %d");
 
 
 
