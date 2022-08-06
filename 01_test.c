@@ -39,11 +39,36 @@ int main()
 
 // printf("Answer: %lf", num1 + num2);
 
-//------------------------------------------------------//
+//----------------BUILDING A MAD LIBS GAME---------------------//
+// char schoolName[50];
+// printf("Enter your School name:");
+// fgets(schoolName, 50, stdin);
+// printf("Your school is %s", schoolName);
+
+
+char color[20];
+char pluralNoun[20];
+char celebrity[20];
+
+
+printf("Enter a color:");
+scanf("%s", &color);
+printf("Your color is %s", color);
+
+printf("Enter a color:");
+scanf("%s", &color);
+printf("Your color is %s", color);
+
+printf("Enter a color:");
+scanf("%s", &color);
+printf("Your color is %s", color);
+
 
 
  
-
+printf("Roses are {color}\n" );
+printf("{plural-noun} are blue\n" );
+printf("I love {celebrity}");
 
 
 
