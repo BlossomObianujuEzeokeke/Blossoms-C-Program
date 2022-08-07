@@ -60,7 +60,7 @@ char Tuesday[20];
 char Wednesday[20];
 
 printf("Enter days of the week:");
-scanf("%s %s %s", &Monday, &Tuesday, &Wednesday)
+scanf("%s %s %s", &Monday, &Tuesday, &Wednesday);
 printf("Your days of the week are: \n %s\n %s\n %s\n ", Monday, Tuesday, Wednesday);
 
 
