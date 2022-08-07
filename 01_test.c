@@ -39,11 +39,21 @@ int main()
 
 // printf("Answer: %lf", num1 + num2);
 
-//----------------BUILDING A MAD LIBS GAME---------------------//
+//----------------BUILDING A MAD LIBS GAME (FGETS)---------------------//
 // char schoolName[50];
 // printf("Enter your School name:");
 // fgets(schoolName, 50, stdin);
 // printf("Your school is %s", schoolName);
+
+char Monday[50];
+char Tuesday[20];
+char Wednesday[20];
+
+printf("Enter days of the week:");
+fgets( Monday, 50, stdin);
+fgets(Tuesday, 20, stdin);
+fgets(Wednesday, 20, stdin);
+printf("Your days of the week are %s\n, %s\n, %s\n ", Monday, Tuesday, Wednesday);
 
 //-------------------------------------------------------------//
 char color[20];
