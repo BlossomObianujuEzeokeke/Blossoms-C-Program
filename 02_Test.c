@@ -1,11 +1,13 @@
 #include <stdio.h>
+#include <cmath>
+
 int main()
 {
 
-int const favNum = 50;
-printf("Hello World at %d", favNum);
-
-
+int favName[30];
+printf("Enter your name");
+fgets(name, 30, stdin);
+printf("Your name is %s", favName);
 
 
 
