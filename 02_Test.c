@@ -1,19 +1,18 @@
 #include <stdio.h>
-#include <cmath>
+// #include <cmath>
 
 int main()
 {
 
-int favName[30];
-printf("Enter your name");
-fgets(name, 30, stdin);
-printf("Your name is %s", favName);
+char Monday[50];
+char Tuesday[20];
+char Wednesday[20];
 
-
-
-
-
-
+printf("Enter days of the week");
+fgets( Monday, 50, stdin);
+fgets(Tuesday, 20, stdin);
+fgets(Wednesday, 20, stdin);
+printf("Your days of the week are %s, %s, %s", Monday, Tuesday, Wednesday);
 
 
 

@@ -27,7 +27,7 @@ int main()
 // printf("%f \n", sqrt (43) );
 // printf("%f \n", ceil(36.335) );
 // printf("%f \n", floor(36.335) ); 
-printf("%f", sqrt(24) );
+// printf("%f", sqrt(24) );
 
 // char favName[] = "Johnson";
 // int favSum = 500;
