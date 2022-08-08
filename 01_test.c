@@ -55,36 +55,50 @@ int main()
 // fgets(Wednesday, 20, stdin);
 // printf("Your days of the week are: \n %s\n %s\n %s\n ", Monday, Tuesday, Wednesday);
 
-char Monday[50];
-char Tuesday[20];
-char Wednesday[20];
+// char Monday[50];
+// char Tuesday[20];
+// char Wednesday[20];
 
-printf("Enter days of the week:");
-scanf("%s %s %s", &Monday, &Tuesday, &Wednesday);
-printf("Your days of the week are: \n %s\n %s\n %s\n ", Monday, Tuesday, Wednesday);
-
-
-
-
+// printf("Enter days of the week:");
+// scanf("%s %s %s", &Monday, &Tuesday, &Wednesday);
+// printf("Your days of the week are: \n %s\n %s\n %s\n ", Monday, Tuesday, Wednesday);
 
 
 //-------------------------------------------------------------//
-// char color[20];
-// char pluralNoun[20];
-// char celebrity[20];
+char color[20];
+char pluralNoun[20];
+char celebrity[20];
 
-// printf("Enter a color:");
-// scanf("%s", &color);
+printf("Enter a color:");
+scanf("%s", &color);
 
-// printf("Enter a Plural noun:");
-// scanf("%s", pluralNoun);
+printf("Enter a Plural noun:");
+scanf("%s", pluralNoun);
 
-// printf("Enter a celebrity Name:");
-// scanf("%s", celebrity);
+printf("Enter a celebrity Name:");
+scanf("%s", celebrity);
  
-// printf("Roses are %s\n", color );
-// printf("%s are blue\n", pluralNoun );
-// printf("I love %s", celebrity);
+printf("Roses are %s\n", color );
+printf("%s are blue\n", pluralNoun );
+printf("I love %s", celebrity);
+
+char color[20];
+char pluralNoun[20];
+char celebrity[20];
+
+printf("Enter a color:");
+scanf("%s", &color);
+
+printf("Enter a Plural noun:");
+scanf("%s", pluralNoun);
+
+printf("Enter a celebrity Name:");
+scanf("%s", celebrity);
+ 
+printf("Roses are %s\n", color );
+printf("%s are blue\n", pluralNoun );
+printf("I love %s", celebrity);
+
 
 
 
