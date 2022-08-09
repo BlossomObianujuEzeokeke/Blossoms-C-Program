@@ -1,12 +1,21 @@
-// #include <stdio.h>
-// // #include <cmath>
+#include <stdio.h>
+// #include <cmath>
 
 // int main()
 // { 
    
-   //------------ FUNCTIONS ------------//
-   
+   //------------ FUNCTIONS (calling a function in C)------------//
+   void myFunction()
+   {
+      printf("I love Jesus!!\n");
+   }
 
+int main()
+{
+   myFunction();
+   myFunction();
+   return 0;
+}
 
 
 
