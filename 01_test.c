@@ -85,7 +85,9 @@ int main()
 
 //--------------- ARRAYS --------------------//
 int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
-printf("%d")
+printf("%d", luckyNumbers[3] );
+printf("%d", luckyNumbers[4] );
+
 
 
    
