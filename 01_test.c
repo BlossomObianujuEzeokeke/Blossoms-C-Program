@@ -84,7 +84,8 @@ int main()
 // printf("I love %s\n %s", celebrityL, celebrityF);
 
 //--------------- ARRAYS --------------------//
-
+int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
+printf("%d")
 
 
    
