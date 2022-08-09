@@ -92,12 +92,14 @@ int main()
 // printf("%d\n", house[1] );
 // printf("%d\n", house[2] );
 
-char musicType[30] = "Johnson";
-printf("%s", musicType);
+// char musicType[30] = "Johnson, Peter, Simi";
+// printf("%s", musicType);
 
-
-
-
+char homeBound = '$';
+printf("Enter sign"); 
+scanf("%s", &homeBound); 
+printf("your sign is %s", &homeBound);
+ 
 
 //----------- CHANGING AN ARRAY ELEMENT ---------//
 // int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
