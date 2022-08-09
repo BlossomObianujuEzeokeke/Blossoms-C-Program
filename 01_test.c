@@ -87,10 +87,17 @@ int main()
 // int favName[] = {1, 2, 3, 4, 5};
 // printf("%d", favName[3] );
 
-int house[] = {1, 2, 3};
-printf("%d\n", house[0] );
-printf("%d\n", house[1] );
-printf("%d\n", house[2] );
+// int house[] = {1, 2, 3};
+// printf("%d\n", house[0] );
+// printf("%d\n", house[1] );
+// printf("%d\n", house[2] );
+
+char musicType[30] = "Johnson";
+printf("%s", musicType);
+
+
+
+
 
 //----------- CHANGING AN ARRAY ELEMENT ---------//
 // int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
@@ -98,6 +105,18 @@ printf("%d\n", house[2] );
 // luckyNumbers[4] = 25;
 // printf("%d\n", luckyNumbers[0] );
 // printf("%d", luckyNumbers[4] );
+
+//-------------DECLARING A VALUE TO AN ARRAY THAT DOESN'T HAVE ONE---------------//
+// int liveToday[10];
+// liveToday[1] = 20;
+// liveToday[0] = 30;
+// printf("%d", liveToday[1]);
+
+
+
+
+
+
 
 
 
