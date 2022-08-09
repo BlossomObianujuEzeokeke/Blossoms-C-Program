@@ -84,11 +84,18 @@ int main()
 // printf("I love %s\n %s", celebrityL, celebrityF);
 
 //--------------- ARRAYS --------------------//
-int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
-luckyNumbers[0] = 15;
-luckyNumbers[4] = 25;
-printf("%d\n", luckyNumbers[0] );
-printf("%d", luckyNumbers[4] );
+// int favName[] = {1, 2, 3, 4, 5};
+// printf("%d", favName[3] );
+
+int house[] = {1, 2, 3, 4, 5};
+printf("%d", house[] );
+
+
+// int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
+// luckyNumbers[0] = 15;
+// luckyNumbers[4] = 25;
+// printf("%d\n", luckyNumbers[0] );
+// printf("%d", luckyNumbers[4] );
 
 
 
