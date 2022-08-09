@@ -87,8 +87,10 @@ int main()
 // int favName[] = {1, 2, 3, 4, 5};
 // printf("%d", favName[3] );
 
-int house[] = {1, 2, 3, 4, 5};
-printf("%d", house[] );
+int house[] = {1, 2, 3};
+printf("%d\n", house[0] );
+printf("%d\n", house[1] );
+printf("%d\n", house[2] );
 
 
 // int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
