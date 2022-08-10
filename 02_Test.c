@@ -73,18 +73,15 @@
 // myFunction("John", 40, 4.56);
 // myFunction("Blessing", 50, 8.56);
 
-void sayHi(double lace)
-{
-   printf("Hello your decimal is %lf\n", lace);
-}
+// void myFunction(float sign)
+// {
+//    printf("This is a float figure %f\n", sign);
+// }
 
-int main()
-{
-   sayHi(50.55);
-   sayHi(605.55);
-
-
-
+// int main()
+// {
+//    myFunction(5.67);
+//    myFunction(7.67);
 
 
 
