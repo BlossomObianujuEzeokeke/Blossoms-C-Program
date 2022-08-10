@@ -27,17 +27,18 @@
 //   myFunction("Jenny");
 //   myFunction("Anja");
 
-//--------- CALLING A FUNCTION --------//
-// void sayHi()
+
+//--------- CALLING A FUNCTION IN MAIN--------//
+// void myFunction()
 // {
-//    int number = 50;
-//  printf("Hello User %d\n", number);  
+//    printf("Hello world\n");
 // }
 
 // int main()
 // {
-//    sayHi();
-//    sayHi();
+//    myFunction();
+//    myFunction();
+
 
 //----------- GIVING INFORMATION TO A FUNCTION ----------//
 // void sayHi(char name[])
@@ -50,18 +51,16 @@
 //    sayHi("Cynthia");
 //    sayHi("Marcus");
 
-void favAge(int age)
-{
-   printf("Hello, your age is %d\n", age);
-}
 
-int main()
-{
-   favAge(50);
-   favAge(350);
+// void favAge(int age)
+// {
+//    printf("Hello, your age is %d\n", age);
+// }
 
-
-
+// int main()
+// {
+//    favAge(50);
+//    favAge(350);
 
 
 // void myFunction(char name[], int age, double lace)
@@ -74,10 +73,15 @@ int main()
 // myFunction("John", 40, 4.56);
 // myFunction("Blessing", 50, 8.56);
 
-
-
-
-
+void sayHi(char sign)
+{
+   printf("Hello your number is %c\n", sign);
+}
+int main()
+{
+   sayHi('&');
+   sayHi('*');
+}
 
 
 
