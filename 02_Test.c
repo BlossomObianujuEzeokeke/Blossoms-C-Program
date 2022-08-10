@@ -17,19 +17,28 @@
 
 //---------- Add a name parameter of type char (string) to myFunction ---------// 
 // void myFunction(char name[]) 
-{
+// {
 //   printf("Hello %s\n", name);
-}
+// }
 
 // int main() 
-{
+// {
 //   myFunction("Liam");
 //   myFunction("Jenny");
 //   myFunction("Anja");
 
 //--------- CALLING A FUNCTION --------//
+void sayHi()
+{
+   int number = 50;
+ printf("Hello User %d\n", number);  
+ printf("Hello World people");
+}
 
-
+int main()
+{
+   sayHi();
+   sayHi();
 
    
 
