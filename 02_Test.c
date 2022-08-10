@@ -28,17 +28,19 @@
 //   myFunction("Anja");
 
 //--------- CALLING A FUNCTION --------//
-void sayHi()
-{
-   int number = 50;
- printf("Hello User %d\n", number);  
- printf("Hello World people");
-}
+// void sayHi()
+// {
+//    int number = 50;
+//  printf("Hello User %d\n", number);  
+// }
 
-int main()
-{
-   sayHi();
-   sayHi();
+// int main()
+// {
+//    sayHi();
+//    sayHi();
+
+//----------- GIVING INFORMATION TO A FUNCTION ----------//
+
 
    
 
