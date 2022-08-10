@@ -65,7 +65,7 @@
 
 void myFunction(char name[], int age, double lace)
 {
-   printf("Hello %s, your age is %d and, your decimal is %lf");
+   printf("Hello %s, your age is %d and, your decimal is %lf\n", name, age, lace);
 }
 
 int main()
@@ -73,7 +73,7 @@ int main()
 myFunction("John", 40, 4.56);
 myFunction("Blessing", 50, 8.56);
 
-}
+
 
 
 
