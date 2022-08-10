@@ -63,15 +63,15 @@
 //    sayHi(20);
 //    sayHi(30); 
 
-void myFunction(char name[], int age, double lace)
-{
-   printf("Hello %s, your age is %d and, your decimal is %lf\n", name, age, lace);
-}
+// void myFunction(char name[], int age, double lace)
+// {
+//    printf("Hello %s, your age is %d and, your decimal is %lf\n", name, age, lace);
+// }
 
-int main()
-{
-myFunction("John", 40, 4.56);
-myFunction("Blessing", 50, 8.56);
+// int main()
+// {
+// myFunction("John", 40, 4.56);
+// myFunction("Blessing", 50, 8.56);
 
 
 
