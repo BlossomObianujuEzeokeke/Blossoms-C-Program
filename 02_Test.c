@@ -64,6 +64,49 @@
 //    sayHi(30);
 
 
+void sayHi(char name[], int age, double lace)
+{
+   printf("Hello %s you are %d years old. Your decimal is %lf\n", name, age, lace);
+}
+
+int main()
+{
+   sayHi("Tom", 42, 2.5);
+   sayHi("Cynthia", 50, 4.5);
+   sayHi("Marcus", 100, 8.10);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    
 
