@@ -69,6 +69,11 @@ void myFunction(char name[], int age, double lace)
 }
 
 int main()
+{
+myFunction("John", 40, 4.56);
+myFunction("Blessing", 50, 8.56);
+
+}
 
 
 
