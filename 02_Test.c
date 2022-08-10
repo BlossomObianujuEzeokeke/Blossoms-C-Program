@@ -52,8 +52,16 @@
 
 
 
+// void sayHi(int age)
+// {
+//    printf("Hello you are %d\n", age);
+// }
 
-
+// int main()
+// {
+//    sayHi(40);
+//    sayHi(20);
+//    sayHi(30);
 
 
 
