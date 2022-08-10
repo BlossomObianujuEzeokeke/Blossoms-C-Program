@@ -63,8 +63,10 @@
 //    sayHi(20);
 //    sayHi(30); 
 
-
-
+void myFunction(char name[], int age, double lace)
+{
+   printf("Hello ")
+}
 
 
 
