@@ -65,10 +65,10 @@
 
 void myFunction(char name[], int age, double lace)
 {
-   printf("Hello ")
+   printf("Hello %s, your age is %d and, your decimal is %lf");
 }
 
-
+int main()
 
 
 
