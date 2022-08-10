@@ -73,16 +73,15 @@
 // myFunction("John", 40, 4.56);
 // myFunction("Blessing", 50, 8.56);
 
-void sayHi(char sign)
+void sayHi(double lace)
 {
-   printf("Hello your number is %c\n", sign);
-}
-int main()
-{
-   sayHi('&');
-   sayHi('*');
+   printf("Hello your decimal is %lf\n", lace);
 }
 
+int main()
+{
+   sayHi(50.55);
+   sayHi(605.55);
 
 
 
