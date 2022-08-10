@@ -50,18 +50,19 @@
 //    sayHi("Cynthia");
 //    sayHi("Marcus");
 
+void favAge(int age)
+{
+   printf("Hello, your age is %d\n", age);
+}
+
+int main()
+{
+   favAge(50);
+   favAge(350);
 
 
-// void sayHi(int age)
-// {
-//    printf("Hello you are %d\n", age);
-// }
 
-// int main()
-// {
-//    sayHi(40);
-//    sayHi(20);
-//    sayHi(30); 
+
 
 // void myFunction(char name[], int age, double lace)
 // {
