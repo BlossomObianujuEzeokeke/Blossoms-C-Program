@@ -40,24 +40,17 @@
 //    sayHi();
 
 //----------- GIVING INFORMATION TO A FUNCTION ----------//
-void sayHi(char name[])
-{
-   printf("Hello %s\n", name);
-}
-int main()
-{
-   sayHi("Tom");
-   sayHi("Cynthia");
-   sayHi("Marcus");
+// void sayHi(char name[])
+// {
+//    printf("Hello %s\n", name);
+// }
+// int main()
+// {
+//    sayHi("Tom");
+//    sayHi("Cynthia");
+//    sayHi("Marcus");
 
 
-void countNumber(int number[])
-{
-   printf("This is my %d")
-}
-
-int main()
-countNumber("50")
 
 
 
