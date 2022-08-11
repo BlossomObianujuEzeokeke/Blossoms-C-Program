@@ -111,17 +111,7 @@
 
 
 
-#include <stdio.h>
-double cube(double num)
-{
-   return num * num * num;
-}
 
-int main()
-{
-   printf("Your answer is %lf", cube(15) );
-   return 0;
-}
 
 
 
