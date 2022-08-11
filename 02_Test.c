@@ -83,7 +83,6 @@
 //    myFunction(7.67);
 
 //--------- RETURN STATEMENTS ------------//
-
 #include <stdio.h>
  
  double cube(double num)
@@ -93,7 +92,7 @@ return num * num * num;
 
 int main()
 {
-   printf("Answer is %d", cube(3) );
+   printf("Answer is %f", cube(3.0) );
    return 0;
 }
 
