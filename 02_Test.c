@@ -94,19 +94,19 @@
 //    return 0;
 // }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int favNum(int x, int y)
-{
-   return x + y;
-}
+// int favNum(int x, int y)
+// {
+//    return x + y;
+// }
 
-int main()
-{ 
-   int result = favNum(5, 3);
-printf("Your answer is %d", result );
-return 0;
-}
+// int main()
+// { 
+//    int result = favNum(5, 6);
+// printf("Your answer is %d", result );
+// return 0;
+// }
 
 
 
