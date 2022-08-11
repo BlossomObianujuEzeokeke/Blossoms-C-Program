@@ -112,14 +112,14 @@
 
 
 #include <stdio.h>
-double cube(double sum)
+double cube(double num)
 {
    return num * num * num;
 }
 
 int main()
 {
-printf("Your answer is %lf", num);
+printf("Your answer is %lf", );
 return 0;
 }
 
