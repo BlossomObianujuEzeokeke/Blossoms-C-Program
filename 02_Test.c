@@ -119,13 +119,9 @@ double cube(double num)
 
 int main()
 {
-printf("Your answer is %lf\n", cube(10));
-return 0;
+   printf("Your answer is %lf", cube(15) );
+   return 0;
 }
-
-
-
-
 
 
 
