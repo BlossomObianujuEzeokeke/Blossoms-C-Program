@@ -111,6 +111,22 @@
 
 
 
+#include <stdio.h>
+double cube(double sum)
+{
+   return num * num * num;
+}
+
+int main()
+{
+printf("Your answer is %lf", num);
+return 0;
+}
+
+
+
+
+
 
 
 
