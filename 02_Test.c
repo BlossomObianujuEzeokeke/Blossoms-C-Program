@@ -96,14 +96,15 @@
 
 #include <stdio.h>
 
-int pow(int sum)
+int favNum(int x, int y)
 {
-   return num ^ num
+   return x + y;
 }
 
 int main()
 { 
-printf("Your answer is %d", pow(4, 3) );
+   int result = favNum(5, 3);
+printf("Your answer is %d", result );
 return 0;
 }
 
