@@ -155,7 +155,20 @@
 //    return 0;
 // }
 
-//-------------------------------------//
+//---------------ADDING AND INT TO A DOUBLE/FLOAT----------------//
+// #include <stdio.h>
+// double favSum(int x, double y)
+// {
+//    return x + y;
+// }
+
+// int main()
+// {
+//    printf("Your answer is: %lf", favSum(5, 10.25) );
+//    return 0;
+// }
+
+//--------------------------------------------------------------//
 #include <stdio.h>
 double favSum(int x, double y)
 {
@@ -167,7 +180,6 @@ int main()
    printf("Your answer is: %lf", favSum(5, 10.25) );
    return 0;
 }
-
 
 
 
