@@ -169,17 +169,6 @@
 // }
 
 //--------------------------------------------------------------//
-#include <stdio.h>
-double favSum(int x, double y)
-{
-   return x + y;
-}
-
-int main()
-{
-   printf("Your answer is: %lf", favSum(5, 10.25) );
-   return 0;
-}
 
 
 
