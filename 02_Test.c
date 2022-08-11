@@ -82,22 +82,30 @@
 //    myFunction(5.67);
 //    myFunction(7.67);
 
-//--------- RETURN STATEMENTS ------------//
-#include <stdio.h>
- 
- double cube(double num)
- { 
-return num * num * num;
- }
+//--------- RETURN STATEMENTS ------------// 
+//  double cube(double num)
+//  { 
+// return num * num * num;
+//  }
 
-int main()
+// int main()
+// {
+//    printf("Answer is %f", cube(3.0) );
+//    return 0;
+// }
+
+#include <stdio.h>
+
+int pow(int sum)
 {
-   printf("Answer is %f", cube(3.0) );
-   return 0;
+   return num ^ num
 }
 
-
-
+int main()
+{ 
+printf("Your answer is %d", pow(4, 3) );
+return 0;
+}
 
 
 
