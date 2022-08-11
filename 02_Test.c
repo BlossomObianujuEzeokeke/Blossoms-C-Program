@@ -85,7 +85,6 @@
 //--------- RETURN STATEMENTS ------------//
 double cube(double num)
 {
-double result = num * num * num;
 return result;
 }
 
