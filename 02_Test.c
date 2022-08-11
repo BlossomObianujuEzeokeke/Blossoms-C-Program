@@ -1,5 +1,4 @@
 #include <stdio.h>
-// #include <cmath>
 
 // int main()
 // { 
@@ -83,14 +82,23 @@
 //    myFunction(5.67);
 //    myFunction(7.67);
 
+//--------- RETURN STATEMENTS ------------//
+double cube(double num)
+{
+double result = num * num * num;
+return result;
+}
 
-
-
+int main()
+{
+   printf("Answer: %lf", cube(3.0) );
+   return 0;
+}
    
 
 
 
-return 0;
+// return 0;
 
 
-}
+// }
