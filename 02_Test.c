@@ -125,13 +125,39 @@
 
 
 
+// #include <stdio.h>
+// char favSum()
 
+//---------------------------------------//
+// #include <stdio.h>
+// int favSum(int x)
+// {
+//    return 20 * x - 5;
+// }
 
+// int main()
+// {
+//    printf("Your answer is: %d", favSum(10) );
+// }
 
+//--------------------------------//
 
+// #include <stdio.h>
+// int favSum(int x, int y)
+// {
+//    return y ^ 20 * x - 5;
+// }
 
+// int main()
+// {
+//    int answer = favSum(30, 5);
+//    printf("Your answer is: %d", answer);
+//    return 0;
+// }
 
-
+//-------------------------------//
+#include <stdio.h>
+double favSum()
 
 
 
