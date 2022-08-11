@@ -39,7 +39,7 @@
 //    myFunction();
 
 
-//----------- GIVING INFORMATION TO A FUNCTION ----------//
+//-------------- GIVING INFORMATION TO A FUNCTION -----------------//
 // void sayHi(char name[])
 // {
 //    printf("Hello %s\n", name);
@@ -82,7 +82,7 @@
 //    myFunction(5.67);
 //    myFunction(7.67);
 
-//--------- RETURN STATEMENTS ------------// 
+//------------------- RETURN STATEMENTS ------------------// 
 //  double cube(double num)
 //  { 
 // return num * num * num;
@@ -123,12 +123,7 @@
 //    return 0;
 // }
 
-
-
-// #include <stdio.h>
-// char favSum()
-
-//---------------------------------------//
+//---------------------------------------------//
 // #include <stdio.h>
 // int favSum(int x)
 // {
@@ -140,7 +135,7 @@
 //    printf("Your answer is: %d", favSum(10) );
 // }
 
-//------------------------------------//
+//---------------------------------------------------------------//
 
 // #include <stdio.h>
 // int favSum(int x, int y)
