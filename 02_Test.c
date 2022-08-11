@@ -94,7 +94,7 @@
 //    return 0;
 // }
 
-
+//------------------------------------------//
 // #include <stdio.h>
 
 // int favNum(int x, int y)
@@ -109,19 +109,32 @@
 // return 0;
 // }
 
-#include <stdio.h>
-int favSum(int x, int y)
-{
-   return x * y;
-}
+//----------------------------------------------//
+// #include <stdio.h>
+// int favSum(int x, int y, int z)
+// {
+//    return x ^ y * z;
+// }
 
-int main()
-{
-   int answer = favSum(5, 3);
-   printf("Your answer is %d", answer);
+// int main()
+// {
+//    int answer = favSum(5, 20, 4);
+//    printf("Your answer is %d", answer);
+//    return 0;
+// }
 
-   return 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
