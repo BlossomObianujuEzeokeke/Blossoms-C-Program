@@ -1,4 +1,4 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 // int main()
 // { 
@@ -83,26 +83,30 @@
 //    myFunction(7.67);
 
 //--------- RETURN STATEMENTS ------------//
-// double cube(double num)
-// {
-//    return result; 
-// }
 
-// int main()
-// {
-//    printf("Answer: %lf", cube(3.0) );
-//    return 0;
-// }
-
-
-char pow(char name)
-  {return 5;} 
+#include <stdio.h>
+ 
+ double cube(double num)
+ { 
+return num * num * num;
+ }
 
 int main()
 {
-   printf("The answer is %c", pow(4, 3) );
+   printf("Answer is %d", cube(3) );
    return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
