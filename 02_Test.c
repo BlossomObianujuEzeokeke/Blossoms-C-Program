@@ -83,17 +83,26 @@
 //    myFunction(7.67);
 
 //--------- RETURN STATEMENTS ------------//
-double cube(double num)
-{
-return result;
-}
+// double cube(double num)
+// {
+//    return result; 
+// }
+
+// int main()
+// {
+//    printf("Answer: %lf", cube(3.0) );
+//    return 0;
+// }
+
+
+char pow(char name)
+  {return 5;} 
 
 int main()
 {
-   printf("Answer: %lf", cube(3.0) );
+   printf("The answer is %c", pow(4, 3) );
    return 0;
 }
-   
 
 
 
