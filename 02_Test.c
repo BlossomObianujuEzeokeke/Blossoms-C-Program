@@ -119,7 +119,7 @@ double cube(double num)
 
 int main()
 {
-printf("Your answer is %lf", );
+printf("Your answer is %lf\n", cube(10));
 return 0;
 }
 
