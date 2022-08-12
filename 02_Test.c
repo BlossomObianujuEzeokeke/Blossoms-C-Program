@@ -163,7 +163,7 @@
 //    return 0;
 // }
 
-//-------------------------GREATER THAN-------------------------------------//
+//--------------------- GREATER THAN (GREATER THAN) --------------//
 // #include <stdio.h>
 // int favSum(int x)
 // {
