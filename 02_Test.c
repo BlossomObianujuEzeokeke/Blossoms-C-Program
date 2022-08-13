@@ -208,6 +208,22 @@ int main(){
   return 0;
 }
 
+#include <stdio.h>
+int max(int num1, int num2) {
+  int result;
+  if(num1 > num2){
+    result = num2;
+  }
+  return result;
+}
+
+//-----------DOUBLE WITH MAX FUNCTION--------------//
+int main(){
+  printf("%d", max(40, 10) );
+  return 0;
+}
+
+
 
 
 
