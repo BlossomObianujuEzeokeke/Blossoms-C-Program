@@ -195,22 +195,18 @@
 
 //-----------BUILDING A MAX FUNCTION-------------//
 #include <stdio.h>
-// void myFunction(){}
-int max(num1, num2)
-{ 
-int answer;
-if (num1 > num2 ){ answer = num1};
-else {answer = num2} 
-return answer;
+int max(int num1, int num2) {
+  int result;
+  if(num1 > num2){
+    result = num2;
+  }
+  return result;
 }
 
-int main()
-{
-printf("%d", max(40, 10));
-return 0;
-
+int main(){
+  printf("%d", max(40, 10) );
+  return 0;
 }
-
 
 
 
