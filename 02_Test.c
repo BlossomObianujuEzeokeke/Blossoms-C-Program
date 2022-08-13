@@ -209,20 +209,44 @@
 // }
 
 //-----------DOUBLE WITH MAX FUNCTION--------------//
+// #include <stdio.h>
+// double max(double num1, double num2)
+//  {
+//   double result;
+//   if(num1 > num2){ result = num1; }
+//   else{result = num2; }
+//   return result;
+  
+// }
+
+// int main(){
+//   printf("%lf", max(40.25, 10.20) );
+//   return 0;
+// }
+
+
 #include <stdio.h>
 double max(double num1, double num2)
- {
-  double result;
-  if(num1 > num2){ result = num1; }
-  else{result = num2; }
-  return result;
-  
+{
+int answer;
+if (num1 > num2){answer = num1;}
+else{answer = num2;}
+return answer;
 }
 
-int main(){
-  printf("%lf", max(40.25, 10.20) );
-  return 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
