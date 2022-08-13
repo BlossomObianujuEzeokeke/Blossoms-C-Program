@@ -225,19 +225,6 @@
 // }
 
 
-#include <stdio.h>
-double max(double num1, double num2)
-{
-int answer;
-if (num1 > num2){answer = num1;}
-else{answer = num2;}
-return answer;
-}
-
-
-
-
-
 
 
 
