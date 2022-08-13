@@ -206,11 +206,7 @@ return answer;
 
 int main()
 {
-
-
-
-
-
+printf("%d", max(40, 10));
 return 0;
 
 }
