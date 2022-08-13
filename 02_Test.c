@@ -195,12 +195,26 @@
 
 //-----------BUILDING A MAX FUNCTION-------------//
     //------INTEGER WITH MAX FUNCTION------//
+// #include <stdio.h>
+// int max(int num1, int num2)
+// {
+//   int result;
+//   if(num1 > num2){result = num1;}
+//   else{result = num2;}
+// }
+
+// int main()
+// {
+//   printf("%i", max(40, 10) );
+//   return 0;
+// }
+
+//-------------EXAMPLE 2-------------//
 #include <stdio.h>
-int max(int num1, int num2)
+int max(int num1, int num2, int num3)
 {
   int result;
-  if(num1 > num2){result = num1;}
-  else{result = num2;}
+ 
 }
 
 int main()
@@ -208,6 +222,14 @@ int main()
   printf("%i", max(40, 10) );
   return 0;
 }
+
+
+
+
+
+
+
+
 
 //-----------DOUBLE WITH MAX FUNCTION--------------//
 // #include <stdio.h>
