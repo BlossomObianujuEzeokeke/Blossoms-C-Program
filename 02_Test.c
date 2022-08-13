@@ -1,4 +1,4 @@
-// #include <stdio.h>
+#include <stdio.h>
 
 // int main()
 // { 
@@ -177,18 +177,28 @@
 // }
 
 //-------------------------- IF STATEMENTS ----------------------------------//
-int time = 22;
-if (time < 10)
-{
-   printf("Good morning.");
+int main()
+{ 
+  int myNum = 10;
+  
+  if (myNum > 0)
+    printf("The value is a positive number.");
+  else if (myNum < 0)
+    printf("The value is a negative number.");
+  else
+    printf("The value is 0.");
+    
+  return 0;
 }
-else if(time < 20)
-{
-   printf("Good day.");
-}
-else{
-   printf("Good evening.");
-}
+
+
+
+
+
+
+
+
+
 
 
 
