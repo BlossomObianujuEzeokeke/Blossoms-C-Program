@@ -201,9 +201,8 @@ int max(num1, num2)
 int answer;
 if (num1 > num2 ){ answer = num1};
 else {answer = num2} 
-return result;
+return answer;
 }
-
 
 int main()
 {
