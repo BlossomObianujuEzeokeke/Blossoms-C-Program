@@ -194,6 +194,7 @@
 
 
 //-----------BUILDING A MAX FUNCTION-------------//
+    //------INTEGER WITH MAX FUNCTION------//
 // #include <stdio.h>
 // int max(int num1, int num2) {
 //   int result;
@@ -207,6 +208,14 @@
 //   printf("%d", max(40, 10) );
 //   return 0;
 // }
+
+
+
+
+
+
+
+
 
 //-----------DOUBLE WITH MAX FUNCTION--------------//
 // #include <stdio.h>
