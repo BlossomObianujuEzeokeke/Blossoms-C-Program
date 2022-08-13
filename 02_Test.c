@@ -179,11 +179,10 @@
 //-------------------------- IF STATEMENTS ----------------------------------//
 int main()
 { 
-  int num1;
-  int num2;
-
-  if (num2 > num1)
-    printf("%d is a positive number.");
+  int myNum = 10;
+  
+  if (myNum > 0)
+    printf("The value is a positive number.");
   else if (myNum < 0)
     printf("The value is a negative number.");
   else
