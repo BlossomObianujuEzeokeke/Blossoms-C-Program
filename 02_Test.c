@@ -250,13 +250,30 @@
 //   return 0;
 // }    
 
+
 #include <stdio.h>
 int main()
 {
-if (3 < 2 || 2 > 5){printf("true");}
-else {printf("false");}
+if (3 > 2 && 4 < 5){printf("return 3");}
+else {printf("return 4");}
 return 0;
+
 }
+
+
+// #include <stdio.h>
+// int main()
+// {
+//   if (4 == 4 || 10 == 10){printf("True");}
+//   else {printf("False");}
+//   return 0;
+// }
+
+
+
+
+
+
 
 
 
