@@ -266,10 +266,22 @@
 //   else {printf("False");}
 //   return 0;
 // }
+//--------------------------------------------//
+//  #include <stdio.h>
+// int main()
+// {
+//   if (4 != 4 || 10 != 10){printf("True");}
+//   else {printf("False");}
+//   return 0;
+// }
 
-
-
-
+#include <stdio.h>
+int main()
+{
+  if (3 != 5){printf("true");}
+  else {printf("False");}
+  return 0;
+}
 
 
 
