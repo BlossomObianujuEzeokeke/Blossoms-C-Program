@@ -20,18 +20,18 @@ int main(){
 // int r = 4;
 // printf("The area of a circle is %f\n", 3.14*r*r);
 
-int church = 1000;
-int school = 2000;
-printf("The number of church members is %d and %d\n", church, school);
+// int church = 1000;
+// int school = 2000;
+// printf("The number of church members is %d and %d\n", church, school);
 
 // int h = 5;
 // printf("The volume of a cylinder is %f", 3.14*r*r*h);
 
-printf(" |----------------------|\n");
-printf(" |                      |\n");
-printf(" |                      |\n");
-printf(" |                      |\n");
-printf(" |----------------------|\n");
+printf(" |---|----|----|----|-------|\n");
+printf(" |    |    |    |    |      |\n");
+printf(" |     |    |    |    |     |\n");
+printf(" |      |    |    |    |    |\n");
+printf(" |-------|-----|---|----|---|\n");
 
 
 
