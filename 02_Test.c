@@ -253,8 +253,8 @@
 #include <stdio.h>
 int main()
 {
-if (3 > 2 || 2 > 5){printf("true")}
-else {printf("false")}
+if (3 > 2 || 2 > 5){printf("true");}
+else {printf("false");}
 return 0;
 }
 
