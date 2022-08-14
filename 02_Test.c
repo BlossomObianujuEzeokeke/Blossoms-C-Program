@@ -249,18 +249,16 @@
 // else{return = 2 }
 //   return 0;
 // }    
+//--------------------------------------------//
+// #include <stdio.h>
+// int main()
+// {
+// if (3 > 2 && 4 < 5){printf("return 3");}
+// else {printf("return 4");}
+// return 0;
 
-
-#include <stdio.h>
-int main()
-{
-if (3 > 2 && 4 < 5){printf("return 3");}
-else {printf("return 4");}
-return 0;
-
-}
-
-
+// }
+//--------------------------------------------//
 // #include <stdio.h>
 // int main()
 // {
