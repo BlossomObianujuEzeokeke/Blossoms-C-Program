@@ -275,29 +275,13 @@
 //   return 0;
 // }
 
-#include <stdio.h>
-int main()
-{
-  if (3 != 5){printf("true");}
-  else {printf("False");}
-  return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
+// #include <stdio.h>
+// int main()
+// {
+//   if (3 != 5){printf("true");}
+//   else {printf("False");}
+//   return 0;
+// }
 
 
 
@@ -317,7 +301,14 @@ int main()
 //   return 0;
 // }
 
-
+//------------ NEGATION -------------//
+#include <stdio.h>
+int main()
+{
+  if (!(3 < 5) ){printf("true");}
+  else {printf("false");}
+  return 0;
+}
 
 
 
