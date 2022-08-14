@@ -1,6 +1,6 @@
-#include<stdio.h>
+// #include<stdio.h>
 
-int main(){ 
+// int main(){ 
 /*  HARDCODE, EMBEDDED */
    // int a = 4;
    // float b = 7;
@@ -27,14 +27,20 @@ int main(){
 // int h = 5;
 // printf("The volume of a cylinder is %f", 3.14*r*r*h);
 
-printf(" |---|----|----|----|-------|\n");
-printf(" |    |    |    |    |      |\n");
-printf(" |     |    |    |    |     |\n");
-printf(" |      |    |    |    |    |\n");
-printf(" |-------|-----|---|----|---|\n");
+// printf(" |---|----|----|----|-------|\n");
+// printf(" |    |    |    |    |      |\n");
+// printf(" |     |    |    |    |     |\n");
+// printf(" |      |    |    |    |    |\n");
+// printf(" |-------|-----|---|----|---|\n");
+
+//---------------- BUILDING A BETTER CALCULATOR -------------//
+#include <stdio.h>
+int main()
+{
 
 
-
+   return 0;
+}
 
 
 
