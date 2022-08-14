@@ -242,12 +242,19 @@
 // }
 
 //----------- EXAMPLE 3 USING OR ------------//
-#include <stdio.h>  
+// #include <stdio.h>  
+// int main()
+// {
+// if(3 > 2 || 2 > 5) {return = 3}
+// else{return = 2 }
+//   return 0;
+// }    
+
+#include <stdio.h>
 int main()
 {
-if(3 > 2 || 2 > 5) {printf("True");}
-else{printf ("false");}
-  return 0;
+if (3 > 2 || 2 > 5){printf("true")}
+else {printf("")}
 }
 
 
@@ -256,7 +263,17 @@ else{printf ("false");}
 
 
 
-//-----------DOUBLE WITH MAX FUNCTION--------------//
+
+
+
+
+
+ 
+
+
+
+
+//-----------DOUBLE WITH MAX UNCTION--------------//
 // #include <stdio.h>
 // double max(double num1, double num2)
 //  {
