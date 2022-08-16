@@ -71,19 +71,12 @@ printf("Enter a number:");
 scanf("%lf", &num1);
 printf("Enter a number;");
 scanf("%lf", &num2);
+
+printf("Enter an operator:");
+scanf(" %c", &op);
+
  
 
-printf("Enter a number:");
-scanf("%lf", &num2);
-
-printf(" %c", &op);
-
-if (op == '+'){printf("%f", num1 + num2);}
-
-
-
-   return 0;
-}
 
 
 
