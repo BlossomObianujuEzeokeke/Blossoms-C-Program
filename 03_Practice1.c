@@ -114,6 +114,7 @@
 #include <stdio.h>
 int main()
 {
+   int day = 1;
 
 
 
