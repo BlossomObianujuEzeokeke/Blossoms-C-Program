@@ -110,17 +110,25 @@
 //    return 0;
 // }
 
-//-------------- SWITCH STATEMENTS ----------------//
+//-------------- SWITCH STATEMENTS (building a test app) ----------------//
 #include <stdio.h>
 int main()
 {
-   int day = 1;
+   int day = 4;
+
+   switch (day)
+   {
+      printf("Monday");
+   
+   
+   
+   
+   
+   
 
 
-
-
-
-
+   }
+   
    return 0;
 }
 
