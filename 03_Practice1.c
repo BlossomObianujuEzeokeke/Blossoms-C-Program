@@ -54,7 +54,7 @@ int main()
     printf("Enter your second number:");
    scanf("%d", &num2);
 
-   printf("Answer: %d", num1 + num2);
+   printf("Answer: %d", num1 == num2);
    return 0;
 
 }
