@@ -69,19 +69,20 @@ char op;
 
 printf("Enter a number:");
 scanf("%lf", &num1);
-printf("Enter a number;");
-scanf("%lf", &num2);
-
-printf("Enter an operator:");
-scanf(" %c", &op);
-
- if (op == '+'){printf("%lf", num1 + num2);}
- else if(op == '-'){printf("%lf", num1 - num2);}
- else if(op == '/'){printf("%lf", num1 / num2);}
- else if(op == '*'){printf("%lf", num1 * num2);}
- 
+printf("Enter a number:");
+scanf("%lf", &num1);
+printf("Enter a number:");
+scanf("%lf", &num1);
 
 
+
+
+
+
+
+
+   return 0;
+}
 
 
 
