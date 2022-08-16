@@ -44,18 +44,32 @@
 // printf("Answer: %d", num1 + num2);
 
 //---------------- BUILDING A BETTER CALCULATOR -------------//
-#include <stdio.h>
-int main()
-{
+// #include <stdio.h>
+// int main()
+// {
+// double num1;
+// double num2;
+// char op;
+// printf("Enter a number:");
+// scanf("%lf", &num1);
+
+// printf("Enter a number:");
+// scanf("%lf", &num2);
+
+// printf(" %c", &op);
+
+// if (op == '+'){printf("%f", num1 + num2);}
+// else if (op == '-'){printf("%f", num1 - num2);}                                                                                                                                                                                                     
 
 
-   return 0;
-}
+
+//    return 0;
+// }
 
 
 
 
 
-   return 0;
+//    return 0;
 
-}
+// }
