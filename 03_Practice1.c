@@ -75,6 +75,10 @@ scanf("%lf", &num2);
 printf("Enter an operator:");
 scanf(" %c", &op);
 
+ if (op == '+'){printf("%lf", num1 + num2);}
+ else if(op == '-'){printf("%lf", num1 - num2);}
+ else if(op == '/'){printf("%lf", num1 / num2);}
+ else if(op == '*'){printf("%lf", num1 * num2);}
  
 
 
