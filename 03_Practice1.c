@@ -66,8 +66,10 @@
 // double num1;
 // double num2;
 // char op;
+
 // printf("Enter a number:");
 // scanf("%lf", &num1);
+printf("Enter operator;")
 
 // printf("Enter a number:");
 // scanf("%lf", &num2);
