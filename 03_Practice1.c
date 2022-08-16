@@ -114,7 +114,7 @@
 #include <stdio.h>
 int main()
 {
-   int day = 4;
+   int day = 5;
 
    switch (day)
    {
