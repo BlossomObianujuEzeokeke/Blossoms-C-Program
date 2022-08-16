@@ -92,7 +92,7 @@ int num1;
 int num2;
 char op;
 
-printf("Enter a number:");
+printf("Enter a number: ");
 scanf("%d", &num1);
 
 printf("Enter an operator: ");
