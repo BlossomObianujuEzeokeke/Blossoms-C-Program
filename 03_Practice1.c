@@ -97,7 +97,10 @@ printf(" %c", &op);
 printf("Enter a number:");
 scanf("%d", &num2);
 
-if(){}
+if(op == '+'){printf("%d", num1 + num2);}
+else if(op == '-'){printf("%d", num1 - num2);}
+else if(op == '/'){printf("%d", num1 / num2);}
+else if(op == '*'){printf("%d", num1 * num2);}
 
 
 
