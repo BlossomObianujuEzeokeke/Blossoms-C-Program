@@ -114,7 +114,7 @@
 #include <stdio.h>
 int main()
 {
-   int day = 5;
+   int day = 9;
 
    switch (day)
    {
@@ -133,7 +133,7 @@ int main()
    case 5:
       printf("Friday");
       break;
-   case 6:
+   default:
       printf("Saturday");
       break;
    
