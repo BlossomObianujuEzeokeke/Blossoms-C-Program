@@ -69,7 +69,8 @@
 
 // printf("Enter a number:");
 // scanf("%lf", &num1);
-printf("Enter operator;")
+printf("Enter operator;");
+scanf(" %c", &op); 
 
 // printf("Enter a number:");
 // scanf("%lf", &num2);
