@@ -80,7 +80,7 @@ else if(op == '/'){printf("%lf", num1 / num2);}
 else if(op == '*'){printf("%lf", num1 * num2);}
 else{printf("Invalid Operator");}
 
-
+ 
    return 0;
 }
 
