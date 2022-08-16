@@ -60,29 +60,30 @@
 // }
 
 //---------------- BUILDING A BETTER CALCULATOR -------------//
-// #include <stdio.h>
-// int main()
-// {
-// double num1;
-// double num2;
-// char op;
+#include <stdio.h>
+int main()
+{
+double num1;
+double num2;
+char op;
 
-// printf("Enter a number:");
-// scanf("%lf", &num1);
-printf("Enter operator;");
-scanf(" %c", &op); 
+printf("Enter a number:");
+scanf("%lf", &num1);
+printf("Enter a number;");
+scanf("%lf", &num2);
+ 
 
-// printf("Enter a number:");
-// scanf("%lf", &num2);
+printf("Enter a number:");
+scanf("%lf", &num2);
 
-// printf(" %c", &op);
+printf(" %c", &op);
 
-// if (op == '+'){printf("%f", num1 + num2);}
+if (op == '+'){printf("%f", num1 + num2);}
 
 
 
-//    return 0;
-// }
+   return 0;
+}
 
 
 
