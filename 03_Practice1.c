@@ -132,9 +132,9 @@
 // case 5:
 // printf("Friday");
 // break;
-default:
-printf("Type your own day of the week");
-break;
+// default:
+// printf("Type your own day of the week");
+// break;
 // }
 //    return 0;
 // }
