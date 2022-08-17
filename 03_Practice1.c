@@ -170,3 +170,37 @@
 // }
 
 //----------------------------------------------//
+#include <stdio.h>
+int main()
+{
+char grade = 'C';
+
+switch (grade)
+{ 
+case 'A':
+printf("Excellent");
+break;
+
+case 'B':
+printf("Satisfactory");
+break;
+
+case 'C':
+printf("Good");
+break;
+
+}
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
