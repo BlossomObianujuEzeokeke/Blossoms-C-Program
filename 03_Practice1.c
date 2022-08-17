@@ -173,26 +173,34 @@
 #include <stdio.h>
 int main()
 {
-char grade = 'C';
+char grade = 'B';
 
 switch (grade)
-{ 
+{
 case 'A':
 printf("Excellent");
 break;
 
 case 'B':
-printf("Satisfactory");
+printf("poor");
 break;
 
-case 'C':
-printf("Good");
-break;
+
 
 }
-return 0;
-}
 
+
+
+
+
+
+
+
+
+
+
+   return 0;
+}
 
 
 
