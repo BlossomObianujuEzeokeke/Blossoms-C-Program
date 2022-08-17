@@ -143,34 +143,29 @@
 #include <stdio.h>
 int main()
 {
-char grade = 'J';
+char grade = 'B';
 
-switch(grade)
+switch (grade)
 {
-case 'A':
-printf("You did great");
-break;
+   case 'A':
+   printf("Excellent");
+   break;
 case 'B':
-printf("You did good");
-break;
+   printf("Great");
+   break;
 case 'C':
-printf("You did okay!");
-break;
+   printf("Good");
+   break;
 case 'D':
-printf("You can do better");
-break;
-case 'E':
-printf("Sorry, you failed");
-break;
-default:
-printf("This is your new score");
-break;
+   printf("Fair");
+   break;
+case 'F':
+   printf("Failed");
+   break;
 
 }
    return 0;
 }
-
-
 
 
 
