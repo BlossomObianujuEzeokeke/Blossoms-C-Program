@@ -111,34 +111,61 @@
 // }
 
 //-------------- SWITCH STATEMENTS (building a test app) ----------------//
-#include <stdio.h>
-int main()
-{
-int day = 4;
-switch(day)
-{
-case 1:
-printf("Monday");
+// #include <stdio.h>
+// int main()
+// {
+// int day = 4;
+// switch(day)
+// {
+// case 1:
+// printf("Monday");
+// break;
+// case 2:
+// printf("Tuesday");
+// break;
+// case 3:
+// printf("Wednesday");
+// break;
+// case 4:
+// printf("Thursday");
+// break;
+// case 5:
+// printf("Friday");
+// break;
+default:
+printf("Type your own day of the week");
 break;
-case 2:
-printf("Tuesday");
-break;
-case 3:
-printf("Wednesday");
-break;
-case 4:
-printf("Thursday");
-break;
-case 5:
-printf("Friday");
-break;
-}
+// }
+//    return 0;
+// }
+
+//-----------------------------------------//
+// #include <stdio.h>
+// int main()
+// {
+// char grade = 'A';
+
+// switch (expression)
+// {
+// case 1:
+//    /* code */
+//    break;
+
+// default:
+//    break;
+// }
+
+//    return 0;
+// }
 
 
-   return 0;
-}
 
 
+
+
+
+//    return 0;
+// }
 
 
 
