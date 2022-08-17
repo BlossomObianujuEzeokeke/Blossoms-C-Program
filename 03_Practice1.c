@@ -172,5 +172,23 @@
 //----------------------------------------------//
 #include <stdio.h>
 int main()
+{
+double num = 10.25;
 
+switch (num)
+{
+case 1:
+printf("5.25");
+break;
+case 2:
+printf("10.25");
+break;
+case 3:
+printf("4.35");
+default:
+printf("This is a double")
+   break;
+}
+   return 0;
+}
 
