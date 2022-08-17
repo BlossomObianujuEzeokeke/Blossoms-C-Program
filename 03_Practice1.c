@@ -140,32 +140,34 @@
 // }
 
 //-----------------------------------------//
-#include <stdio.h>
-int main()
-{
-char grade = 'B';
+// #include <stdio.h>
+// int main()
+// {
+// char grade = 'B';
 
-switch (grade)
-{
-   case 'A':
-   printf("Excellent");
-   break;
-case 'B':
-   printf("Great");
-   break;
-case 'C':
-   printf("Good");
-   break;
-case 'D':
-   printf("Fair");
-   break;
-case 'F':
-   printf("Failed");
-   break;
-
-}
-   return 0;
-}
+// switch (grade)
+// {
+//    case 'A':
+//    printf("Excellent");
+//    break;
+// case 'B':
+//    printf("Great");
+//    break;
+// case 'C':
+//    printf("Good");
+//    break;
+// case 'D':
+//    printf("Fair");
+//    break;
+// case 'F':
+//    printf("Failed");
+//    break;
+// default:
+// printf("Revert");
+// break;
+// }
+//    return 0;
+// }
 
 
 
