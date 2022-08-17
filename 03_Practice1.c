@@ -135,38 +135,40 @@
 // default:
 // printf("Type your own day of the week");
 // break;
-// }
+// } 
 //    return 0;
 // }
 
 //-----------------------------------------//
-// #include <stdio.h>
-// int main()
-// {
-// char grade = 'A';
+#include <stdio.h>
+int main()
+{
+char grade = 'J';
 
-// switch (expression)
-// {
-// case 1:
-//    /* code */
-//    break;
+switch(grade)
+{
+case 'A':
+printf("You did great");
+break;
+case 'B':
+printf("You did good");
+break;
+case 'C':
+printf("You did okay!");
+break;
+case 'D':
+printf("You can do better");
+break;
+case 'E':
+printf("Sorry, you failed");
+break;
+default:
+printf("This is your new score");
+break;
 
-// default:
-//    break;
-// }
-
-//    return 0;
-// }
-
-
-
-
-
-
-
-//    return 0;
-// }
-
+}
+   return 0;
+}
 
 
 
