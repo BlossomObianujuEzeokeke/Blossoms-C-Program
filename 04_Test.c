@@ -1,4 +1,4 @@
-#include <stdio.h>
+// #include <stdio.h>
 // #include <cmath>
 
 // int main()
@@ -30,16 +30,16 @@
 // myFunction();
 
 // ----------- CALLING A FUNCTION --------------------------->
-void myFunction()
-{ 
-   int sum = 20;
-   printf("This is %d\n", sum );
-}
+// void myFunction()
+// { 
+//    int sum = 20;
+//    printf("This is %d\n", sum );
+// }
 
-   int main()
-   { 
-   myFunction();
-   myFunction();
+//    int main()
+//    { 
+//    myFunction();
+//    myFunction();
 
 //---------CALLING FUNCTION FOR FLOAT-------------------------->
 // void myFunction()
@@ -84,3 +84,19 @@ void myFunction()
 // }
 
 //------------------- WHILE LOOPS -------------------//
+#include <stdio.h>
+int main()
+{
+int index = 1;
+while (index <= 5)
+{
+printf("%d\n", index);
+index++;
+}
+
+   return 0;
+}
+
+
+
+   
