@@ -83,7 +83,7 @@
 //    return 0;
 // }
 
-//------------------- WHILE LOOPS -------------------//
+//------------------- WHILE LOOPS (INT) -------------------//
 #include <stdio.h>
 int main()
 {
@@ -97,6 +97,29 @@ index++;
    return 0;
 }
 
-
-
+//------------------- DOUBLE -----------------------------//
+// #include <stdio.h>
    
+// int main()
+// {
+//    double index = 5.5;
+//    while(index <= 10.5);
+// {
+// printf("%lf\n", index);
+// index++;
+// }
+
+//    return 0;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
