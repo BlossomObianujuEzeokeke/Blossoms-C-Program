@@ -88,7 +88,7 @@
 int main()
 {
 int index = 1;
-while (index <= 5)
+while (index <= 50)
 {
 printf("%d\n", index);
 index++;
