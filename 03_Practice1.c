@@ -198,43 +198,61 @@
 // }
 
 //----------------------------------------------------//
+// #include <stdio.h>
+// #include <string.h>
+
+// struct MyStudents
+// {
+// char name[50];
+// char major[50];
+// char currency[1];
+// int age;
+// float gpa;
+// };
+
+// int main()
+// { 
+// struct MyStudents student1;
+// student1.age = 30;
+// student1.gpa = 4.5;
+// strcpy( student1.major, "science");
+// strcpy( student1.name, "Blossom");
+
+// printf("Blossom your age is %i\n", student1.age);
+// printf("Blossom your major is %s\n\n", student1.major);
+
+
+// struct MyStudents student2;
+// student2.age = 25;
+// student2.gpa = 2.5;
+// strcpy( student2.major, "commercial");
+// strcpy( student2.name, "peter");
+
+// printf("Peter your age is %d\n", student2.age);
+// printf("Peter your major is %s", student2.major);
+
+//    return 0;
+// }
+
+//----------------------------------------//
 #include <stdio.h>
 #include <string.h>
 
-struct MyStudents
+struct Car
 {
-char name[50];
-char major[50];
-char currency[1];
-int age;
-float gpa;
+
+   
 };
 
+
+
+
 int main()
-{ 
-struct MyStudents student1;
-student1.age = 30;
-student1.gpa = 4.5;
-strcpy( student1.major, "science");
-strcpy( student1.name, "Blossom");
+{
 
-printf("Blossom your age is %i\n", student1.age);
-printf("Blossom your major is %s\n\n", student1.major);
-
-
-struct MyStudents student2;
-student2.age = 25;
-student2.gpa = 2.5;
-strcpy( student2.major, "commercial");
-strcpy( student2.name, "peter");
-
-printf("Peter your age is %d\n", student2.age);
-printf("Peter your major is %s", student2.major);
 
    return 0;
 }
-
-
 
 
 
