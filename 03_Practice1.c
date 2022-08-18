@@ -171,29 +171,68 @@
 
 //----------------- STRUCT ----------------------//
 #include <stdio.h>
+// #include <string.h>
+
+// struct BlossomsStudents
+// {
+// int age;
+// double gpa;
+// char name[50];
+// char major[50];
+// };
+
+// int main()
+// {
+// struct BlossomsStudents student1;
+// student1.age = 25;
+// student1.gpa = 3.9;
+// strcpy(student1.name, "Nonso");
+// strcpy(student1.major, "science");
+
+// printf("This is your gpa %lf\n", student1.gpa);
+// printf("This is your name %s\n", student1.name);
+// printf("This is your major %s\n", student1.major);
+// printf("This is your age %i", student1.age);
+
+//    return 0;
+// }
+
+//----------------------------------------------------//
+#include <stdio.h>
 #include <string.h>
 
-struct BlossomsStudents
+struct MyStudents
 {
-int age;
-double gpa;
 char name[50];
 char major[50];
+char currency[1];
+int age;
+float gpa;
 };
 
 int main()
 {
-struct BlossomsStudents student1;
-student1.age = 25;
-student1.gpa = 3.9;
-strcpy(student1.name, "Nonso");
-strcpy(student1.major, "science");
+struct MyStudents student1;
+student1.age = 30;
+student1.gpa = 4.5;
+strcpy( student1.major, "science");
+strcpy( student1.name, "Blossom");
+strcpy( student1.currency, "$");
 
-printf("This is your gpa %lf\n", student1.gpa);
-printf("This is your name %s\n", student1.name);
-printf("This is your major %s\n", student1.major);
-printf("This is your age %i", student1.age);
-
+printf("Your currency is %c", student1.currency);
    return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
