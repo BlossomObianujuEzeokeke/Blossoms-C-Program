@@ -240,17 +240,21 @@
 
 struct Car
 {
-
-   
+   char brand[50];
+   char model[50];
+   char year[50];
 };
-
-
-
 
 int main()
 {
+struct Car car1;
+strcpy( car1.brand, "Mercedez");
+strcpy( car1.model, "Benz");
+strcpy( car1.year, "2022");
 
 
+printf("Your car brand name is %s\n\n", car1.brand);
+printf("Your car model name is %s", car1.model);
    return 0;
 }
 
