@@ -170,5 +170,22 @@
 // }
 
 //----------------- STRUCT ----------------------//
+#include <stdio.h>
+struct BlossomsStudents;
+{
+int age;
+double gpa;
+char name[50];
+char major[50];
+}
 
+
+int main()
+{
+
+
+
+
+   return 0;
+}
 
