@@ -218,8 +218,8 @@ student1.gpa = 4.5;
 strcpy( student1.major, "science");
 strcpy( student1.name, "Blossom");
 
-printf("Your currency is %i", student1.age);
-printf("Your currency is %s", student1.major);
+printf("Blossom your age is %i\n", student1.age);
+printf("Blossom your major is %s\n\n", student1.major);
 
 
 struct MyStudents student2;
@@ -228,7 +228,8 @@ student2.gpa = 2.5;
 strcpy( student2.major, "commercial");
 strcpy( student2.name, "peter");
 
-printf("Your age is %d", student2.age);
+printf("Peter your age is %d\n", student2.age);
+printf("Peter your major is %s", student2.major);
 
    return 0;
 }
