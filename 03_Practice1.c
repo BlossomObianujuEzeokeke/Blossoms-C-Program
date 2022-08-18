@@ -179,13 +179,13 @@ char name[50];
 char major[50];
 }
 
-
 int main()
 {
-
-
-
-
+struct BlossomsStudents; 
+student1.age = 25;
+student1.gpa = 3.9;
+strcpy( student1.name, "Nonso");
+strcpy( student1.major, "Science");
    return 0;
 }
 
