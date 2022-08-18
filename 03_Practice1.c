@@ -173,9 +173,8 @@
 #include <stdio.h>
 struct Blossom
 {
-   /* data */
+   
 };
-struct name{}
 
 
 int main()
