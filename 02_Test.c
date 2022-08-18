@@ -302,13 +302,13 @@
 // }
 
 //------------ NEGATION -------------//
-// #include <stdio.h>
-// int main()
-// {
-//   if (!(3 < 5) ){printf("true");}
-//   else {printf("false");}
-//   return 0;
-// }
+#include <stdio.h>
+int main()
+{
+  if (!(3 < 5) ){printf("true");}
+  else {printf("false");}
+  return 0;
+}
 
 
 

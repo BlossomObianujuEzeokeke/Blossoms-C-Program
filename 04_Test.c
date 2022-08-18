@@ -84,33 +84,33 @@
 // }
 
 //------------------- WHILE LOOPS (INT) -------------------//
-#include <stdio.h>
-int main()
-{
-int index = 1;
-while (index <= 50)
-{
-printf("This is %d\n", index);
-index++;
-}
-
-   return 0;
-}
-
-//------------------- DOUBLE -----------------------------//
 // #include <stdio.h>
-   
 // int main()
 // {
-//    double index = 5.5;
-//    while(index <= 10.5);
+// int index = 1;
+// while (index <= 5)
 // {
-// printf("%lf\n", index);
+// printf("This is %d\n", index);
 // index++;
 // }
-
 //    return 0;
 // }
+
+//-------------------------------------------------------//
+// #include <stdio.h>
+// int main()
+// {
+// int index = 1;
+// while(index <= 5);
+// {
+//    printf("%d", index);
+//    index++;
+// }
+//    return 0;
+// }
+
+
+
 
 
 
