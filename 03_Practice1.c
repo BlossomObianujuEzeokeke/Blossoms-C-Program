@@ -240,15 +240,16 @@
 
 struct Car
 {
-char model;
-char year;
+char model[50];
+char year[50];
+int year;
 };
+
 
 int main()
 {
-struct Car car1;
-car1.model = Mercedez Benz;
+
+
 
    return 0;
 }
-
