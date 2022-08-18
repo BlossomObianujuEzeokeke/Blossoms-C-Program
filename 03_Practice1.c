@@ -171,21 +171,22 @@
 
 //----------------- STRUCT ----------------------//
 #include <stdio.h>
-struct BlossomsStudents;
+struct BlossomsStudents
 {
 int age;
 double gpa;
 char name[50];
 char major[50];
+
 }
 
 int main()
 {
-struct BlossomsStudents; 
+struct BlossomsStudents;
 student1.age = 25;
 student1.gpa = 3.9;
-strcpy( student1.name, "Nonso");
-strcpy( student1.major, "Science");
+student1.
+
    return 0;
 }
 
