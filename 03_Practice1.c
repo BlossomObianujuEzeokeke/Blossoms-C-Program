@@ -172,25 +172,27 @@
 //----------------- STRUCT ----------------------//
 #include <stdio.h>
 #include <string.h>
+
 struct BlossomsStudents
 {
 int age;
 double gpa;
 char name[50];
 char major[50];
-char currency;
-}
+};
 
 int main()
 {
-struct BlossomsStudents;
+struct BlossomsStudents student1;
 student1.age = 25;
 student1.gpa = 3.9;
-student1.currency = $;
 strcpy(student1.name, "Nonso");
 strcpy(student1.major, "science");
 
-printf("This is your gpa %d", student1.gpa);
+printf("This is your gpa %lf\n", student1.gpa);
+printf("This is your name %s\n", student1.name);
+printf("This is your major %s\n", student1.major);
+printf("This is your age %i", student1.age);
 
    return 0;
 }
