@@ -169,45 +169,6 @@
 //    return 0;
 // }
 
-//----------------------------------------------//
-#include <stdio.h>
-int main()
-{
-char grade = 'B';
-
-switch (grade)
-{
-case 'A':
-printf("Excellent");
-break;
-
-case 'B':
-printf("poor");
-break;
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-   return 0;
-}
-
-
-
-
-
-
-
 
 
 
