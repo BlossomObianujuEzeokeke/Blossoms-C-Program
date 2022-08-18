@@ -80,9 +80,7 @@ void myFunction()
 // printf("This is a const character value %s\n", CHARACTERS);
 // printf("This is a char %c", FAVOUR);
 
+//    return 0;
+// }
 
-
-   
-
-   return 0;
-}
+//------------------- WHILE LOOPS -------------------//
