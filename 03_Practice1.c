@@ -169,7 +169,16 @@
 //    return 0;
 // }
 
+//----------------- STRUCT ----------------------//
+#include <stdio.h>
+struct Blossom
+{
+   /* data */
+};
+struct name{}
 
+
+int main()
 
 
 
