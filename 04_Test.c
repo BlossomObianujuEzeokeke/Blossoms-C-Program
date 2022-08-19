@@ -150,12 +150,12 @@ while(guess != secretNumber)
 {
 printf("Enter a number:");
 scanf("%d", &guess);
-
 }
-printf("You win!");
+ 
+ printf("You win!");
+
    return 0;
 }
-
 
 
 
