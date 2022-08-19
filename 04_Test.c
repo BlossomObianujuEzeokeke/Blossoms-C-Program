@@ -125,7 +125,21 @@
 // }
 
 //------------------ BUILDING A GUESSING GAME ------------------//
+#include <stdio.h>
+int main()
+{
+int secretNumber = 5;
+int guess;
 
+while(guess != secretNumber)
+{
+   printf("Enter your number:");
+   scanf("%d", &guess);
+}
+
+printf("You win!");
+   return 0;
+}
 
 
 
