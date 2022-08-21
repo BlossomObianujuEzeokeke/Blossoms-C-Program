@@ -148,14 +148,13 @@
 
 int main()
 {
-   double gpa = 3.343948888994324434333339999333;
+   // double gpa = 3.343948888994324434;
 // bool favNum = true;
 
 // printf("\\ I like pizza\\\n");
 // printf("Do I like pizza? %d I do\n", favNum);
-// printf("You are %0.30f years old", gpa);
-// printf("You are %0.30lf years old", gpa);
-printf("%0.30lf", gpa);
+// printf("You are %lf years old", gpa);
+// printf("%0.15f", gpa);
    return 0;
 }
 
