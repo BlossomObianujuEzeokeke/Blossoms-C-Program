@@ -146,7 +146,7 @@
 #include <stdio.h>
 int main()
 {
-   float gpa = 3.343948888994324434333339999999333;
+   float gpa = 3.343948888994324434333339999333;
 printf("\\ I like pizza\\\n");
 printf("I like pizza?\n");
 printf("You are %0.30f years old", gpa);
