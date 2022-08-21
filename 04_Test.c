@@ -144,12 +144,17 @@
 
 //-----------------------------------------------//
 #include <stdio.h>
+#include <stdbool.h>
+
 int main()
 {
-   float gpa = 3.343948888994324434333339999333;
-printf("\\ I like pizza\\\n");
-printf("I like pizza?\n");
-printf("You are %0.30f years old", gpa);
+   // double gpa = 3.343948888994324434333339999333;
+bool favNum;
+
+// printf("\\ I like pizza\\\n");
+printf("Do I like pizza? %d I do\n", favNum);
+// printf("You are %0.30f years old", gpa);
+// printf("You are %0.30lf years old", gpa);
 
    return 0;
 }
