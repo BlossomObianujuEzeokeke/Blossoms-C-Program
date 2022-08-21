@@ -146,8 +146,9 @@
 #include <stdio.h>
 int main()
 {
-printf("\\ I like pizza\\\n\n");
-printf("I like pizza?");
+printf("\\ I like pizza\\\n");
+printf("I like pizza?\n");
+printf("You are age years old");
 
    return 0;
 }
