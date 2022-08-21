@@ -144,18 +144,18 @@
 
 //-----------------------------------------------//
 #include <stdio.h>
-#include <stdbool.h>
+// #include <stdbool.h>
 
 int main()
 {
-   // double gpa = 3.343948888994324434333339999333;
-bool favNum;
+   double gpa = 3.343948888994324434333339999333;
+// bool favNum = true;
 
 // printf("\\ I like pizza\\\n");
-printf("Do I like pizza? %d I do\n", favNum);
+// printf("Do I like pizza? %d I do\n", favNum);
 // printf("You are %0.30f years old", gpa);
 // printf("You are %0.30lf years old", gpa);
-
+printf("%0.30lf", gpa);
    return 0;
 }
 
