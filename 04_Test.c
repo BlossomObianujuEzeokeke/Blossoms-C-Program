@@ -189,15 +189,22 @@
 //    return 0;
 // }
 
-
+//------------------ INCREMENT/DECREMENT ++ ---------------------//
 #include <stdio.h>
 int main(){
 int x = 5;
 int y = 10;
-int name = y - x;
+int p = 20;
+int q = 30;
 
-printf("%d", name);
-
+y++;
+x++;
+p--;
+q--;
+printf("%d\n", x);
+printf("%d\n", y);
+printf("%d\n", p);
+printf("%d", q);
 
 return 0;
 }
