@@ -177,7 +177,14 @@ int radius;
 int area;
 int circumference;
 
+printf("Enter a radius: ");
+scanf("%i", &radius );
 
+circumference = 2 * PI * radius;
+area = PI * radius * radius;
+
+printf("Circumference: %i", circumference);
+printf("Circumference: %i", circumference);
 
 
 
