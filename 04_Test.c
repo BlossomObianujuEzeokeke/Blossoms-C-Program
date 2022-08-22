@@ -150,13 +150,13 @@ int main()
 {
    // double gpa = 3.343948888994324434;
 // bool favNum = true;
-float item1 = 250.50;
+const int FAVHOUSE = 50;
 
 // printf("\\ I like pizza\\\n");
 // printf("Do I like pizza? %d I do\n", favNum);
 // printf("You are %lf years old", gpa);
 // printf("%0.15f", gpa);
-printf("item 1:$ %.2f", item1);
+printf("%i", FAVHOUSE);
 
 
 
