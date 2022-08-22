@@ -145,18 +145,24 @@
 //-----------------------------------------------//
 #include <stdio.h>
 // #include <stdbool.h>
+#include <string.h>
 
 int main()
 {
    // double gpa = 3.343948888994324434;
-// bool favNum = true;
-const int FAVHOUSE = 50;
+// bool favNum = true; Lin
+char favNum[50];
+
 
 // printf("\\ I like pizza\\\n");
 // printf("Do I like pizza? %d I do\n", favNum);
 // printf("You are %lf years old", gpa);
 // printf("%0.15f", gpa);
-printf("%i", FAVHOUSE);
+// printf("%i", FAVHOUSE);
+printf("Enter your name: ");
+scanf("%s", &favNum);
+// fgets(favNum, 50, stdin );
+printf("Your name is %s", favNum);
 
 
 
