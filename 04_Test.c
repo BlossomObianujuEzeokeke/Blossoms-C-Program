@@ -142,7 +142,7 @@
 // }
 
 
-//-----------------------------------------------//
+//----------------- FINDING THE CIRCUMFERENCE OF A CIRCLE (DOUBLES) --------------//
 // #include <stdio.h>
 // #include <stdbool.h>
 // #include <string.h>
@@ -168,26 +168,49 @@
 
 // }
 
+//---------------- CIRCUMFERENCE OF A CIRCLE (INT) -----------//
+// #include <stdio.h>
+// int main(){
+
+// const int PI = 5;
+// int radius;
+// int area;
+// int circumference;
+
+// printf("Enter a radius: ");
+// scanf("%i", &radius );
+
+// circumference = 2 * PI * radius;
+// area = PI * radius * radius;
+
+// printf("Circumference: %i \n", circumference);
+// printf("area: %i", area);
+
+//    return 0;
+// }
+
 
 #include <stdio.h>
 int main(){
 
-const int PI = 5;
-int radius;
-int area;
-int circumference;
 
-printf("Enter a radius: ");
-scanf("%i", &radius );
 
-circumference = 2 * PI * radius;
-area = PI * radius * radius;
 
-printf("Circumference: %i \n", circumference);
-printf("area: %i", area);
-
-   return 0;
+return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
