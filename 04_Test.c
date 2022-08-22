@@ -190,30 +190,30 @@
 // }
 
 //------------------ INCREMENT/DECREMENT ++ ---------------------//
-#include <stdio.h>
-int main(){
-int x = 5;
-int y = 10;
-int p = 20;
-int q = 30;
+// #include <stdio.h>
+// int main(){
+// int x = 5;
+// int y = 10;
+// int p = 20;
+// int q = 30;
 
-y++;
-x++;
-p--;
-q--;
-printf("%d\n", x);
-printf("%d\n", y);
-printf("%d\n", p);
-printf("%d", q);
+// y++;
+// x++;
+// p--;
+// q--;
+// printf("%d\n", x);
+// printf("%d\n", y);
+// printf("%d\n", p);
+// printf("%d", q);
 
-return 0;
-}
-
-
+// return 0;
+// }
 
 
 
 
+
+//----------------
 
 
 
