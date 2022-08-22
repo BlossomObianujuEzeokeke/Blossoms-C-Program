@@ -183,13 +183,8 @@ scanf("%i", &radius );
 circumference = 2 * PI * radius;
 area = PI * radius * radius;
 
-printf("Circumference: %i", circumference);
-printf("Circumference: %i", circumference);
-
-
-
-
-
+printf("Circumference: %i \n", circumference);
+printf("area: %i", area);
 
    return 0;
 }
