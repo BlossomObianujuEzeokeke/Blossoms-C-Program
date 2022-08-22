@@ -194,7 +194,8 @@
 int main(){
 int x = 5;
 int y = 10;
-int name = y -- x;
+int name = y - x;
+
 printf("%d", name);
 
 
