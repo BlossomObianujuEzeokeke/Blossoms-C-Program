@@ -144,8 +144,8 @@
 
 //-----------------------------------------------//
 // #include <stdio.h>
-// // #include <stdbool.h>
-// // #include <string.h>
+// #include <stdbool.h>
+// #include <string.h>
 
 // int main()
 // {
@@ -157,7 +157,7 @@
 // printf("Enter your radius:\n");
 // scanf("%lf", &radius);
 
-// //formulas 
+//formulas 
 // circumference = 2 * PI * radius;
 // area = PI * radius * radius;
 
@@ -167,6 +167,33 @@
 // return 0;
 
 // }
+
+
+#include <stdio.h>
+int main(){
+
+const int PI = 5;
+int radius;
+int area;
+int circumference;
+
+
+
+
+
+
+
+
+   return 0;
+}
+
+
+
+
+
+
+
+
 
 
 
