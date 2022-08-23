@@ -238,7 +238,7 @@
 //    return 0;
 // }
 
-//-------------- SWITCH STATEMENT ---------------//
+//-------------- SWITCH STATEMENTS ---------------//
 #include <stdio.h>
 
 int main(){
