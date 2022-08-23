@@ -244,6 +244,26 @@ else{
 
 
 
+#include <stdio.h>
+int main(){
+
+double secretNumber;
+double guess;
+double numGuess;
+double lostGame;
+
+printf("")
+
+
+
+   return 0;
+}
+
+
+
+
+
+
 
 
 
