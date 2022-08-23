@@ -174,10 +174,20 @@
 
 int main() {
 
-double A = sqrt(36);
-double B = pow(2, 2);
+double A = sqrt(9);
+double B = pow(2, 4);
+int C = round(3.14);
+int D = ceil(3.14);
+double E = floor(3.15); 
+double F = log(3);
+double G = sin(45);
+double H = cos(50);
+double I = tan(30);
+double J = fabs(-100);
 
-printf("Answer: %lf\n", B);
+
+
+printf("Answer: %lf\n", J);
 
    return 0;
 }
