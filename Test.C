@@ -249,23 +249,23 @@ scanf("%c", &grade);
 
 switch (grade){
 case 'A':
-printf("perfect\n");
+printf("Perfect\n");
 break;
 
 case 'B':
-printf("good\n");
+printf("Good\n");
 break;
 
 case 'C':
-printf("fair\n");
+printf("Fair\n");
 break;
 
 case 'D':
-printf("atleast it is not an f\n");
+printf("Atleast it is not an f\n");
 break;
 
 case 'F':
-printf("You failed\n");
+printf("You failed!\n");
 break;
 
 default:
