@@ -275,33 +275,69 @@
 // }
 
 //------------------ USING ELSE IF FOR SAME QUESTION ------------//
+// #include <stdio.h>
+// int main(){
+
+// char grade;
+// printf("Enter your grade: ");
+// scanf("%c", &grade);
+
+// if(grade == 'A'){
+// printf("Perfect");
+// }
+
+// else if(grade == 'B'){
+// printf("Good");
+// }
+// else if(grade == 'C'){
+// printf("Fair");
+// }
+
+// else{
+//    printf("Please enter a valid letter grade");
+// }
+
+//    return 0;
+// }
+
+
 #include <stdio.h>
 int main(){
-
 char grade;
+
 printf("Enter your grade: ");
 scanf("%c", &grade);
 
-if(grade == 'A'){
+switch(grade){
+case 'A':
+printf("Excellent");
+break;
+
+case 'B':
 printf("Perfect");
-}
+break;
 
-else if(grade == 'B'){
-printf("Good");
-}
-else if(grade == 'C'){
+case 'C':
 printf("Fair");
-}
+break;
 
-else{
-   printf("Please enter a valid letter grade");
-}
+case 'D':
+printf("Try again");
+break;
 
+default:
+printf("Please enter a valid letter");
+
+
+
+
+
+
+
+
+}
    return 0;
 }
-
-
-
 
 
 
