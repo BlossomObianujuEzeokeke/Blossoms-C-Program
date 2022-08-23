@@ -242,10 +242,10 @@
 #include <stdio.h>
 
 int main(){
-char grade = A;
 
+char grade;
 printf("\nEnter a letter grade: ");
-scanf("%c", grade);
+scanf("%c", &grade);
 
 switch (grade){
 case 'A':
