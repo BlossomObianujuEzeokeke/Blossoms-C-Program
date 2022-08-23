@@ -214,31 +214,31 @@
 // }
 
 //------------ IF STATEMENTS ----------//
-#include <stdio.h>
-int main(){
-   int age;
+// #include <stdio.h>
+// int main(){
+//    int age;
 
-printf("Enter your age: ");
-scanf("%d", &age);
+// printf("Enter your age: ");
+// scanf("%d", &age);
 
-if(age >= 18){
-printf("You are now signed up!");
-}
-else if(age <= 18){
-printf("You are too young");
-}
+// if(age >= 18){
+// printf("You are now signed up!");
+// }
+// else if(age <= 18){
+// printf("You are too young");
+// }
 
-else if(age == 0){
-printf("You haven't been born yet");
-}
+// else if(age == 0){
+// printf("You haven't been born yet");
+// }
 
-else{
-   printf("You are not eligible!");
-}
+// else{
+//    printf("You are not eligible!");
+// }
 
 
-   return 0;
-}
+//    return 0;
+// }
 
 
 
@@ -250,7 +250,6 @@ int main(){
 double secretNumber = 5;
 double guess;
 double numGuess;
-double lostGame;
 
 printf("Enter secret number: ");
 scanf("%lf", &guess);
@@ -259,15 +258,16 @@ if(guess != 5){
 printf("Please try again", guess);
 }
 
-
-
-else if(guess == 5){
-printf("You win!", guess);
+else if(numGuess == 3){
+printf("You lose!");
 }
-else{}
 
+else if( secretNumber == 5){
+printf("You win!", secretNumber);
+}
 
-
+else{printf("Game over");
+}
 
    return 0;
 }
