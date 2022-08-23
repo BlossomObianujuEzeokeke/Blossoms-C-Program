@@ -114,7 +114,9 @@ printf("your sign is %s", &homeBound);
 // liveToday[0] = 30;
 // printf("%d", liveToday[1]);
 
-
+//-------------------------------------------------------------------------//
+#include <stdio.h>
+#include <ctype.h>
 
 
 

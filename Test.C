@@ -301,31 +301,7 @@
 // }
 
 
-#include <stdio.h>
-int main(){
 
-char grade;
-printf("Enter your grade: ");
-scanf("%c", &grade);
-
-if(grade == 'A'){
-printf("Excellent");
-}
-
-else if(grade == 'B'){
-   printf("Perfect");
-}
-
-else if(grade == 'C'){
-   printf("Good");
-}
-
-else{
-   printf("Please enter a valid grade");
-}
-
-   return 0;
-}
 
 
 
