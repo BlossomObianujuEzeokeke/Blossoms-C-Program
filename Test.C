@@ -238,21 +238,39 @@
 //    return 0;
 // }
 
+//-------------- SWITCH STATEMENT ---------------//
 #include <stdio.h>
 
 int main(){
-char name[25];
-int age;
+char grade = A;
 
-printf("Enter your name: ");
-fgets(name, 25, stdin);
+printf("\nEnter a letter grade: ");
+scanf("%c", grade);
 
-printf("Enter your age: ");
-scanf("%d", &age);
+switch (grade){
+case 'A':
+printf("perfect\n");
+break;
 
-printf("You are %d years old\n", age);
-printf("Hello your name is %s", name);
+case 'B':
+printf("good\n");
+break;
 
+case 'C':
+printf("fair\n");
+break;
+
+case 'D':
+printf("atleast it is not an f\n");
+break;
+
+case 'F':
+printf("You failed\n");
+break;
+
+default:
+printf("Please enter a valid letter grade");
+}
    return 0;
 }
 
