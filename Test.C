@@ -247,41 +247,28 @@
 #include <stdio.h>
 int main(){
 
-double secretNumber = 5;
-double guess;
-double numGuess;
+int age = 18;
 
-printf("Enter secret number: ");
-scanf("%lf", &guess);
+printf("Enter your age: ");
+scanf("%d", &age);
 
-if(guess != 5){
-printf("Please try again", guess);
+if(age >= 18){
+   printf("You are signed up!");
 }
 
-else if(numGuess == 3){
-printf("You lose!");
+else if(age <= 18){
+   printf("You are not eligible for a credit card");
 }
 
-else if( secretNumber == 5){
-printf("You win!", secretNumber);
+else if(age == 0){
+   printf("You have not been born");
 }
 
-else{printf("Game over");
+else{
+   printf("Please exit.");
 }
 
-   return 0;
+return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
