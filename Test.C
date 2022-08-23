@@ -303,42 +303,29 @@
 
 #include <stdio.h>
 int main(){
-char grade;
 
+char grade;
 printf("Enter your grade: ");
 scanf("%c", &grade);
 
-switch(grade){
-case 'A':
+if(grade == 'A'){
 printf("Excellent");
-break;
-
-case 'B':
-printf("Perfect");
-break;
-
-case 'C':
-printf("Fair");
-break;
-
-case 'D':
-printf("Try again");
-break;
-
-default:
-printf("Please enter a valid letter");
-
-
-
-
-
-
-
-
 }
+
+else if(grade == 'B'){
+   printf("Perfect");
+}
+
+else if(grade == 'C'){
+   printf("Good");
+}
+
+else{
+   printf("Please enter a valid grade");
+}
+
    return 0;
 }
-
 
 
 
