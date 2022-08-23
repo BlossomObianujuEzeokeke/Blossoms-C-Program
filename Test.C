@@ -274,6 +274,7 @@
 //    return 0;
 // }
 
+//------------------ USING ELSE IF FOR SAME QUESTION ------------//
 #include <stdio.h>
 int main(){
 
@@ -281,22 +282,21 @@ char grade;
 printf("Enter your grade: ");
 scanf("%c", &grade);
 
-switch(grade){
-case 'A':
+if(grade == 'A'){
 printf("Perfect");
-break;
-
-case 'B':
-printf("Good");
-break;
-
-case 'C':
-printf("fair");
-break;
-
-default:
-printf("Please enter a valid letter");
 }
+
+else if(grade == 'B'){
+printf("Good");
+}
+else if(grade == 'C'){
+printf("Fair");
+}
+
+else{
+   printf("Please enter a valid letter grade");
+}
+
    return 0;
 }
 
