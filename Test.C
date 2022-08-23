@@ -235,40 +235,47 @@
 // else{
 //    printf("You are not eligible!");
 // }
-
-
 //    return 0;
 // }
 
-
-
-
-
 #include <stdio.h>
-int main(){
 
-int age = 18;
+int main(){
+char name[25];
+int age;
+
+printf("Enter your name: ");
+fgets(name, 25, stdin);
 
 printf("Enter your age: ");
 scanf("%d", &age);
 
-if(age >= 18){
-   printf("You are signed up!");
+printf("You are %d years old\n", age);
+printf("Hello your name is %s", name);
+
+   return 0;
 }
 
-else if(age <= 18){
-   printf("You are not eligible for a credit card");
-}
 
-else if(age <= 0){
-   printf("You have not been born");
-}
 
-else{
-   printf("Please exit.");
-}
 
-return 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
