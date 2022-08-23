@@ -224,8 +224,16 @@ scanf("%d", &age);
 if(age >= 18){
 printf("You are now signed up!");
 }
+else if(age <= 10){
+printf("You are too young");
+}
+
+else if(age <= 0){
+printf("You were just born");
+}
+
 else{
-   printf("You are too young!");
+   printf("You are not eligible!");
 }
 
 
