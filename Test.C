@@ -1,9 +1,9 @@
- #include <stdio.h>
-#include <cmath>
+//  #include <stdio.h>
+// #include <cmath>
 
-int main()
+// int main()
 
-{
+// {
 
 // INTEGERS, FLOATS, DOUBLES, CHAR
 // ----------------ADDING A VARIABLE----------------------------------------->
@@ -168,27 +168,29 @@ int main()
 // scanf("%lf", &gpa);
 // printf("Your gpa is %lf", gpa);
 
+//--------------------
+#include <stdio.h>
+#include <cmath>
 
+int main() {
 
+double A;
+double B = sqrt(36);
 
+printf("Answer: %lf", sqrt(36));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-return 0;
+   return 0;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

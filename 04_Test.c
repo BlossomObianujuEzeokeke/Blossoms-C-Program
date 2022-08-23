@@ -209,12 +209,24 @@
 // return 0;
 // }
 
-
-
-
-
 //----------------
+#include<stdio.h>
 
+int main(){
+   char name[20];
+   char home[20];
+
+   printf("Your name is:");
+   fgets(name, 20, stdin);
+
+   printf("Your address is:");
+   fgets(home, 20, stdin);
+
+printf(" Your name is %s", name);
+printf(" Your home  is %s", home);
+
+   return 0;
+}
 
 
 
