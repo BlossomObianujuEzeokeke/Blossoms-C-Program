@@ -247,12 +247,25 @@ else{
 #include <stdio.h>
 int main(){
 
-double secretNumber;
+double secretNumber = 5;
 double guess;
 double numGuess;
 double lostGame;
 
-printf("")
+printf("Enter secret number: ");
+scanf("%lf", &guess);
+
+if(guess != 5){
+printf("Please try again", guess);
+}
+
+
+
+else if(guess == 5){
+printf("You win!", guess);
+}
+else{}
+
 
 
 
