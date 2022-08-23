@@ -239,42 +239,66 @@
 // }
 
 //-------------- SWITCH STATEMENTS ---------------//
-#include <stdio.h>
+// #include <stdio.h>
 
+// int main(){
+
+// char grade;
+// printf("\nEnter a letter grade: ");
+// scanf("%c", &grade);
+
+// switch (grade){
+// case 'A':
+// printf("Perfect\n");
+// break;
+
+// case 'B':
+// printf("Good\n");
+// break;
+
+// case 'C':
+// printf("Fair\n");
+// break;
+
+// case 'D':
+// printf("Atleast it is not an f\n");
+// break;
+
+// case 'F':
+// printf("You failed!\n");
+// break;
+
+// default:
+// printf("Please enter a valid letter grade");
+// }
+//    return 0;
+// }
+
+#include <stdio.h>
 int main(){
 
 char grade;
-printf("\nEnter a letter grade: ");
+printf("Enter your grade: ");
 scanf("%c", &grade);
 
-switch (grade){
+switch(grade){
 case 'A':
-printf("Perfect\n");
+printf("Perfect");
 break;
 
 case 'B':
-printf("Good\n");
+printf("Good");
 break;
 
 case 'C':
-printf("Fair\n");
-break;
-
-case 'D':
-printf("Atleast it is not an f\n");
-break;
-
-case 'F':
-printf("You failed!\n");
+printf("fair");
 break;
 
 default:
-printf("Please enter a valid letter grade");
+printf("Please enter a valid letter");
 }
    return 0;
 }
-
-
 
 
 
