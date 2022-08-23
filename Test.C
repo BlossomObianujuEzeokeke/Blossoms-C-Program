@@ -221,8 +221,12 @@ int main(){
 printf("Enter your age: ");
 scanf("%d", &age);
 
-
-
+if(age >= 18){
+printf("You are now signed up!");
+}
+else{
+   printf("You are too young!");
+}
 
 
    return 0;
