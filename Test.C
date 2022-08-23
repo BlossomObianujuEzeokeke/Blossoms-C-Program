@@ -260,7 +260,7 @@ else if(age <= 18){
    printf("You are not eligible for a credit card");
 }
 
-else if(age == 0){
+else if(age <= 0){
    printf("You have not been born");
 }
 
