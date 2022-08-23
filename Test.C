@@ -168,16 +168,16 @@
 // scanf("%lf", &gpa);
 // printf("Your gpa is %lf", gpa);
 
-//--------------------
+//--------------- MATH FUNCTIONS(TWO METHODS) ---------------//
 #include <stdio.h>
 #include <cmath>
 
 int main() {
 
-double A;
-double B = sqrt(36);
+double A = sqrt(36);
+double B = pow(2, 2);
 
-printf("Answer: %lf", sqrt(36));
+printf("Answer: %lf\n", B);
 
    return 0;
 }
