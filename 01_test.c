@@ -114,29 +114,44 @@
 // liveToday[0] = 30;
 // printf("%d", liveToday[1]);
 
-//-------------------------------------------------------------------------//
-#include <stdio.h>
+//------------------ FAHRENHEIT TO CELSIUS-------------------------//
+// #include <stdio.h>
+// #include <ctype.h>
+
+// int main(){
+//  char unit;
+//  float temp;
+//  printf("\nIs the temperature in (f) or (c)?: ");
+//  scanf("%c", &unit);
+
+//  unit = toupper(unit);
+
+//  if(unit == 'C'){
+// printf("The temp is currently c");
+//  }
+
+// else if(unit == 'F'){
+// printf("The temp is currently f");
+// }
+
+// else{
+//    printf("%c is not a valid unit of measurement", unit);
+// }
+//    return 0;
+// }
+
+#include <stdio>
 #include <ctype.h>
 
 int main(){
- char unit;
- float temp;
- printf("\nIs the temperature in (f) or (c)?: ");
- scanf("%c", &unit);
 
- unit = toupper(unit);
 
- if(unit == 'C'){
-printf("The temp is currently c");
- }
 
-else if(unit == 'F'){
-printf("The temp is currently f");
-}
 
-else{
-   printf("%c is not a valid unit of measurement", unit);
-}
+
+
+
+
    return 0;
 }
 
@@ -146,7 +161,17 @@ else{
 
 
 
-   
+
+
+
+
+
+
+
+
+
+
+
 
 
   
