@@ -1,9 +1,9 @@
-#include <stdio.h>
-#include <math.h>
+// #include <stdio.h>
+// #include <math.h>
 
-int main()
+// int main()
 
-{ 
+// { 
 // THIS IS INT SECTION //
    // int a = 3;
    // float b = 2.12;
@@ -95,10 +95,10 @@ int main()
 // char musicType[30] = "Johnson, Peter, Simi";
 // printf("%s", musicType);
 
-char homeBound = '$';
-printf("Enter sign"); 
-scanf("%s", &homeBound); 
-printf("your sign is %s", &homeBound);
+// char homeBound = '$';
+// printf("Enter sign"); 
+// scanf("%s", &homeBound); 
+// printf("your sign is %s", &homeBound);
  
 
 //----------- CHANGING AN ARRAY ELEMENT ---------//
@@ -118,6 +118,25 @@ printf("your sign is %s", &homeBound);
 #include <stdio.h>
 #include <ctype.h>
 
+int main(){
+ char unit;
+ float temp;
+
+ printf("\nIs the temperature in (f) or (c)?: ");
+ scanf("%c", &unit);
+
+ unit = toupper(unit);
+
+ if(unit == 'c'){
+printf("The temp is currently (c)", unit);
+ }
+else if(unit == 'f'){
+printf("The temp is currently (f)", unit);
+}
+
+   return 0;
+}
+
 
 
 
@@ -128,6 +147,4 @@ printf("your sign is %s", &homeBound);
 
 
   
-   return 0;
 
-}
