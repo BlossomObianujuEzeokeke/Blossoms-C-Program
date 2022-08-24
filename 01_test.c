@@ -10,7 +10,6 @@
    // char c = '$';
    // double d = 325.057685;
 
-
 // THIS IS THE LIBRARY\PRINT SECTION  //
    // printf("Hello Harry\n");
    // printf("This is an integer %d\n", a);
@@ -63,7 +62,6 @@
 // scanf("%s %s %s", &Monday, &Tuesday, &Wednesday);
 // printf("Your days of the week are: \n %s\n %s\n %s\n ", Monday, Tuesday, Wednesday);
 
-
 //-------------------------------------------------------------//
 // char color[20];
 // char pluralNoun[20];
@@ -100,7 +98,6 @@
 // scanf("%s", &homeBound); 
 // printf("your sign is %s", &homeBound);
  
-
 //----------- CHANGING AN ARRAY ELEMENT ---------//
 // int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
 // luckyNumbers[0] = 15;
@@ -140,39 +137,39 @@
 //    return 0;
 // }
 
+//--------------------------------------------------------------//
+// #include <stdio.h>
+// #include <ctype.h>
 
-#include <stdio.h>
-#include <ctype.h>
+// int main(){
+// char unit;
+// float temp;
 
-int main(){
-char unit;
-float temp;
+// printf("\nIs the temperature in (F) or (c)? ");
+// scanf("%c", &unit);
 
-printf("\nIs the temperature in (F) or (c)? ");
-scanf("%c", &unit);
+// unit = toupper(unit);
 
-unit = toupper(unit);
+// if(unit == 'C'){
+// printf("\nEnter the temp in Celsius: ");
+// scanf("%f", &temp);
+// temp = (temp * 9 / 5) + 32;
+// printf("\nThe temp in Fahrenheit is %.1f", temp);
+// }
 
-if(unit == 'C'){
-printf("\nEnter the temp in Celsius: ");
-scanf("%f", &temp);
-temp = (temp * 9 / 5) + 32;
-printf("\nThe temp in Fahrenheit is %.1f", temp);
-}
+// else if(unit == 'F'){
+// printf("\nEnter the temp in Fahrenheit: ");
+// scanf("%f", &temp);
+// temp = ((temp - 32) * 5) / 9;
+// printf("\nThe temp in Fahrenheit is: %.1f", temp);
+// }
 
-else if(unit == 'F'){
-printf("\nEnter the temp in Fahrenheit: ");
-scanf("%f", &temp);
-temp = ((temp - 32) * 5) / 9;
-printf("\nThe temp in Fahrenheit is: %.1f", temp);
-}
+// else{
+//    printf("%c is not a valid unit of measurement", unit);
+// }
 
-else{
-   printf("%c is not a valid unit of measurement", unit);
-}
-
-   return 0;
-}
+//    return 0;
+// }
 
 
 
