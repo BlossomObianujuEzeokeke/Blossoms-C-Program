@@ -121,19 +121,22 @@
 int main(){
  char unit;
  float temp;
-
  printf("\nIs the temperature in (f) or (c)?: ");
  scanf("%c", &unit);
 
  unit = toupper(unit);
 
- if(unit == 'c'){
-printf("The temp is currently (c)", unit);
+ if(unit == 'C'){
+printf("The temp is currently c");
  }
-else if(unit == 'f'){
-printf("The temp is currently (f)", unit);
+
+else if(unit == 'F'){
+printf("The temp is currently f");
 }
 
+else{
+   printf("%c is not a valid unit of measurement", unit);
+}
    return 0;
 }
 
