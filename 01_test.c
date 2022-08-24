@@ -154,7 +154,7 @@ scanf("%c", &unit);
 unit = toupper(unit);
 
 if(unit == 'C'){
-printf("The temp is currently C");
+printf("Enter the temp in Celsius");
 }
 
 else if(unit == 'F'){
