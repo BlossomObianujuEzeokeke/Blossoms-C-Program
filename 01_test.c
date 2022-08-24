@@ -140,34 +140,33 @@
 //    return 0;
 // }
 
+
 #include <stdio.h>
 #include <ctype.h>
 
 int main(){
 char unit;
-int temp;
+float temp;
 
-printf("Enter a (F) or (C): ");
+printf("\nIs the temperature in (F) or (c)? ");
 scanf("%c", &unit);
 
 unit = toupper(unit);
 
 if(unit == 'C'){
-printf("This temp is 'C");
+printf("The temp is currently C");
 }
 
 else if(unit == 'F'){
-printf("This temp is 'F");
+printf("The temp is currently F");
 }
 
 else{
-   printf("Please enter the correct temp %c", unit);
+   printf("%c is not a valid unit of measurement", unit);
 }
-
 
    return 0;
 }
-
 
 
 
