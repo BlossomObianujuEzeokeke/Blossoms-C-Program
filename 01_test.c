@@ -154,7 +154,10 @@ scanf("%c", &unit);
 unit = toupper(unit);
 
 if(unit == 'C'){
-printf("Enter the temp in Celsius");
+printf("\nEnter the temp in Celsius: ");
+scanf("%f", &temp);
+temp = (temp * 9 / 5) + 32;
+printf("\nThe temp in Fahrenheit is %.1f", temp);
 }
 
 else if(unit == 'F'){
