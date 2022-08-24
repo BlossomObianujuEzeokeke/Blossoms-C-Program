@@ -161,7 +161,10 @@ printf("\nThe temp in Fahrenheit is %.1f", temp);
 }
 
 else if(unit == 'F'){
-printf("The temp is currently F");
+printf("\nEnter the temp in Fahrenheit: ");
+scanf("%f", &temp);
+temp = ((temp - 32) * 5) / 9;
+printf("\nThe temp in Fahrenheit is: %.1f", temp);
 }
 
 else{
