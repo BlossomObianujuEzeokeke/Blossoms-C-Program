@@ -140,16 +140,29 @@
 //    return 0;
 // }
 
-#include <stdio>
+#include <stdio.h>
 #include <ctype.h>
 
 int main(){
+char unit;
+int temp;
 
+printf("Enter a (F) or (C): ");
+scanf("%c", &unit);
 
+unit = toupper(unit);
 
+if(unit == 'C'){
+printf("This temp is 'C");
+}
 
+else if(unit == 'F'){
+printf("This temp is 'F");
+}
 
-
+else{
+   printf("Please enter the correct temp %c", unit);
+}
 
 
    return 0;
