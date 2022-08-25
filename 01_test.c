@@ -195,7 +195,7 @@ break;
 case 'F':
 printf("\nEnter the temp in Fahrenheit: ");
 scanf("%f", &temp);
-temp = (temp * 9 / 5) + 32;
+temp = ((temp - 32) * 5) / 9;
 printf("\nThe temp in Celsius is %.1f", temp);
 break;
 
