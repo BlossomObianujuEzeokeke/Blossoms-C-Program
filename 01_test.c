@@ -171,7 +171,7 @@
 //    return 0;
 // }
 
-//-------------------------------------------
+//----------------- USING SWITCH TO TURN F TO C ---------------//
 #include <stdio.h>
 #include <ctype.h>
 
@@ -206,32 +206,39 @@ default:
 return 0;
 }
 
+//----------------- USING IF STATEMENTS TO TURN F TO C ---------------//
+#include <stdio.h>
+#include <ctype.h>
 
+ int main(){
+char unit;
+float temp;
 
+printf("\nIs the temperature in (F) or (c)? ");
+scanf("%c", &unit);  
 
+unit = toupper(unit);
 
-// unit = toupper(unit);
+if(unit == 'C'){
+printf("\nEnter the temp in Celsius: ");
+scanf("%f", &temp);
+temp = (temp * 9 / 5) + 32;
+printf("\nThe temp in Fahrenheit is %.1f", temp);
+}
 
-// if(unit == 'C'){
-// printf("\nEnter the temp in Celsius: ");
-// scanf("%f", &temp);
-// temp = (temp * 9 / 5) + 32;
-// printf("\nThe temp in Fahrenheit is %.1f", temp);
-// }
+else if(unit == 'F'){
+printf("\nEnter the temp in Fahrenheit: ");
+scanf("%f", &temp);
+temp = ((temp - 32) * 5) / 9;
+printf("\nThe temp in Fahrenheit is: %.1f", temp);
+}
 
-// else if(unit == 'F'){
-// printf("\nEnter the temp in Fahrenheit: ");
-// scanf("%f", &temp);
-// temp = ((temp - 32) * 5) / 9;
-// printf("\nThe temp in Fahrenheit is: %.1f", temp);
-// }
+else{
+   printf("%c is not a valid unit of measurement", unit);
+}
 
-// else{
-//    printf("%c is not a valid unit of measurement", unit);
-// }
-
-//    return 0;
-// }
+   return 0;
+}
 
 
 
