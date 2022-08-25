@@ -153,100 +153,39 @@
 // if(unit == 'C'){
 // printf("\nEnter the temp in Celsius: ");
 // scanf("%f", &temp);
-// temp = (temp * 9 / 5) + 32;
-// printf("\nThe temp in Fahrenheit is %.1f", temp);
-// }
-
-// else if(unit == 'F'){
-// printf("\nEnter the temp in Fahrenheit: ");
-// scanf("%f", &temp);
-// temp = ((temp - 32) * 5) / 9;
-// printf("\nThe temp in Fahrenheit is: %.1f", temp);
-// }
-
-// else{
-//    printf("%c is not a valid unit of measurement", unit);
-// }
-
-//    return 0;
-// }
-
-//----------------- USING SWITCH TO TURN F TO C ---------------//
-#include <stdio.h>
-#include <ctype.h>
-
-int main(){
-char unit;
-float temp;
-
-printf("\nIs the temperature in (F) or (c)? ");
-scanf("%c", &unit);
-
-unit = toupper(unit);
-
-switch(unit){
-case 'C':
-printf("\nEnter the temp in Celsius: ");
-scanf("%f", &temp);
-temp = (temp * 9 / 5) + 32;
-printf("\nThe temp in Fahrenheit is %.1f", temp);
-break;
-
-case 'F':
-printf("\nEnter the temp in Fahrenheit: ");
-scanf("%f", &temp);
-temp = ((temp - 32) * 5) / 9;
-printf("\nThe temp in Celsius is %.1f", temp);
-break;
-
-default:
-   printf("%c is not a valid unit of measurement", unit);
+// temp = (temp * 9 / 5) )
 
 }
-return 0;
-}
-
-//----------------- USING IF STATEMENTS TO TURN F TO C ---------------//
-#include <stdio.h>
-#include <ctype.h>
-
- int main(){
-char unit;
-float temp;
-
-printf("\nIs the temperature in (F) or (c)? ");
-scanf("%c", &unit);  
-
-unit = toupper(unit);
-
-if(unit == 'C'){
-printf("\nEnter the temp in Celsius: ");
-scanf("%f", &temp);
-temp = (temp * 9 / 5) + 32;
-printf("\nThe temp in Fahrenheit is %.1f", temp);
-}
-
-else if(unit == 'F'){
-printf("\nEnter the temp in Fahrenheit: ");
-scanf("%f", &temp);
-temp = ((temp - 32) * 5) / 9;
-printf("\nThe temp in Fahrenheit is: %.1f", temp);
-}
-
-else{
-   printf("%c is not a valid unit of measurement", unit);
-}
-
    return 0;
 }
 
+//----------------- CREATING A CALCULATOR -----------------//
+#include <stdio.h>
+
+int main(){
+
+char operator;
+double num1
+double num2
+double result;
+
+printf("\nEnter an operator (+ * / -): ");
+scanf("%c", &operator);
+ 
+ printf("\nEnter 1st number: ");
+ scanf("%.2lf", &num1);
+
+ printf("Enter 2nd number: ");
+ scanf("%.2lf", &num2);
+
+ switch(){}
 
 
 
 
 
-
-
+   return 0;
+}
 
 
 
