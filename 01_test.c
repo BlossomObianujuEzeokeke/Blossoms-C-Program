@@ -192,16 +192,21 @@ temp = (temp * 9 / 5) + 32;
 printf("\nThe temp in Fahrenheit is %.1f", temp);
 break;
 
-
 case 'F':
 printf("\nEnter the temp in Fahrenheit: ");
 scanf("%f", &temp);
 temp = (temp * 9 / 5) + 32;
-printf("\nThe temp in Fahrenheit is %.1f", temp);
+printf("\nThe temp in Celsius is %.1f", temp);
 break;
 
+default:
+   printf("%c is not a valid unit of measurement", unit);
+
+}
 return 0;
 }
+
+
 
 
 
