@@ -155,9 +155,9 @@
 // scanf("%f", &temp);
 // temp = (temp * 9 / 5) )
 
-}
-   return 0;
-}
+// }
+   // return 0;
+// }
 
 //----------------- CREATING A CALCULATOR -----------------//
 #include <stdio.h>
@@ -165,25 +165,43 @@
 int main(){
 
 char operator;
-double num1
-double num2
+double num1;
+double num2;
 double result;
 
 printf("\nEnter an operator (+ * / -): ");
 scanf("%c", &operator);
  
- printf("\nEnter 1st number: ");
+ printf("Enter 1st number: ");
  scanf("%.2lf", &num1);
 
  printf("Enter 2nd number: ");
  scanf("%.2lf", &num2);
 
- switch(){}
+ switch(operator){
+case '+':
+result = num1 + num2;
+printf("\nresult: %.2lf", result );
+break;
 
+case '-':
+   result = num1 - num2;
+printf("result: %.2lf", result );
+break;
 
+case '*':
+   result = num1 * num2;
+printf("result: %.2lf", result );
+break;
 
+case '/':
+   result = num1 / num2;
+printf("result: %.2lf", result );
+break;
 
-
+default:
+printf("%c is not a valid operator", operator);
+ }
    return 0;
 }
 
