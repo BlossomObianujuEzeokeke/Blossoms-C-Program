@@ -160,8 +160,6 @@
 // }
 
 //----------------- CREATING A CALCULATOR -----------------//
-//
-//---------------- LOGICAL OPERATORS -------------------//
 #include <stdio.h>
 // #include <stdbool.h>
 
