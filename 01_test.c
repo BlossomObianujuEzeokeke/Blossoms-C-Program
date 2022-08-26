@@ -160,51 +160,7 @@
 // }
 
 //----------------- CREATING A CALCULATOR -----------------//
-// #include <stdio.h>
-
-// int main(){
-
-// char operator;
-// double num1;
-// double num2;
-// double result;
-
-// printf("\nEnter an operator (+ * / -): ");
-// scanf("%c", &operator);
- 
-//  printf("Enter 1st number: ");
-//  scanf("%.2lf", &num1);
-
-//  printf("Enter 2nd number: ");
-//  scanf("%.2lf", &num2);
-
-//  switch(operator){
-// case '+':
-// result = num1 + num2;
-// printf("\nresult: %.2lf", result );
-// break;
-
-// case '-':
-//    result = num1 - num2;
-// printf("result: %.2lf", result );
-// break;
-
-// case '*':
-//    result = num1 * num2;
-// printf("result: %.2lf", result );
-// break;
-
-// case '/':
-//    result = num1 / num2;
-// printf("result: %.2lf", result );
-// break;
-
-// default:
-// printf("%c is not a valid operator", operator);
-//  }
-//    return 0;
-// }
-
+//
 //---------------- LOGICAL OPERATORS -------------------//
 #include <stdio.h>
 // #include <stdbool.h>
@@ -215,29 +171,30 @@ double num1;
 double num2;
 double result;
 
-printf("\nEnter an operator: ");
-scanf("%c", operator);
+printf("\nEnter an operator(+ - * /): ");
+scanf("%c", &operator);
 
 printf("\nEnter 1st number: ");
-scanf("%lf", num1);
+scanf("%lf", &num1);
 
-printf("\nEnter 2nd number: ");
-scanf("%lf", num2);
+printf("Enter 2nd number: ");
+scanf("%lf", &num2);
+
 
 switch(operator){
 case '+':
 result = num1 + num2;
-printf("result: %lf", result);
+printf("\nresult: %.2lf", result);
 break;
 
 case '-':
 result = num1 - num2;
-printf("result: %lf", result);
+printf("result: %.2lf", result);
 break;
 
 case '*':
 result = num1 * num2;
-printf("result: %lf", result);
+printf("result: %.2lf", result);
 break;
 
 default:
