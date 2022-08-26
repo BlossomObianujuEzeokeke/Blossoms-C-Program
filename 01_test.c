@@ -207,14 +207,36 @@
 
 //---------------- LOGICAL OPERATORS -------------------//
 #include <stdio.h>
-#include <stdbool.h>
+// #include <stdbool.h>
 
 int main(){
+char operator;
+double num1;
+double num2;
+double result;
 
+printf("\nEnter an operator: ");
+scanf("%c", operator);
 
+switch(operator){
+case '+':
+result = num1 + num2;
+printf("result: %lf", result);
+break;
 
+case '-':
+result = num1 - num2;
+printf("result: %lf", result);
+break;
 
+case '*':
+result = num1 * num2;
+printf("result: %lf", result);
+break;
 
+default;
+printf("%c is not a valid operator.");
+}
    return 0;
 }
 
