@@ -218,6 +218,12 @@ double result;
 printf("\nEnter an operator: ");
 scanf("%c", operator);
 
+printf("\nEnter 1st number: ");
+scanf("%lf", num1);
+
+printf("\nEnter 2nd number: ");
+scanf("%lf", num2);
+
 switch(operator){
 case '+':
 result = num1 + num2;
@@ -234,7 +240,7 @@ result = num1 * num2;
 printf("result: %lf", result);
 break;
 
-default;
+default:
 printf("%c is not a valid operator.");
 }
    return 0;
