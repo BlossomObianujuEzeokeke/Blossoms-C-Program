@@ -202,23 +202,52 @@
 // }
 
 //------------------ LOGICAL OPERATORS -----------------//
+// #include <stdio.h>
+
+// int main(){
+// float temp;
+ 
+// if(temp >= 0){
+// printf("\nThe weather is good");
+// }
+
+// else{
+//    printf("\nThe weather is bad");
+// }
+
+
+//    return 0;
+// }
+
+//---------- LOGICAL OPERATOR && WITH BOOLEANS ----------//
 #include <stdio.h>
 #include <stdbool.h>
 
 int main(){
-float temp;
- 
-if(temp >= 0){
-printf("\nThe weather is good");
+
+   float temp = 25;
+   bool sunny = false;
+
+if(temp >= 0 && temp <= 30 && sunny){
+printf("The weather is great!");
 }
 
 else{
-   printf("\nThe weather is bad");
+   printf("The weather is bad!");
 }
-
 
    return 0;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
