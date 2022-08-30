@@ -161,7 +161,7 @@
 
 //----------------- CREATING A CALCULATOR -----------------//
 // #include <stdio.h>
-// // #include <stdbool.h>
+// #include <stdbool.h>
 
 // int main(){
 // char operator;
@@ -220,28 +220,42 @@
 // }
 
 //---------- LOGICAL OPERATOR && WITH BOOLEANS ----------//
+// #include <stdio.h>
+// #include <stdbool.h>
+
+// int main(){
+
+//    float temp = 25;
+//    // bool sunny = false;
+//    bool sunny = true;
+
+// if(temp >= 0 && temp <= 30 && sunny){
+// printf("The weather is great!");
+// }
+
+// else{
+//    printf("The weather is bad!");
+// }
+
+//    return 0;
+// }
+
+//---------- LOGICAL OPERATOR || WITH BOOLEANS ----------//
 #include <stdio.h>
 #include <stdbool.h>
 
 int main(){
-
-   float temp = 25;
-   // bool sunny = false;
-   bool sunny = true;
-
-if(temp >= 0 && temp <= 30 && sunny){
+float temp = 25.5;
+ 
+ if(temp <= 25.5 && temp >= 30.5 ){
 printf("The weather is great!");
-}
+ }
 
 else{
    printf("The weather is bad!");
 }
-
    return 0;
 }
-
-//---------- LOGICAL OPERATOR || WITH BOOLEANS ----------//
-
 
 
 
