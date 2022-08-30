@@ -246,8 +246,9 @@
 
 int main(){
 float temp = 25.5;
+int sunny = true;
  
- if(temp <= 25.5 && temp >= 30.5 ){
+ if(temp = 25.5 && temp > 0 && sunny){
 printf("The weather is great!");
  }
 
