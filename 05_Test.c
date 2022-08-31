@@ -44,10 +44,9 @@ char name2[] = "Ezeokeke";
 // printf("\n%s", strcat(name1, name2) );
 // printf("\n%s", strncat(name2, name1, 4) );
 // printf("\n%s", strcpy(name2, name1) );
-// printf("\n%s", strset(name2, name1, 2) );
-// printf("\n%s", strnset(name2, name1, 2) );
-// printf("\n%s", strncpy(name2, name1, 2) );
-printf("\n%s", strrev(name1) );
+// printf("\n%s", strset(name2, '?') );
+// printf("\n%s", strnset(name2, '$', 4) );
+// printf("\n%s", strrev(name1) );
 
    return 0;
 
