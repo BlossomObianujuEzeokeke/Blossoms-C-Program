@@ -39,11 +39,11 @@ int main(){
 char name1[] = "Blossom";
 char name2[] = "Ezeokeke";
 
-printf("\n%s", strlwr(name1) );
-printf("\n%s", strupr(name2) );
+// printf("\n%s", strlwr(name1) );
+// printf("\n%s", strupr(name2) );
 
-printf("\n%s", strlwr(name1) );
-printf("\n%s", strupr(name2) );
+printf("\n%s \t", strcat(name1, name2) );
+printf("\n%s", strncat(name2, name1, 2) );
 
    return 0;
 }
