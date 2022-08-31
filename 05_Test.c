@@ -31,8 +31,22 @@
 //    myHome("Blossom", 32, 3.8);
 // }
 
+//------------- UPPERCASE AND LOWERCASE WITH STRINGS --------------//
+#include <stdio.h>
+#include <string.h>
 
+int main(){
+char name1[] = "Blossom";
+char name2[] = "Ezeokeke";
 
+printf("\n%s", strlwr(name1) );
+printf("\n%s", strupr(name2) );
+
+printf("\n%s", strlwr(name1) );
+printf("\n%s", strupr(name2) );
+
+   return 0;
+}
 
 
 
