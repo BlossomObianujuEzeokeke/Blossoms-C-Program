@@ -15,6 +15,7 @@
 //    return 0;
 // }
 
+//-------------- CALLING A FUNCTION IN MAIN EXAMPLE 2 ----------//
 #include <stdio.h>
 
 void myHome(char name[], int age, double gpa)
