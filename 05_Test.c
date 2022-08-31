@@ -17,13 +17,15 @@
 
 #include <stdio.h>
 
-void myHome(char Blossom[],int age, double gpa)
+void myHome(char name[], int age, double gpa)
 {
-   printf("\n%s lives in London, she is %d years old and, her gpa is %lf", Blossom, age, gpa);
+   printf("\n%s lives in London, she is %d years old and, her gpa is %.2lf", name, age, gpa);
+   printf("\n%s lives in London, she is %d years old and, her gpa is %.2lf", name, age, gpa);
+   printf("\n%s lives in London, she is %d years old and, her gpa is %.2lf", name, age, gpa);
 }
 
 int main(){
-   myHome("Blossom");
-   myHome("Blossom");
-   myHome("Blossom");
+   myHome("Blossom", 32, 3.8);
+   myHome("Blossom", 32, 3.8);
+   myHome("Blossom", 32, 3.8);
 }
