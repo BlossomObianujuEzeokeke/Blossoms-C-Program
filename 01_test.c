@@ -246,7 +246,7 @@
 
 // int main(){
 // float temp = 25.5;
-// int sunny = true;
+// bool sunny = true;
  
 //  if(temp = 25.5 || temp > 0 || sunny){
 // printf("The weather is great!");
@@ -258,9 +258,24 @@
 //    return 0;
 // }
 
-//---------- LOGICAL OPERATOR && WITH BOOLEANS ----------//
+//---------- LOGICAL OPERATOR ! WITH BOOLEANS ----------//
 
+#include <stdio.h>
+#include <stdbool.h>
 
+int main(){
+
+bool sunny = true;
+if(sunny == true){
+printf("\nIt is sunny outside!");
+}
+
+else{
+printf("\nIt is raining");
+}
+
+   return 0;
+}
 
 
 
