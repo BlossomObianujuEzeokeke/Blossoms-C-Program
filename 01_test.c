@@ -266,7 +266,7 @@
 int main(){
 
 bool sunny = true;
-if(sunny == true){
+if(!sunny){
 printf("\nIt is sunny outside!");
 }
 
