@@ -16,17 +16,33 @@
 // }
 
 //-------------- CALLING A FUNCTION IN MAIN EXAMPLE 2 ----------//
-#include <stdio.h>
+// #include <stdio.h>
 
-void myHome(char name[], int age, double gpa)
-{
-   printf("\n%s lives in London, she is %d years old and, her gpa is %.2lf", name, age, gpa);
-   printf("\n%s lives in London, she is %d years old and, her gpa is %.2lf", name, age, gpa);
-   printf("\n%s lives in London, she is %d years old and, her gpa is %.2lf", name, age, gpa);
-}
+// void myHome(char name[], int age, double gpa)
+// {
+//    printf("\n%s lives in London, she is %d years old and, her gpa is %.2lf", name, age, gpa);
+//    printf("\n%s lives in London, she is %d years old and, her gpa is %.2lf", name, age, gpa);
+//    printf("\n%s lives in London, she is %d years old and, her gpa is %.2lf", name, age, gpa);
+// }
 
-int main(){
-   myHome("Blossom", 32, 3.8);
-   myHome("Blossom", 32, 3.8);
-   myHome("Blossom", 32, 3.8);
-}
+// int main(){
+//    myHome("Blossom", 32, 3.8);
+//    myHome("Blossom", 32, 3.8);
+//    myHome("Blossom", 32, 3.8);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
