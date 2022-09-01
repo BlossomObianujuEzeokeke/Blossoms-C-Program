@@ -52,21 +52,30 @@
 // }
 
 //--------- FOR LOOPS(INCREMENT) --------//
+// #include <stdio.h>
+
+// int main(){
+
+// for(double myFav = 1.5; myFav <= 5.5; myFav++)
+// for(int index = 1; index <= 5; index++)
+// {
+// printf("\n%lf", myFav);
+// printf("\n%d", index);
+// }  
+//    return 0;
+// }
+
+//-------- FOR LOOPS(DECREMENT) ----------//
 #include <stdio.h>
 
 int main(){
-
-for(double myFav = 1.5; myFav <= 5.5; myFav++)
-for(int index = 1; index <= 5; index++)
+for(int i = 1; i <= 10; i++ )
 {
-printf("\n%lf", myFav);
-printf("\n%d", index);
-}  
+printf("%d", i);
+
+}
    return 0;
 }
-
-//-------- FOR LOOPS(DECREMENT) ----------//
-
 
 
 
