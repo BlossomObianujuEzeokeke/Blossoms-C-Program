@@ -57,7 +57,7 @@
 // int main(){
 
 // for(double myFav = 1.5; myFav <= 5.5; myFav++)
-// for(int index = 1; index <= 5; index++)
+// for(int index = 1; index <= 10; index++)
 // {
 // printf("\n%lf", myFav);
 // printf("\n%d", index);
@@ -79,6 +79,14 @@ printf("%d\n", i);
 }
    return 0;
 }
+
+
+
+
+
+
+
+
 
 
 
