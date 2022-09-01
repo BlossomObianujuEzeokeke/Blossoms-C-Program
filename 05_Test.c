@@ -56,10 +56,12 @@
 
 int main(){
 
-for(int index = 1; index <= 12; index++)
+for(double myFav = 1; myFav <= 5; myFav++)
+for(int index = 1; index <= 5; index++)
 {
 // printf("\n%d", index);
 printf("\ntest");
+printf("\nlove");
 }  
 
    return 0;
