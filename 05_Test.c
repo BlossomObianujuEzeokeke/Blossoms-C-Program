@@ -58,7 +58,8 @@ int main(){
 
 for(int index = 1; index <= 12; index++)
 {
-printf("\n%d", index);
+// printf("\n%d", index);
+printf("\ntest");
 }  
 
    return 0;
