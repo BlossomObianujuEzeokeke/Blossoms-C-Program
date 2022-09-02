@@ -102,36 +102,19 @@
 //    return 0;
 // }
 
-//------------- DO WHILE LOOP ------------------//
-#include <stdio.h>
-int main(){
-int i = 0;
+//------------- DO WHILE LOOP(INCREMENT) ------------------//
+// #include <stdio.h>
+// int main(){
+// int i = 0;
+// while(i <= 10)
+// {
+// printf("%d\n", i);
+// i++;
+// }
+//    return 0;
+// }
 
-while(i <= 34)
-{
-printf("\n%d", i);
-i++;
-}
-   return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//------------- DO WHILE LOOP(DECREMENT) ------------------//
 
 
 
