@@ -79,7 +79,52 @@
    // return 0;
 // }
 
-//---------- 
+//---------- WHILE LOOP -----------//
+// #include <stdio.h>
+// #include <string.h>
+// int main()
+// {
+// char name[25];
+// printf("\nWhat is your name? ");
+// fgets(name, 25, stdin);
+// name[strlen(name) - 1] = '\0';
+
+// while(strlen(name) == 0)
+// {
+// printf("\nYou did not enter your name");
+// printf("\nWhat is your name? ");
+// fgets(name, 25, stdin);
+// }
+
+// printf("\nHello %s", name);
+
+
+//    return 0;
+// }
+
+//------------- DO WHILE LOOP ------------------//
+#include <stdio.h>
+int main(){
+int i = 0;
+
+while(i < 34)
+{
+printf("\nThe value of i is %d");
+}
+   return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
