@@ -107,9 +107,10 @@
 int main(){
 int i = 0;
 
-while(i < 34)
+while(i <= 34)
 {
-printf("\nThe value of i is %d");
+printf("\n%d", i);
+i++;
 }
    return 0;
 }
