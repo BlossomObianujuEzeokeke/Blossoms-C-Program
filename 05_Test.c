@@ -69,15 +69,28 @@
 // #include <stdio.h>
 
 // int main(){
-// for(int i = 1; i <= 10; i++ )
+// for(int i = 0; i <= 32; i++ ){ 
 // for(int i = 1; i <= 10; i+= 2 )
 // for(int i = 10; i >= 1; i-- )
 // for(int i = 10; i >= 1; i--)
-// {
 // printf("%d\n", i);
 // }
-   // return 0;
+//    return 0;
 // }
+
+//-------- PRINT YES FIVE TIMES USING FOR LOOP ---------//
+#include <stdio.h>
+int main(){
+for(i = 0; i <= 5; i++)
+{
+printf("Yes\n");
+}
+   return 0;
+}
+
+
+
+
 
 //---------- WHILE LOOP -----------//
 // #include <stdio.h>
@@ -102,7 +115,7 @@
 //    return 0;
 // }
 
-//------------- DO WHILE LOOP(INCREMENT) ------------------//
+//------------- WHILE LOOP(INCREMENT) ------------------//
 // #include <stdio.h>
 // int main(){
 // int i = 0;
@@ -114,8 +127,15 @@
 //    return 0;
 // }
 
-//------------- DO WHILE LOOP(DECREMENT) ------------------//
-
+//------------- WHILE LOOP(DECREMENT) ------------------//
+// #include <stdio.h>
+// int main(){
+// int i = 32;
+// while(i >= 0){
+// printf("%d", i);
+// }
+//    return 0;
+// }
 
 
 
