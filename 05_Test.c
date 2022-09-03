@@ -79,18 +79,14 @@
 // }
 
 //-------- PRINT YES FIVE TIMES USING FOR LOOP ---------//
-#include <stdio.h>
-int main(){
-for(i = 0; i <= 5; i++)
-{
-printf("Yes\n");
-}
-   return 0;
-}
-
-
-
-
+// #include <stdio.h>
+// int main(){
+// for(i = 0; i <= 5; i++)
+// {
+// printf("Yes\n");
+// }
+//    return 0;
+// }
 
 //---------- WHILE LOOP -----------//
 // #include <stdio.h>
@@ -110,8 +106,6 @@ printf("Yes\n");
 // }
 
 // printf("\nHello %s", name);
-
-
 //    return 0;
 // }
 
@@ -137,7 +131,16 @@ printf("Yes\n");
 //    return 0;
 // }
 
+//---------- INCREMENT AND DECREMENT -----------------//
+// #include <stdio.h>
+// int main(){
+// int i = 20;
+// i++;
+// i--;
+// printf("%d", i);
 
+//    return 0;
+// }
 
 
 
