@@ -143,19 +143,24 @@
 // }
 
 //-------- DO WHILE LOOP ----------//
+// #include <stdio.h>
+// int main()
+// {
+//    int i = 7;
+// do{
+// printf("%d", i);
+
+// } while (i < 6);
+//    return 0;
+// }
+
 #include <stdio.h>
-int main()
-{
-   int i = 7;
-do{
-printf("%d", i);
+int main(){
+int i = 9;
+printf("%d", --i);
 
-} while (i < 6);
-   return 0;
+ return 0;
 }
-
-
-
 
 
 
