@@ -167,22 +167,46 @@
 //    sum += number;
 // }
 // }while(number > 0);
+// return 0;
+// }
 
-//---------- DO WHILE LOOP ------------//
+//---------- NESTED LOOPS ------------//
+// #include <stdio.h>
+// int main(){
+
+// int rows;
+// int columns;
+// char symbols;
+
+// printf("\nEnter a number of rows: ");
+// scanf("%d", &rows);
+
+// printf("\nEnter a number of columns: ");
+// scanf("%d", &columns);
+
+
+//    return 0;
+// }
+
+
+
+
+
+
+
+
+
 #include <stdio.h>
 int main(){
-
-int rows;
-int columns;
-char symbols;
-
-   return 0;
-}
+int i = 1;
+do{
+printf("%d\n", i);
+i++;
+}while (i < 10);
 
 
    return 0;
 }
-
 
 
 
