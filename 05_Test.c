@@ -143,16 +143,54 @@
 // }
 
 //-------- DO WHILE LOOP ----------//
-#include <stdio.h>
-int main()
-{
-   int i = 7;
-do{
-printf("%d", i);
+// #include <stdio.h>
+// int main()
+// {
+//    int i = 7;
+// do{
+// printf("%d", i);
 
-} while (i < 6); //while (i < 4);
+// } while (i < 6); //while (i < 4);
+//    return 0;
+// }
+//----------------------------------------------//
+// #include <stdio.h>
+// int main(){
+// int number = 0;
+// int sum = 0;
+
+// do{
+// printf("Enter a number above 0: ");
+// scanf("%d", &number);
+// if(number > 0)
+// {
+//    sum += number;
+// }
+// }while(number > 0);
+
+//---------- DO WHILE LOOP ------------//
+#include <stdio.h>
+int main(){
+
+int rows;
+int columns;
+char symbols;
+
    return 0;
 }
+
+
+   return 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 //------ DECREMENT I -------//
