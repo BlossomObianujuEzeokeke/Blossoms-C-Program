@@ -150,7 +150,7 @@ int main()
 do{
 printf("%d", i);
 
-} while (i > 6);
+} while (i < 6); //while (i < 4);
    return 0;
 }
 
