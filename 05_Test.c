@@ -198,36 +198,7 @@
 //    return 0;
 // }
 
-
-#include <stdio.h>
-int main(){
-
-for(int i = 0; i <= 10; i++)
-{ 
-if(i == 6)
-{
-break;
-}
-printf("%d\n\n", i);
-}
-return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//-----------------------------------------//
 //------ DECREMENT I -------//
 // #include <stdio.h>
 // int main(){
@@ -246,7 +217,15 @@ return 0;
 //  return 0;
 // }
 
+//------- 2D ARRAYS --------//
+#include <stdio.h>
+int main(){
 
+
+
+
+   return 0;
+}
 
 
 
