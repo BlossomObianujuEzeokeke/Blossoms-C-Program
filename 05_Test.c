@@ -208,7 +208,7 @@ if(i == 6)
 {
 break;
 }
-printf("%d\n", i);
+printf("%d\n\n", i);
 }
 return 0;
 }
