@@ -219,14 +219,17 @@
 
 //------- 2D ARRAYS --------//
 #include <stdio.h>
-#include <string.h>
+// #include <string.h>
 int main(){
 
-char nums[25];
-printf("\nEnter your name: ");
-fgets(nums, 25, stdin);
+char nums[3][2] = {
+                  {1, 2},
+                  {4, 5},
+                  {7, 8}
+                  
+};
+printf("%d", nums[0][0]);
 
-printf("\nYour name is %s", nums);
    return 0;
 }
 
