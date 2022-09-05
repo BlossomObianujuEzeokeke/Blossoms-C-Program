@@ -153,6 +153,18 @@
 // } while (i < 6); //while (i < 4);
 //    return 0;
 // }
+//
+//-----------------------------------------//
+// #include <stdio.h>
+// int main(){
+// int i = 1;
+// do{
+// printf("%d\n", i);
+// i++;
+// }while (i < 5);
+   // return 0;
+// }
+
 //----------------------------------------------//
 // #include <stdio.h>
 // int main(){
@@ -170,43 +182,37 @@
 // return 0;
 // }
 
-//---------- NESTED LOOPS ------------//
+//---------- CONTINUE AND BREAKS ------------//
 // #include <stdio.h>
 // int main(){
+// for(int i = 0; i < 10; i++)
+// {
+// if(i == 4)
+// {
+// break;
+// continue;
+// }
 
-// int rows;
-// int columns;
-// char symbols;
-
-// printf("\nEnter a number of rows: ");
-// scanf("%d", &rows);
-
-// printf("\nEnter a number of columns: ");
-// scanf("%d", &columns);
-
-
+// printf("\n%d", i);
+// }
 //    return 0;
 // }
 
 
-
-
-
-
-
-
-
 #include <stdio.h>
 int main(){
-int i = 1;
-do{
-printf("%d\n", i);
-i++;
-}while (i < 10);
-
-
-   return 0;
+for(int i = 0; i <=5; i++)
+{
+   printf("%d", i);
 }
+  return 0;
+}
+
+
+
+
+
+
 
 
 
