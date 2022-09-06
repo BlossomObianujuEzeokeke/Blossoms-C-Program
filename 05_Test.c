@@ -217,6 +217,23 @@
 //  return 0;
 // }
 
+//-------- ARRAYS -----------//
+#include <stdio.h>
+
+int main(){
+int numFav[] =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+
+
+
+   return 0;
+}
+
+
+
+
+
+
 //------- 2D ARRAYS --------//
 #include <stdio.h>
 // #include <string.h>
@@ -228,7 +245,7 @@ char nums[3][2] = {
                   {7, 8}
                   
 };
-printf("%d", nums[0][0]);
+printf("%d", nums[1][1]);
 
    return 0;
 }
