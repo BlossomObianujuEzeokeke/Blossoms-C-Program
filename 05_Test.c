@@ -218,17 +218,27 @@
 // }
 
 //-------- ARRAYS -----------//
-#include <stdio.h>
-int main(){ 
-   double prices[] = {5.0, 10.0, 15.0, 20.0, 25.0};          
-printf("$%.2lf", prices[3]);
-   return 0;
-}
+// #include <stdio.h>
+// int main(){ 
+//    double prices[] = {5.0, 10.0, 15.0, 20.0, 25.0};          
+// printf("$%.2lf", prices[3]);
+//    return 0;
+// }
 
+//---------SECOND EXAMPLE -------//
+// #include <stdio.h>
+// int main(){
+// double price[5];
+// price[0] = 10.5;
+// price[1] = 20.5;
+// price[2] = 30.5;
+// price[3] = 40.5;
+// price[4] = 50.5;
 
+// printf("$%.2lf", price[3]);
 
-
-
+//    return 0;
+// }
 
 //------- 2D ARRAYS --------//
 // #include <stdio.h>
