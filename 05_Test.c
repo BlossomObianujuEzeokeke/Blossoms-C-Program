@@ -219,11 +219,9 @@
 
 //-------- ARRAYS -----------//
 #include <stdio.h>
-
-int main(){
-int numFav[] =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-
-
+int main(){ 
+   double prices[] = {5.0, 10.0, 15.0, 20.0, 25.0};          
+printf("%.2lf", prices[4]);
 
 
    return 0;
@@ -235,20 +233,20 @@ int numFav[] =
 
 
 //------- 2D ARRAYS --------//
-#include <stdio.h>
+// #include <stdio.h>
 // #include <string.h>
-int main(){
+// int main(){
 
-char nums[3][2] = {
-                  {1, 2},
-                  {4, 5},
-                  {7, 8}
+// char nums[3][2] = {
+//                   {1, 2},
+//                   {4, 5},
+//                   {7, 8}
                   
-};
-printf("%d", nums[1][1]);
+// };
+// printf("%d", nums[1][1]);
 
-   return 0;
-}
+//    return 0;
+// }
 
 
 
