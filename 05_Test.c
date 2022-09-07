@@ -257,18 +257,11 @@
 // }
 
 //--------- LOOPING THROUGH AN ARRAY ---------//
-// #include<stdio.h>
-
-// int main(){
-   
-//    return 0;
-// }
-
 #include <stdio.h>
 int main(){ 
-int myNumbers[] = {25, 50, 75, 100};
+int myNumbers[] = {25, 50, 75, 100, 110};
 
-for(int i = 0; i < 4; i++) 
+for(int i = 0; i < 5; i++) 
 {
   printf("$%.2d\n", myNumbers[i]);
 
