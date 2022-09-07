@@ -240,31 +240,6 @@
 //    return 0;
 // }
 
-//------- 2D ARRAYS --------//
-#include <stdio.h>
-#include <string.h>
-int main(){
-
-char nums[3][2] = {
-                  {1, 2},
-                  {4, 5},
-                  {7, 8}
-                  
-                 };
-printf("%d %d\n", nums[0][0], nums[0][1]);
-
-   return 0;
-}
-
-
-
-
-
-
-
-
-
-
 //--------- LOOPING THROUGH AN ARRAY ---------//
 // #include <stdio.h>
 // int main(){ 
@@ -277,3 +252,47 @@ printf("%d %d\n", nums[0][0], nums[0][1]);
 // }
 // return 0;
 // }
+
+//------- 2D ARRAYS (EXAMPLE 1) --------//
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+
+// char nums[3][2] = {
+//                   {1, 2},
+//                   {4, 5},
+//                   {7, 8},
+                  
+//                  };
+// printf("%d", nums[0][1]);
+
+// return 0;
+// }
+
+//--------- EXAMPLE 2 --------//
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+
+// char nums[3][3] = {
+//                   {1, 2, 3},
+//                   {4, 5, 6},
+//                   {7, 8, 9},
+                  
+//                  };
+// printf("%d %d %d\n", nums[0][0], nums[0][1], nums[0][2]);
+// printf("%d %d %d\n", nums[1][0], nums[1][1], nums[1][2]);
+// printf("%d %d %d\n", nums[2][0], nums[2][1], nums[2][2]);
+
+//    return 0;
+// }
+
+
+
+
+
+
+
+
+
+
