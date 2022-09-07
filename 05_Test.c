@@ -245,13 +245,13 @@
 #include <string.h>
 int main(){
 
-char nums[3][3] = {
-                  {1, 2, 3},
-                  {4, 5, 4},
-                  {7, 8, 6}
+char nums[3][2] = {
+                  {1, 2},
+                  {4, 5},
+                  {7, 8}
                   
-};
-printf("%d", nums[2][1]);
+                 };
+printf("%d %d\n", nums[0][0], nums[0][1]);
 
    return 0;
 }
