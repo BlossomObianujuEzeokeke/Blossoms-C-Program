@@ -287,6 +287,17 @@
 //    return 0;
 // }
 
+//----- CREATING AN ARRAY OF STRINGS -------//
+#include <stdio.h>
+int main(){
+
+char greetings[] = "Hello world";
+greetings[4] = 'j';
+printf("%s", greetings);
+
+  return 0;
+}
+
 
 
 
