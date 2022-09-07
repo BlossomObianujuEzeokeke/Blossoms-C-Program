@@ -241,30 +241,39 @@
 // }
 
 //------- 2D ARRAYS --------//
-// #include <stdio.h>
-// #include <string.h>
-// int main(){
+#include <stdio.h>
+#include <string.h>
+int main(){
 
-// char nums[3][2] = {
-//                   {1, 2},
-//                   {4, 5},
-//                   {7, 8}
+char nums[2][3] = {
+                  {1, 2},
+                  {4, 5},
+                  {7, 8}
                   
-// };
-// printf("%d", nums[1][1]);
+};
+printf("%d", nums[1][1]);
 
-//    return 0;
-// }
+   return 0;
+}
+
+
+
+
+
+
+
+
+
 
 //--------- LOOPING THROUGH AN ARRAY ---------//
-#include <stdio.h>
-int main(){ 
-int myNumbers[] = {25, 50, 75, 100, 110, 150, 170};
+// #include <stdio.h>
+// int main(){ 
+// int myNumbers[] = {25, 50, 75, 100, 110, 150, 170};
 
-for(int i = 0; i < 5; i++) 
-{
-  printf("$%.2d\n", myNumbers[i]);
+// for(int i = 0; i < 7; i++) 
+// {
+//   printf("$%.2d\n", myNumbers[i]);
 
-}
-return 0;
-}
+// }
+// return 0;
+// }
