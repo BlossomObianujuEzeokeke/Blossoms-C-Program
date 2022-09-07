@@ -259,7 +259,7 @@
 //--------- LOOPING THROUGH AN ARRAY ---------//
 #include <stdio.h>
 int main(){ 
-int myNumbers[] = {25, 50, 75, 100, 110};
+int myNumbers[] = {25, 50, 75, 100, 110, 150, 170};
 
 for(int i = 0; i < 5; i++) 
 {
