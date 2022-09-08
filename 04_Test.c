@@ -228,16 +228,33 @@
 //    return 0;
 // }
 
-//------- POINTERS ---------/
-#include<stdio.h>
+//-------------- POINTERS -------------//
+// #include<stdio.h>
+
+// int main(){
+//    int myAge = 43;
+   // double size = 20.05;
+//    printf("\nage's memory address: %p", &myAge);
+
+//    return 0;
+// }
+
+//------------- EXAMPLE 2 --------------//
+#include <stdio.h>
 
 int main(){
    int myAge = 43;
-   // double size = 20.05;
-   printf("\nage's memory address: %p", &myAge);
+   int* lemon = &myAge;
 
+   printf("\n%d", myAge);
+   printf("\n%p", &myAge);
+   printf("\n%p", &lemon);
    return 0;
 }
+
+
+
+
 
 
 
