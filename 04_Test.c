@@ -244,19 +244,38 @@
 
 // int main(){
 //    int myAge = 43;
-//    int* lemon = &myAge;
-// //    int * lemon = &myAge;
-// //    int *lemon = &myAge;
+//    int* pAge = &myAge;
+//    int * pAge = &myAge;
+//    int *pAge = &myAge;
 
 //    printf("\n%d", myAge);
 //    printf("\n%p", &myAge);
-//    printf("\n%p", &lemon);
-//    printf("\n%d", *lemon);
-//    printf("\n%d", * lemon);
+//    printf("\n%p", &pAge);
+//    printf("\n%d", *pAge);
+//    printf("\n%d", * pAge);
 //    return 0;
 // }
 
+//------- EXAMPLE 3 -------//
+#include <stdio.h>
+int main(){
 
+double gpa = 3.5;
+double * pGpa = &gpa;
+
+char grade = 'A';
+char * aGrade = &grade;
+
+printf("\n%.2lf", gpa);
+printf("\n%p\n", &gpa);
+
+printf("\n%c", grade);
+printf("\n%p\n", &grade);
+
+printf("\n%c", * aGrade);
+
+   return 0;
+}
 
 
 
