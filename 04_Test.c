@@ -228,6 +228,16 @@
 //    return 0;
 // }
 
+//------- POINTERS ---------/
+#include<stdio.h>
+
+int main(){
+   // int age = 10;
+   double size = 20.05;
+   printf("\nage's memory address: %p", &size);
+
+   return 0;
+}
 
 
 
