@@ -249,6 +249,7 @@ int main(){
    printf("\n%d", myAge);
    printf("\n%p", &myAge);
    printf("\n%p", &lemon);
+   printf("\n%d", *lemon);
    return 0;
 }
 
