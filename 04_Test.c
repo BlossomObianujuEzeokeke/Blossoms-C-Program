@@ -264,15 +264,15 @@ double gpa = 3.5;
 double * pGpa = &gpa;
 
 char grade = 'A';
-char * aGrade = &grade;
+char *aGrade = &grade;
 
-printf("\n%.2lf", gpa);
-printf("\n%p\n", &gpa);
+printf("\n%lf\n", gpa);
+printf("%p\n", &gpa);
 
-printf("\n%c", grade);
-printf("\n%p\n", &grade);
+printf("\n%c\n", grade);
+printf("%p\n", &grade);
 
-printf("\n%c", * aGrade);
+printf("\n%c", *aGrade);
 
    return 0;
 }
