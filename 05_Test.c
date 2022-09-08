@@ -288,17 +288,28 @@
 // }
 
 //----- CREATING AN ARRAY OF STRINGS -------//
-#include <stdio.h>
+// #include <stdio.h>
+// int main(){
+
+// char greetings[] = "Hello world";
+// greetings[4] = 'j';
+// printf("%s", greetings);
+
+//   return 0;
+// }
+
+//-------- SECOND EXAMPLE -----//
+#include<stdio.h>
 int main(){
+  
+char cars[1][3] = {
+                 {"Mustang", "Corvette", "Toyota"}
+                  };
 
-char greetings[] = "Hello world";
-greetings[4] = 'j';
-printf("%s", greetings);
-
+printf("%c", cars[0]);
+  
   return 0;
 }
-
-
 
 
 
