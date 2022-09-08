@@ -232,9 +232,9 @@
 #include<stdio.h>
 
 int main(){
-   // int age = 10;
-   double size = 20.05;
-   printf("\nage's memory address: %p", &size);
+   int myAge = 43;
+   // double size = 20.05;
+   printf("\nage's memory address: %p", &myAge);
 
    return 0;
 }
