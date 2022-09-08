@@ -240,21 +240,21 @@
 // }
 
 //------------- EXAMPLE 2 --------------//
-#include <stdio.h>
+// #include <stdio.h>
 
-int main(){
-   int myAge = 43;
-   int* lemon = &myAge;
+// int main(){
+//    int myAge = 43;
+//    int* lemon = &myAge;
+// //    int * lemon = &myAge;
+// //    int *lemon = &myAge;
 
-   printf("\n%d", myAge);
-   printf("\n%p", &myAge);
-   printf("\n%p", &lemon);
-   printf("\n%d", *lemon);
-   return 0;
-}
-
-
-
+//    printf("\n%d", myAge);
+//    printf("\n%p", &myAge);
+//    printf("\n%p", &lemon);
+//    printf("\n%d", *lemon);
+//    printf("\n%d", * lemon);
+//    return 0;
+// }
 
 
 
