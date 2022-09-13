@@ -260,22 +260,22 @@
 
 //---------- LOGICAL OPERATOR ! WITH BOOLEANS ----------//
 
-#include <stdio.h>
-#include <stdbool.h>
+// #include <stdio.h>
+// #include <stdbool.h>
 
-int main(){
+// int main(){
 
-bool sunny = true;
-if(!sunny){
-printf("\nIt is sunny outside!");
-}
+// bool sunny = true;
+// if(!sunny){
+// printf("\nIt is sunny outside!");
+// }
 
-else{
-printf("\nIt is raining");
-}
+// else{
+// printf("\nIt is raining");
+// }
 
-   return 0;
-}
+//    return 0;
+// }
 
 
 
